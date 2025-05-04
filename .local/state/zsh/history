@@ -1440,3 +1440,6 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746366738:0;ls
 : 1746366742:0;n
 : 1746366755:0;home shim
+: 1746366889:0;htop
+: 1746367270:0;yadm add .config/nitrogen
+: 1746367272:0;home nitrogen
