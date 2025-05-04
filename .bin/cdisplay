@@ -1,0 +1,4 @@
+#!/bin/bash
+FILE=$(realpath "$1")
+EXE="$HOME/Tools/CDisplayEx/CDisplayEx.exe"
+wine "$EXE" "${FILE}"

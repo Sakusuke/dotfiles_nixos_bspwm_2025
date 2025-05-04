@@ -1,0 +1,12 @@
+#!/bin/bash
+
+fullfile=$1
+file=$(basename -- "$fullfile")
+
+if [[ $file != *.* ]] ; then
+	echo no extension found
+	exit 1
+fi
+
+extension="${file##*.}"
+echo $extension

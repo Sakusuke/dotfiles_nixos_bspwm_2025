@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# wrapper used for jellyfin-shim
+exec /run/current-system/sw/bin/mpv "$@"
+

@@ -1,0 +1,3 @@
+#!/bin/bash
+EXE="$HOME/Tools/antrenamer2/Renamer.exe"
+LC_ALL="ja_JP.UTF-8" TZ="Asia/Tokyo" wine "$EXE"

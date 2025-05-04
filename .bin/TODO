@@ -1,0 +1,11 @@
+#!/bin/bash
+
+TERM=alacritty
+EDITOR=nvim
+ID="$(xdo id -a TODO)"
+
+if [[ -n $ID ]]; then
+	bspc node -f $ID
+else
+	bspc rule -a \* -o desktop='^1' follow=on focus=on & $TERM --title TODO --command $EDITOR ~/TODO
+fi

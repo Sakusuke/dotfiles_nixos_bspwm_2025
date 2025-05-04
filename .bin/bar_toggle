@@ -1,0 +1,5 @@
+#!/bin/sh
+case $(bspc config bottom_padding) in
+  28) polybar-msg cmd hide && bspc config bottom_padding 0;;
+  0) polybar-msg cmd show && bspc config bottom_padding 28;;
+esac

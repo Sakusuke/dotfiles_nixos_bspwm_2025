@@ -1,0 +1,3 @@
+#!/bin/bash
+EXE="$HOME/Tools/VisiPics/VisiPics.exe"
+wine "$EXE"
