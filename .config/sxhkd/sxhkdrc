@@ -1,0 +1,146 @@
+##---------- Laptop specific ----------------##
+
+XF86MonBrightnessUp
+    sudo light -A 25
+
+XF86MonBrightnessDown
+    sudo light -U 25
+
+shift + XF86MonBrightnessDown
+    sudo light -S 0.07
+
+XF86AudioRaiseVolume
+    pamixer -i 6 && notify-send -t 500 "volume inc to $(pamixer --get-volume-human)"
+
+XF86AudioLowerVolume
+    pamixer -d 6 && notify-send -t 500 "volume dec to $(pamixer --get-volume-human)"
+
+super + KP_Add
+    pamixer -i 6 && notify-send -t 500 "volume increased to $(pamixer --get-volume-human)"
+
+super + KP_Subtract
+    pamixer -d 6 && notify-send -t 500"volume decreased to $(pamixer --get-volume-human)"
+
+XF86AudioMute
+    pamixer -t && notify-send -t 500 "volume toggled"
+
+##---------- Keybindings for bspwm ----------##
+
+super + Return
+    alacritty
+
+Pause
+	sh ~/Scripts/bar_toggle.sh
+
+super + Pause
+	sh ~/Scripts/sicko_wm_mode.sh
+
+super + h
+	sh ~/Scripts/bsp_hide.sh
+##---------- Rofi Launcher & Menus ----------##
+
+# Rofi App Launcher
+alt + F1
+	rofi -show run
+
+##---------- System ----------##
+
+# Take a screenshot
+
+Insert
+	/home/desk/Scripts/ss.sh
+
+Print
+	$HOME/Scripts/simple_capture.sh
+
+F12
+    ~/Scripts/sso.sh
+
+Scroll_Lock
+	./Scripts/AudiOutput.sh
+
+super + backslash
+	~/.bin/xtouchpad_toggle
+
+##---------- Bspwm ----------##
+
+super + Escape
+	pkill -USR1 -x sxhkd
+
+#F5
+#	$HOME/Scripts/sx-ames && notify-send -t 500 "sx-ames"
+
+super + shift + {q,r}
+	bspc {quit,wm -r}
+
+super + c
+    bspc node -c
+
+super + shift + c
+    bspc node -k
+
+super + shift + Escape
+    xkill
+
+super + f
+	bspc desktop -l next
+	
+super + space
+    bspc node -t "~"{floating,tiled}
+
+super + t
+	~/.bin/TODO
+
+super + s
+    bspc node -g sticky={on,off}
+
+super + alt + Return
+	bspc node -t fullscreen
+
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+super + Tab
+	bspc node -f next
+
+alt + {Tab,grave}
+	bspc {node.local.window,desktop} -f last
+
+super + {_,shift + }{1-8}
+	bspc {desktop -f,node -d} '^{1-8}'
+
+alt + {Left,Up,Down,Right}
+	$HOME/Scripts/resize/{shrinkx.sh,expandy.sh,shrinky.sh,expandx.sh}
+
+super + a
+	sicko_wm_mode && bar_toggle
+
+##--apps--##
+
+super + {v,q,w,e,r,j,b,p,o}
+	{mpv,qbittorrent,pcmanfm,firefox,notepadqq,jglossator,blueman-manager,spotify,obs open "" --vault "Wiki"}
+
+super + shift + {s,e,w,o}
+	{firefox localhost:8384,google-chrome-stable,sudo pcmanfm /,obs open "" --vault "Medizin"}
+
+super shift + a
+	Exec=env QTWEBENGINE_CHROMIUM_FLAGS="--no-sandbox" anki
+	
+# focus the next/previous desktop in the current monitor
+super + {z,x}
+	bspc desktop -f {prev,next}.local
+
+# should be combined with the one on top
+super + ctrl + {z,x}
+	bspc desktop -f {prev,next}.local
+
+alt + shift + {q,r,s,h}
+    sudo systemctl {poweroff,reboot,suspend,hibernate}
+
+alt + shift + {a}
+	{~/.bin/blank}
+
+alt + shift + w
+    sudo grub-reboot "$(grep -i windows /boot/grub/grub.cfg|cut -d"'" -f2)" && sudo reboot
+
+##---------- EOF ----------##
