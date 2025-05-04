@@ -1443,3 +1443,83 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746366889:0;htop
 : 1746367270:0;yadm add .config/nitrogen
 : 1746367272:0;home nitrogen
+: 1746367329:0;v .config/sxhkd/sxhkdrc
+: 1746368164:0;cd .config
+: 1746368166:0;cd jellyfin-mpv-shim
+: 1746368168:0;v conf.json
+: 1746368182:0;cd .config/mpv/scripts
+: 1746368185:0;cd ..
+: 1746368189:0;v script-opts/subs2srs.conf
+: 1746368200:0;xclip
+: 1746368203:0;n
+: 1746368219:0;nu
+: 1746368226:0;e nu
+: 1746368231:0;n
+: 1746368234:0;z
+: 1746368340:0;e ls del
+: 1746368347:0;e ls l
+: 1746368353:0;e nu
+: 1746368382:0;systemd-notify
+: 1746368388:0;try notify-send
+: 1746368397:0;notify-send
+: 1746368399:0;n
+: 1746368440:0;e nu
+: 1746368501:0;kill shim; f jellyfin-mpv-shim
+: 1746370178:0;ssh sakusier@cream.seedhost.eu
+: 1746371326:0;fd -H jp_subtitle_fix
+: 1746371328:0;fd -H jp_subtitle_fix /
+: 1746371332:0;s fd -H jp_subtitle_fix /
+: 1746371500:0;cd .config/mpv/scripts
+: 1746371511:0;v clean_subtitles.lua
+: 1746371553:0;ls
+: 1746371557:0;kill shim; f jellyfin-mpv-shim
+: 1746371596:0;v clean_subtitles.lua
+: 1746371618:0;kill shim; f jellyfin-mpv-shim
+: 1746371685:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
+: 1746371712:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
+: 1746371769:0;v clean_subtitles.lua
+: 1746371784:0;kill shim; f jellyfin-mpv-shim
+: 1746371786:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
+: 1746371880:0;v ~/.config/mpv/scripts/clean_subtitles.lua
+: 1746371900:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
+: 1746372037:0;cd .config/mpv/scripts
+: 1746372055:0;rm clean_subtitles.lua
+: 1746372102:0;v subtitle_cleaner.lua
+: 1746372118:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
+: 1746372201:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746372973:0;cd .config/mpv/scripts
+: 1746372973:0;ls
+: 1746372998:0;v autosubsync/autosubsync.lua
+: 1746373002:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746373020:0;cd .config/mpv/scripts
+: 1746373022:0;cd ..
+: 1746373024:0;v input.conf
+: 1746373032:0;v scripts/autosubsync/autosubsync.lua
+: 1746373042:0;dig
+: 1746373044:0;cd .config/mpv/scripts
+: 1746373048:0;cd ..
+: 1746373051:0;v input.conf
+: 1746373070:0;cd ..
+: 1746373072:0;cd .config/mpv/scripts
+: 1746373074:0;cd ~/.config/mpv/scripts
+: 1746373078:0;v autosubsync/autosubsync.lua
+: 1746373097:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746373129:0;cd ~/.config/mpv/scripts
+: 1746373132:0;rm subtitle_cleaner.lua
+: 1746373133:0;cd ~/.config/mpv/scripts
+: 1746373135:0;cd
+: 1746373136:0;rm subtitle_cleaner.lua
+: 1746373139:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746373145:0;yadm status
+: 1746373180:0;cd ~/.config/mpv/scripts
+: 1746373183:0;rm autosubsync
+: 1746373184:0;ls
+: 1746373189:0;v scroll-list.lua
+: 1746373239:0;grep -r "feeling "
+: 1746373240:0;grep -r "feeling"
+: 1746373243:0;grep -r "scroll"
+: 1746373261:0;v SmartSkip.lua
+: 1746373273:0;yadm rm SmartSkip.lua
+: 1746373276:0;yadm status
+: 1746373290:0;home mpv?
+: 1746373293:0;home mpv

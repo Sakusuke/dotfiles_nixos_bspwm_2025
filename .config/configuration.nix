@@ -103,7 +103,7 @@
   environment.systemPackages = with pkgs; [
     # BSPWM
     sxhkd
-    clipit
+    xclip clipit
     polybar
     rofi
     xdo
@@ -111,7 +111,7 @@
     alacritty
     xcape ksuperkey
     nitrogen
-    dunst
+    dunst libnotify
 
     # other
     vim 
@@ -187,7 +187,7 @@
     enable = true;
     ohMyZsh = {
       enable = true;
-      plugins = [ "git" "sudo" ];
+      plugins = [ "sudo" ];
       theme = "eastwood";
     };
   };
