@@ -9,6 +9,7 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors" # to remove .xsession-errors from ~/
+export XCOMPOSECACHE="$XDG_CACHE_HOME"/X11/xcompose # same but for .compose_cache
 
 #LUTRIS_SKIP_INIT=true #lutris
 

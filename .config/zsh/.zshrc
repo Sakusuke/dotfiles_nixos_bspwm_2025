@@ -77,6 +77,7 @@ alias up="cd ../"
 alias bt="bluetoothctl"
 alias gotosleep="sleep 30m && sudo systemctl poweroff"
 alias lf="lfcd"
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 
 # Functions
 ## Change working dir in shell to last dir in lf on exit (adapted from ranger).

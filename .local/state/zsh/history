@@ -1414,3 +1414,18 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746366273:0;lf
 : 1746366295:0;yadm add .local/state/zsh/history
 : 1746366304:0;home zshhist
+: 1746366312:0;lfcd
+: 1746366321:0;xdg-ninja
+: 1746366347:0;v .xinitrc
+: 1746366363:0;export XCOMPOSECACHE="$XDG_CACHE_HOME"/X11/xcompose
+: 1746366398:0;z
+: 1746366413:0;c
+: 1746366435:0;n
+: 1746366480:0;yadm add .config/mimeapps.list
+: 1746366534:0;cd .config
+: 1746366542:0;cd mpv
+: 1746366562:0;ls input.conf mpv.conf script-opts
+: 1746366566:0;yadm add input.conf mpv.conf script-opts
+: 1746366571:0;lf scripts
+: 1746366605:0;yadm add scripts
+: 1746366611:0;home mpv
