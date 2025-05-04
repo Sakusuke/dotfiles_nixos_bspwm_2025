@@ -118,10 +118,10 @@ super + a
 ##--apps--##
 
 super + {v,q,w,e,r,j,b,p,o}
-	{mpv,qbittorrent,pcmanfm,firefox,notepadqq,jglossator,blueman-manager,spotify,obs open "" --vault "Wiki"}
+	{mpv,qbittorrent,pcmanfm,firefox,notepadqq,jglossator,blueman-manager,spotify,obsidian} #obs open "" --vault "Wiki"}
 
-super + shift + {s,e,w,o}
-	{firefox localhost:8384,google-chrome-stable,sudo pcmanfm /,obs open "" --vault "Medizin"}
+super + shift + {s,e,w}
+	{firefox localhost:8384,google-chrome-stable,sudo pcmanfm /}
 
 super shift + a
 	Exec=env QTWEBENGINE_CHROMIUM_FLAGS="--no-sandbox" anki
