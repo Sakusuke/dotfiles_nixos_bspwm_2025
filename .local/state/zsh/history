@@ -1429,3 +1429,14 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746366571:0;lf scripts
 : 1746366605:0;yadm add scripts
 : 1746366611:0;home mpv
+: 1746366622:0;cd ../jellyfin-mpv-shim
+: 1746366622:0;ls
+: 1746366657:0;lf
+: 1746366670:0;cd ..
+: 1746366689:0;yadm conf.json input.conf mpv.conf script-opts/subs2srs.conf 
+: 1746366694:0;yadm add conf.json input.conf mpv.conf script-opts/subs2srs.conf 
+: 1746366702:0;lf
+: 1746366737:0;yadm add subs2srs
+: 1746366738:0;ls
+: 1746366742:0;n
+: 1746366755:0;home shim
