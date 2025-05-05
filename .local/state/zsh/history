@@ -1594,3 +1594,33 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746383440:0;cd ~/Downloads/Vault/Diary
 : 1746383440:0;vimv
 : 1746383835:0;home stuff
+: 1746386983:0;v .config/sxhkd/sxhkdrc
+: 1746387290:0;v .config/mpv/script-opts/subs2srs.conf
+: 1746387330:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746387347:0;f rclone mount koofr: /home/lap/Mounts/koofr/ --vfs-cache-mode full
+: 1746387352:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746387360:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
+: 1746387363:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746387777:0;v .config/mpv/script-opts/subs2srs.conf
+: 1746387840:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746388388:0;rm .compose-cache/
+: 1746388391:0;v .config/mpv/script-opts/subs2srs.conf
+: 1746388419:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
+: 1746388527:0;fcitx5-config-qt
+: 1746388872:0;v .config/mpv/mpv.conf
+: 1746427510:0;mtui
+: 1746427511:0;nmtui
+: 1746431791:0;htop
+: 1746434249:0;nmtui
+: 1746434623:0;kill sxhkd && sxhkd
+: 1746434630:0;kill sxhkd && f sxhkd
+: 1746434634:0;f sxhkd
+: 1746440632:0;nmtui
+: 1746441809:0;try nm-manager
+: 1746442258:0;nmtui
+: 1746447043:0;try network-manager-applet
+: 1746447101:0;nix search nixpkgs neovim
+: 1746447176:0;nix search nixpkgs#firefox
+: 1746447194:0;nix search firefox
+: 1746447217:0;yadm status
+: 1746447220:0;home idk

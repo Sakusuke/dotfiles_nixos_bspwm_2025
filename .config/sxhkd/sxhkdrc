@@ -112,19 +112,17 @@ super + {_,shift + }{1-8}
 alt + {Left,Up,Down,Right}
 	$HOME/Scripts/resize/{shrinkx.sh,expandy.sh,shrinky.sh,expandx.sh}
 
-super + a
-	sicko_wm_mode && bar_toggle
+#super + a
+#	sicko_wm_mode && bar_toggle
+
 
 ##--apps--##
 
-super + {v,q,w,e,r,j,b,p,o}
-	{mpv,qbittorrent,pcmanfm,firefox,notepadqq,jglossator,blueman-manager,spotify,obsidian} #obs open "" --vault "Wiki"}
+super + {v,q,w,e,r,j,b,p,o,a}
+	{mpv,qbittorrent,pcmanfm,firefox,notepadqq,jglossator,blueman-manager,spotify,obsidian,anki}
 
 super + shift + {s,e,w}
 	{firefox localhost:8384,google-chrome-stable,sudo pcmanfm /}
-
-super shift + a
-	Exec=env QTWEBENGINE_CHROMIUM_FLAGS="--no-sandbox" anki
 	
 # focus the next/previous desktop in the current monitor
 super + {z,x}
