@@ -157,6 +157,7 @@
     # Laptop
     lm_sensors
     brightnessctl
+    libsmbios
   ];
 
 
@@ -214,6 +215,7 @@
     ELM_SCALE= "1.4";
     GDK_SCALE= "1.4";
     XCURSOR_SIZE= "30";
+    XCOMPOSECACHE="$XDG_CACHE_HOME/X11/xcompose";
   };
 
   # Fonts

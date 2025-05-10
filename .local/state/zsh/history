@@ -1660,3 +1660,35 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746867409:0;home "xkill and hotkey"
 : 1746867413:0;nu
 : 1746867572:0;home idk
+: 1746867606:0;umount Mounts/koofr
+: 1746867628:0;rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
+: 1746867653:0;v ~/.config/bspwm/bspwmrc
+: 1746867658:0;xdg-ninja
+: 1746867668:0;n
+: 1746867720:0;rm .compose-cache
+: 1746867726:0;n
+: 1746867728:0;nu
+: 1746867733:0;z
+: 1746867743:0;e nu
+: 1746867755:0;v ~/.config/bspwm/bspwmrc
+: 1746867768:0;smbios-thermal-ctl
+: 1746867772:0;n
+: 1746867788:0;smbios-thermal-ctl
+: 1746867800:0;e nu
+: 1746867803:0;n
+: 1746867809:0;z
+: 1746867842:0;n
+: 1746867911:0;rm .xsession-errors.old
+: 1746867912:0;rm .xsession-errors
+: 1746867925:0;sudo smbios-thermal-ctl --set-thermal-mode quiet
+: 1746867943:0;sudo modprobe dell-smbios-wmi
+: 1746867947:0;modprobe dell-smbios-wmi
+: 1746867964:0;modprobe dcdbas
+: 1746867967:0;sudo modprobe dell-smbios-wmi
+: 1746867977:0;sudo smbios-thermal-ctl --set-thermal-mode quiet
+: 1746868019:0;z
+: 1746868022:0;n
+: 1746868298:0;v ~/.config/bspwm/bspwmrc
+: 1746868357:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
+: 1746868362:0;f rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
+: 1746868377:0;home "automounts on bspwm"
