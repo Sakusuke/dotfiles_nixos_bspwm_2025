@@ -1624,3 +1624,37 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746447194:0;nix search firefox
 : 1746447217:0;yadm status
 : 1746447220:0;home idk
+: 1746455405:0;power-save
+: 1746455420:0;commandedit power-save
+: 1746455440:0;watch -n 0.5 "cat /proc/cpuinfo | grep MHz"
+: 1746455466:0;cpu
+: 1746455468:0;mkscript .bin/cpu
+: 1746455487:0;cpu
+: 1746455495:0;power-save
+: 1746455510:0;htop
+: 1746455515:0;power-save
+: 1746456474:0;~/.bin/sicko_wm_mode
+: 1746456478:0;~/.bin/bar_toggle
+: 1746456486:0;sicko_wm_mode && bar_toggle
+: 1746520898:0;xdg-ninja
+: 1746520906:0;v _fastwqcfg.json
+: 1746520925:0;rm _fastwqcfg.json
+: 1746520934:0;xdg-ninja
+: 1746523196:0;nmtui
+: 1746525986:0;power-save
+: 1746526715:0;nmtui
+: 1746730549:0;power-save
+: 1746820218:0;mpv https://www.youtube.com/watch\?v\=FA4wbeMHryE
+: 1746863667:0;power-save
+: 1746867221:0;ls
+: 1746867230:0;f rclone mount koofr: /home/lap/Mounts/koofr/ --vfs-cache-mode full
+: 1746867295:0;rclone umount Mounts
+: 1746867297:0;rclone umount Mounts/koofr
+: 1746867308:0;xkill
+: 1746867311:0;try xorg.xkill
+: 1746867315:0;xkill
+: 1746867324:0;v .config/sxhkd/sxhkdrc
+: 1746867333:0;lf
+: 1746867356:0;v .config/sxhkd/sxhkdrc
+: 1746867374:0;n
+: 1746867409:0;home "xkill and hotkey"
