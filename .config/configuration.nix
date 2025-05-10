@@ -103,15 +103,16 @@
   environment.systemPackages = with pkgs; [
     # BSPWM
     sxhkd
-    xclip clipit
     polybar
     rofi
-    xdo
     picom
     alacritty
-    xcape ksuperkey
     nitrogen
     dunst libnotify
+    xcape ksuperkey
+    xclip clipit
+    xorg.xkill
+    xdo
 
     # other
     vim 
