@@ -109,7 +109,7 @@ path() {
 }
 
 home() {
-    yadm commit -am "$@" && yadm push
+    yadm commit -am "$*" && yadm push
 }
 
 file2clip() {

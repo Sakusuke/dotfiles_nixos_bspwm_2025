@@ -1734,3 +1734,30 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746897316:0;fd theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {} ~/.local/share/Anki2/User/collection.media/
 : 1746897330:0;fd theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg
 : 1746897466:0;home idk
+: 1746897562:0;mv Downloads/subs2srs.conf .config/mpv/script-opts/subs2srs.conf
+: 1746897569:0;kill shim
+: 1746898412:0;power-save
+: 1746902337:0;z
+: 1746902351:0;home fixed mpv
+: 1746902358:0;z
+: 1746902366:0;home fixed mpv
+: 1746902368:0;n
+: 1746902375:0;z
+: 1746902382:0;home fixed mpv
+: 1746902384:0;z
+: 1746902395:0;home fixed mpv
+: 1746902399:0;z
+: 1746902433:0;home 2 fixed mpv
+: 1746902437:0;home2 fixed mpv
+: 1746902443:0;home2 "fixed mpv"
+: 1746902448:0;home2 \"fixed mpv\"
+: 1746902459:0;z
+: 1746902474:0;home fixed mpv
+: 1746902479:0;z
+: 1746902491:0;home fixed mpv
+: 1746902492:0;n
+: 1746902494:0;z
+: 1746902507:0;home fixed mpv
+: 1746902509:0;n
+: 1746902528:0;z
+: 1746902609:0;home fixed mpv
