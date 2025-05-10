@@ -1692,3 +1692,45 @@ git config --global user.name "Jasmin Kovacevic"\
 : 1746868357:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
 : 1746868362:0;f rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
 : 1746868377:0;home "automounts on bspwm"
+: 1746869542:0;yt-dlp https://music.youtube.com/watch\?v\=NT4eF9YsYnM\&si\=TkMFbt50_RJP9AeG
+: 1746871014:0;deezer
+: 1746871016:0;deezer-downloader
+: 1746871815:0;sudo upower -i /org/freedesktop/UPower/devices/battery_BAT0
+: 1746871818:0;watch sudo upower -i /org/freedesktop/UPower/devices/battery_BAT0
+: 1746891012:0;lsblk
+: 1746891017:0;sudo lf /run/media/lap/EVO_MEDIA
+: 1746891038:0;lsblk
+: 1746891047:0;sudo eject /run/media/lap/EVO_MEDIA
+: 1746891051:0;lsblk
+: 1746891056:0;sudo eject /dev/sda1
+: 1746891057:0;sudo eject /dev/sda
+: 1746891064:0;sudo umount /dev
+: 1746891082:0;lsblk
+: 1746891091:0;sudo umount /dev/sda1
+: 1746891093:0;sudo eject /dev/sda
+: 1746891130:0;lsblk
+: 1746891145:0;sudo lf /run/media/lap/9600EC4300EC2C45/
+: 1746891175:0;lsblk
+: 1746891217:0;mkdir Mounts/drive
+: 1746891226:0;sudo mount /dev/sda1 ~/Mounts/drive -o user=lap
+: 1746891240:0;lsblk
+: 1746891249:0;sudo umount ~/Mounts/drive
+: 1746891261:0;mount /dev/sda1 ~/Mounts/drive
+: 1746891278:0;sudo lf Mounts/drive
+: 1746893881:0;kill anki
+: 1746894237:0;power-save
+: 1746894451:0;v ~/.config/mpv/script-opts/subs2srs.conf
+: 1746895546:0;f mpv https://www.youtube.com/watch\?v\=v4yxNKEDyV0
+: 1746896362:0;rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
+: 1746896375:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
+: 1746896381:0;f rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
+: 1746897228:0;fd theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg
+: 1746897236:0;fd -H theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {}
+: 1746897273:0;fd -H
+: 1746897285:0;fd -H theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {} ~/.local/share/Anki2
+: 1746897299:0;fd -H theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg
+: 1746897302:0;l
+: 1746897312:0;fd -H theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {} ~/.local/share/Anki2/User/collection.media/
+: 1746897316:0;fd theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {} ~/.local/share/Anki2/User/collection.media/
+: 1746897330:0;fd theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg
+: 1746897466:0;home idk
