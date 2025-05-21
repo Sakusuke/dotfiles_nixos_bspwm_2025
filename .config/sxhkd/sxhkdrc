@@ -119,7 +119,7 @@ alt + {Left,Up,Down,Right}
 ##--apps--##
 
 super + {v,q,w,e,r,j,b,p,o,a}
-	{mpv,qbittorrent,pcmanfm,firefox,notepadqq,jglossator,blueman-manager,spotify,obsidian,anki}
+	{mpv,qbittorrent,pcmanfm,firefox,notepadqq,jellyfinmediaplayer,blueman-manager,spotify,obsidian,anki}
 
 super + shift + {s,e,w}
 	{firefox localhost:8384,google-chrome-stable,sudo pcmanfm /}

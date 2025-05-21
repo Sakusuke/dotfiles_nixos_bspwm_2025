@@ -11,7 +11,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 # Variables
 export HISTFILE="$XDG_STATE_HOME/zsh/history"
-export EDITOR="vim"
+export EDITOR="nvim"
 
 export QT_SCALE_FACTOR=1.5;
 export ELM_SCALE=1.5;
@@ -23,11 +23,12 @@ if [ ! -d /tmp/del ]; then
 fi
 
 alias c="clear"
-alias v="vim"
+alias v="nvim"
 alias n="sudo vim /etc/nixos/configuration.nix"
-alias z='vim $ZDOTDIR/.zshrc'
-alias h="vim ~/.config/hypr/hyprland.conf"
-alias l="vim ~/.config/lf/lfrc"
+alias z='nvim $ZDOTDIR/.zshrc'
+alias vs="nvim ~/.config/nvim/init.lua"
+alias h="nvim ~/.config/hypr/hyprland.conf"
+alias l="nvim ~/.config/lf/lfrc"
 alias en="LANG="en_US.UTF-8""
 alias jp="LANG="ja_JP.UTF-8""
 alias lsb="lsblk"
@@ -56,7 +57,7 @@ alias rs="sudo pacman -Rsnc"
 alias bck='cd "$OLDPWD"'
 alias df='df -H'
 alias mkdir='mkdir -p'
-alias hist='vim $HISTFILE'
+alias hist='nvim $HISTFILE'
 alias sxiv='sxiv -a'
 alias kill="pkill -9 -f"
 alias t="trash"
@@ -67,7 +68,7 @@ alias d="sleep 1 &&"
 alias de="setsid &>/dev/null devour"
 alias sv="sudo vim"
 alias sys="sudo systemctl"
-alias s="sudo"
+alias s="nvim ~/.config/sxhkd/sxhkdrc"
 alias sysyadm="sudo yadm --yadm-dir /etc/yadm --yadm-data /etc/yadm/data"
 alias yt="ytfzf -t"
 alias lf="LANG="en_US.UTF-8" lfrun"
@@ -125,7 +126,7 @@ mk() {
 }
 
 commandedit() {
-  vim $(which $1)
+  nvim $(which $1)
 }
 
 subs() {
@@ -133,7 +134,7 @@ subs() {
 }
 
 mkscript() {
-  vim "$1" && chmod +x "$1"
+  nvim "$1" && chmod +x "$1"
 }
 
 7e() {

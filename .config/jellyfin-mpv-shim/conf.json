@@ -23,7 +23,7 @@
     "ignore_ssl_cert": false,
     "kb_debug": "~",
     "kb_fullscreen": "f",
-    "kb_kill_shader": "k",
+    "kb_kill_shader": null,
     "kb_menu": "c",
     "kb_menu_down": "down",
     "kb_menu_esc": "esc",

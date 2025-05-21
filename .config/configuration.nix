@@ -106,8 +106,8 @@
     polybar
     rofi
     picom
-    alacritty
     nitrogen
+    alacritty
     dunst libnotify
     xcape ksuperkey
     xclip clipit
@@ -116,7 +116,6 @@
 
     # other
     vim 
-    neovim
     lf ueberzug bat
     wget
     neofetch
@@ -128,7 +127,7 @@
     firefox
     #google-chrome
     mpv
-      yt-dlp socat ffmpeg
+    picard
     nomacs #for images
     jellyfin-mpv-shim
     jellyfin-media-player
@@ -158,6 +157,15 @@
     lm_sensors
     brightnessctl
     libsmbios
+    # Python packages
+    yt-dlp jq
+    ffmpeg
+    (python3.withPackages (ps: with ps; [
+      ytmusicapi
+    ]))
+    # Rust
+    cargo
+    rustup
   ];
 
 
@@ -184,6 +192,13 @@
   services.gvfs.enable = true;
   programs.udevil.enable = true;
 
+  # Editor
+  programs.neovim = {
+    enable = true;
+    defaultEditor = true;
+  };
+
+
   # Terminal
   programs.zsh = {
     enable = true;
@@ -194,7 +209,8 @@
     };
   };
   ## Terminal Emualtor
-  programs.foot.enable = true;
+  #programs.foot.enable = true; #Wayland
+  #programs.alacritty.enable = true;
 
   # Variables
   environment.sessionVariables = {
@@ -209,13 +225,14 @@
     #HISTFILE = "$XDG_STATE_HOME/zsh/history"; for some reason this doesnt work, now declaring in .zshrc file
     GNUPGHOME = "$XDG_DATA_HOME/gnupg"; #idk
     GTK2_RC_FILES = "$XDG_CONFIG_HOME/gtk-2.0/gtkrc"; #for .gtkrc
+    XCOMPOSECACHE="$XDG_CACHE_HOME/X11/xcompose";
+    ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors";
 
     ## variables that would usually be .profile, a replacement for that idk what, you have to restart WM for changes to take effect
     QT_SCALE_FACTOR= "1.4";
     ELM_SCALE= "1.4";
     GDK_SCALE= "1.4";
     XCURSOR_SIZE= "30";
-    XCOMPOSECACHE="$XDG_CACHE_HOME/X11/xcompose";
   };
 
   # Fonts
