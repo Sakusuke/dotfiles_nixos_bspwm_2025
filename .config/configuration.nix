@@ -90,7 +90,7 @@
   users.users.lap = {
     isNormalUser = true;
     description = "Lap";
-    extraGroups = [ "networkmanager" "wheel" "samba" "brigtness" "adbusers" "davfs2" ];
+    extraGroups = [ "networkmanager" "wheel" "samba" "storage" "brigtness" "adbusers" "davfs2" ];
     packages = with pkgs; [];
   };
   users.defaultUserShell = pkgs.zsh;
@@ -227,6 +227,8 @@
     GTK2_RC_FILES = "$XDG_CONFIG_HOME/gtk-2.0/gtkrc"; #for .gtkrc
     XCOMPOSECACHE="$XDG_CACHE_HOME/X11/xcompose";
     ERRFILE="$XDG_CACHE_HOME/X11/xsession-errors";
+    CARGO_HOME="$XDG_DATA_HOME/cargo";
+    RUSTUP_HOME="$XDG_DATA_HOME/rustup";
 
     ## variables that would usually be .profile, a replacement for that idk what, you have to restart WM for changes to take effect
     QT_SCALE_FACTOR= "1.4";

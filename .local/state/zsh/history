@@ -1,757 +1,532 @@
-: 1746363070:0;l
-: 1746363072:0;lf
-: 1746363136:0;yadm add zsh/.zshrc configuration.nix fcitx5 fcitx lf rofi polybar mpv nomacs X11 jellyfin-mpv-shim
-: 1746363164:0;yadm rm --cached ~/.config/mpv/scrips/subs2srs
-: 1746363185:0;yadm rm --cached ~/.config/mpv/scripts/subs2srs
-: 1746363194:0;yadm rm -f --cached ~/.config/mpv/scripts/subs2srs
-: 1746363662:0;cd .config/jellyfin-mpv-shim
-: 1746363665:0;cd ..
-: 1746363669:0;yadm rm jellyfin-mpv-shim/
-: 1746363673:0;yadm rm -rf jellyfin-mpv-shim/
-: 1746363678:0;yadm status
-: 1746363686:0;ls
-: 1746363690:0;c
-: 1746363882:0;ls
-: 1746363887:0;obsidian
-: 1746365039:0;v bspwm/bspwmrc
-: 1746365061:0;setxkbmap
-: 1746365063:0;xcape
-: 1746365064:0;n
-: 1746365115:0;xsetroot
-: 1746365119:0;ksuperkey
-: 1746365143:0;nu
-: 1746365193:0;yadm add ~/.config/configuration.nix
-: 1746365200:0;which rm
-: 1746365202:0;z
-: 1746365218:0;which rm
-: 1746365246:0;trash-put
-: 1746365253:0;which rm
-: 1746365260:0;z
-: 1746365265:0;tput
-: 1746365270:0;n
-: 1746365272:0;z
-: 1746365295:0;rm .config/configuration.nix_bak_hypr
-: 1746365299:0;rm .config/configuration.nix_bak_bspwm
-: 1746365303:0;xdg-ninja
-: 1746365313:0;v .zsh_history 
-: 1746365316:0;rm .zsh_history 
-: 1746365328:0;v .Xresources
-: 1746365334:0;rm .Xresources
-: 1746365339:0;xdg-ninja
-: 1746365420:0;n
-: 1746365470:0;nu
-: 1746365533:0;bspc wm -r
-: 1746365542:0;z
-: 1746365592:0;yadm status
-: 1746365608:0;cd .config
-: 1746365619:0;yadm rm -rf fcitx5
-: 1746365623:0;watch yadm status
-: 1746365627:0;watch -c yadm status
-: 1746365630:0;watch --color yadm status
-: 1746365684:0;ls jellyfin-mpv-shim/fonts
-: 1746365710:0;hist
-: 1746365824:0;cd del
-: 1746365824:0;ls
-: 1746365827:0;git clone https://github.com/Sakusuke/dotfiles_nixos_hyprland.git
-: 1746365829:0;clipit
-: 1746365831:0;n
-: 1746365842:0;nu
-: 1746365855:0;cd dotfiles_nixos_hyprland
-: 1746365860:0;cd .config
-: 1746365868:0;cp -r fcitx5 ~/.config
-: 1746365874:0;cd .co
-: 1746365876:0;cd .config
-: 1746365908:0;rm ~/temps
-: 1746365915:0;rm ~/.Xauthority
-: 1746365940:0;yadm add fcitx5/config fcitx5/profile
-: 1746365953:0;f sxhkd
-: 1746365957:0;f alacritty
-: 1746365959:0;alacritty
-: 1746366010:0;ls .Xauthority
-: 1746366014:0;n
-: 1746366033:0;lfcd
-: 1746366043:0;xdg-ninja
-: 1746366065:0;v .xinitrc
-: 1746366094:0;rm .xsession-errors*
-: 1746366106:0;yadm add .xinitrc
-: 1746366113:0;watch yadm status
-: 1746366145:0;yadm rm --cached .config/mpv/script-opts/.SmartCopyPaste.conf.swp
-: 1746366196:0;yadm rm --cached ~/.config/fcitx/dbus/2dc4c2457faa4b95a7dcb1917947e23e-0
-: 1746366201:0;home init
-: 1746366205:0;ls
-: 1746366239:0;yadm add .bin
-: 1746366242:0;home bin
-: 1746366254:0;cd del
-: 1746366267:0;ls
-: 1746366270:0;cd dotfiles_nixos_hyprland/
-: 1746366273:0;lf
-: 1746366295:0;yadm add .local/state/zsh/history
-: 1746366304:0;home zshhist
-: 1746366312:0;lfcd
-: 1746366321:0;xdg-ninja
-: 1746366347:0;v .xinitrc
-: 1746366363:0;export XCOMPOSECACHE="$XDG_CACHE_HOME"/X11/xcompose
-: 1746366398:0;z
-: 1746366413:0;c
-: 1746366435:0;n
-: 1746366480:0;yadm add .config/mimeapps.list
-: 1746366534:0;cd .config
-: 1746366542:0;cd mpv
-: 1746366562:0;ls input.conf mpv.conf script-opts
-: 1746366566:0;yadm add input.conf mpv.conf script-opts
-: 1746366571:0;lf scripts
-: 1746366605:0;yadm add scripts
-: 1746366611:0;home mpv
-: 1746366622:0;cd ../jellyfin-mpv-shim
-: 1746366622:0;ls
-: 1746366657:0;lf
-: 1746366670:0;cd ..
-: 1746366689:0;yadm conf.json input.conf mpv.conf script-opts/subs2srs.conf 
-: 1746366694:0;yadm add conf.json input.conf mpv.conf script-opts/subs2srs.conf 
-: 1746366702:0;lf
-: 1746366737:0;yadm add subs2srs
-: 1746366738:0;ls
-: 1746366742:0;n
-: 1746366755:0;home shim
-: 1746366889:0;htop
-: 1746367270:0;yadm add .config/nitrogen
-: 1746367272:0;home nitrogen
-: 1746367329:0;v .config/sxhkd/sxhkdrc
-: 1746368164:0;cd .config
-: 1746368166:0;cd jellyfin-mpv-shim
-: 1746368168:0;v conf.json
-: 1746368182:0;cd .config/mpv/scripts
-: 1746368185:0;cd ..
-: 1746368189:0;v script-opts/subs2srs.conf
-: 1746368200:0;xclip
-: 1746368203:0;n
-: 1746368219:0;nu
-: 1746368226:0;e nu
-: 1746368231:0;n
-: 1746368234:0;z
-: 1746368340:0;e ls del
-: 1746368347:0;e ls l
-: 1746368353:0;e nu
-: 1746368382:0;systemd-notify
-: 1746368388:0;try notify-send
-: 1746368397:0;notify-send
-: 1746368399:0;n
-: 1746368440:0;e nu
-: 1746368501:0;kill shim; f jellyfin-mpv-shim
-: 1746370178:0;ssh sakusier@cream.seedhost.eu
-: 1746371326:0;fd -H jp_subtitle_fix
-: 1746371328:0;fd -H jp_subtitle_fix /
-: 1746371332:0;s fd -H jp_subtitle_fix /
-: 1746371500:0;cd .config/mpv/scripts
-: 1746371511:0;v clean_subtitles.lua
-: 1746371553:0;ls
-: 1746371557:0;kill shim; f jellyfin-mpv-shim
-: 1746371596:0;v clean_subtitles.lua
-: 1746371618:0;kill shim; f jellyfin-mpv-shim
-: 1746371685:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
-: 1746371712:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746371769:0;v clean_subtitles.lua
-: 1746371784:0;kill shim; f jellyfin-mpv-shim
-: 1746371786:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746371880:0;v ~/.config/mpv/scripts/clean_subtitles.lua
-: 1746371900:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746372037:0;cd .config/mpv/scripts
-: 1746372055:0;rm clean_subtitles.lua
-: 1746372102:0;v subtitle_cleaner.lua
-: 1746372118:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746372201:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746372973:0;cd .config/mpv/scripts
-: 1746372973:0;ls
-: 1746372998:0;v autosubsync/autosubsync.lua
-: 1746373002:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746373020:0;cd .config/mpv/scripts
-: 1746373022:0;cd ..
-: 1746373024:0;v input.conf
-: 1746373032:0;v scripts/autosubsync/autosubsync.lua
-: 1746373042:0;dig
-: 1746373044:0;cd .config/mpv/scripts
-: 1746373048:0;cd ..
-: 1746373051:0;v input.conf
-: 1746373070:0;cd ..
-: 1746373072:0;cd .config/mpv/scripts
-: 1746373074:0;cd ~/.config/mpv/scripts
-: 1746373078:0;v autosubsync/autosubsync.lua
-: 1746373097:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746373129:0;cd ~/.config/mpv/scripts
-: 1746373132:0;rm subtitle_cleaner.lua
-: 1746373133:0;cd ~/.config/mpv/scripts
-: 1746373135:0;cd
-: 1746373136:0;rm subtitle_cleaner.lua
-: 1746373139:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746373145:0;yadm status
-: 1746373180:0;cd ~/.config/mpv/scripts
-: 1746373183:0;rm autosubsync
-: 1746373184:0;ls
-: 1746373189:0;v scroll-list.lua
-: 1746373239:0;grep -r "feeling "
-: 1746373240:0;grep -r "feeling"
-: 1746373243:0;grep -r "scroll"
-: 1746373261:0;v SmartSkip.lua
-: 1746373273:0;yadm rm SmartSkip.lua
-: 1746373276:0;yadm status
-: 1746373290:0;home mpv?
-: 1746373293:0;home mpv
-: 1746373472:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746373487:0;mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746374184:0;v del/dotfiles_nixos_hyprland/.config/hypr/hyprland.conf
-: 1746374194:0;rclone mount koofr: /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1746374643:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746374977:0;cd del
-: 1746374986:0;git clone https://github.com/arianneorpilla/jidoujisho.git
-: 1746375010:0;cd jidoujisho
-: 1746375012:0;git ls-files --exclude-standard -- ':!:**/*.[pjs][npv]g' ':!:**/*.ai' ':!:.idea' ':!:**/*.eslintrc' ':!:package-lock.json' | xargs wc -l
-: 1746375031:0;fd history
-: 1746375036:0;fd history_page
-: 1746375040:0;fd history_page -1
-: 1746375042:0;fd history_page -g
-: 1746375074:0;fd history_page --absolute-path
-: 1746375091:0;fd history_page -1
-: 1746375096:0;fd history_page 
-: 1746375101:0;cd yun
-: 1746375161:0;v yuuna/lib/src/pages/implementations/dictionary_history_page.dart
-: 1746375260:0;lf
-: 1746380564:0;mv Downloads/\(EDRDG\)\ JMdict\ \[Version\ 2021.11.18\].zip Mounts/koofr/My\ desktop\ sync/Dictionaries/\[Bilingual\]\ JMdict\ legacy.zip
-: 1746380814:0;v .config/mpv/script-opts/subs2srs.conf
-: 1746381221:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746381337:0;v .config/mpv/mpv.conf
-: 1746381360:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746381368:0;e mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746381373:0;z
-: 1746381385:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv
-: 1746381407:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746381437:0;v .config/mpv/mpv.conf
-: 1746381457:0;try wine
-: 1746381465:0;fd jgloss
-: 1746381472:0;which 7e
-: 1746381481:0;7e Downloads/JGlossator_v5.0.zip ./del
-: 1746381512:0;xdg-ninja
-: 1746381532:0;wine del/JGlossator/JGlossator.exe
-: 1746381568:0;rm del/JGlossator
-: 1746381574:0;rm del/jidoujisho
-: 1746381581:0;z
-: 1746381595:0;destroy
-: 1746381639:0;lf
-: 1746381652:0;grep aileen
-: 1746381657:0;ls
-: 1746381660:0;cd Wiki
-: 1746381666:0;grep -r "aileen"
-: 1746381673:0;grep -ri "aileen"
-: 1746381688:0;v .config/sxhkd/sxhkdrc
-: 1746381709:0;kill sxhkd && f sxhkd
-: 1746381725:0;grep -ri "aileen" ./2023 ./2024
-: 1746381768:0;kill sxhkd && sxhkd
-: 1746381780:0;kill sxhkd
-: 1746381787:0;v .config/sxhkd/sxhkdrc
-: 1746381836:0;f sxhkd
-: 1746381865:0;v .config/mpv/mpv.conf
-: 1746381928:0;mkdir Downloads/mpv
-: 1746381936:0;mv Documents/mpv/* Downloads/mpv
-: 1746381939:0;ls Downloads/mpv
-: 1746381944:0;rm Documents
-: 1746381945:0;ls
-: 1746381955:0;rm del/fan.sh
-: 1746381958:0;rm del/dotfiles_nixos_bspwm
-: 1746381970:0;mv del/dotfiles_nixos_hyprland ~/Downloads
-: 1746381972:0;rm del
-: 1746381995:0;lf
-: 1746383174:0;cd Downloads/Vault/2023
-: 1746383177:0;fd 2023
-: 1746383185:0;fd 2023 -x mv {} ../Diary
-: 1746383195:0;cd ../2024
-: 1746383199:0;fd 2024 -x mv {} ../Diary
-: 1746383440:0;cd ~/Downloads/Vault/Diary
-: 1746383440:0;vimv
-: 1746383835:0;home stuff
-: 1746386983:0;v .config/sxhkd/sxhkdrc
-: 1746387290:0;v .config/mpv/script-opts/subs2srs.conf
-: 1746387330:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746387347:0;f rclone mount koofr: /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1746387352:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746387360:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
-: 1746387363:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746387777:0;v .config/mpv/script-opts/subs2srs.conf
-: 1746387840:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746388388:0;rm .compose-cache/
-: 1746388391:0;v .config/mpv/script-opts/subs2srs.conf
-: 1746388419:0;f mpv ~/Mounts/cream/data/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E01\ -\ Maomao\ and\ Maomao\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-ToonsHub.mkv --sub-filter-sdh-harder=yes
-: 1746388527:0;fcitx5-config-qt
-: 1746388872:0;v .config/mpv/mpv.conf
-: 1746427510:0;mtui
-: 1746427511:0;nmtui
-: 1746431791:0;htop
-: 1746434249:0;nmtui
-: 1746434623:0;kill sxhkd && sxhkd
-: 1746434630:0;kill sxhkd && f sxhkd
-: 1746434634:0;f sxhkd
-: 1746440632:0;nmtui
-: 1746441809:0;try nm-manager
-: 1746442258:0;nmtui
-: 1746447043:0;try network-manager-applet
-: 1746447101:0;nix search nixpkgs neovim
-: 1746447176:0;nix search nixpkgs#firefox
-: 1746447194:0;nix search firefox
-: 1746447217:0;yadm status
-: 1746447220:0;home idk
-: 1746455405:0;power-save
-: 1746455420:0;commandedit power-save
-: 1746455440:0;watch -n 0.5 "cat /proc/cpuinfo | grep MHz"
-: 1746455466:0;cpu
-: 1746455468:0;mkscript .bin/cpu
-: 1746455487:0;cpu
-: 1746455495:0;power-save
-: 1746455510:0;htop
-: 1746455515:0;power-save
-: 1746456474:0;~/.bin/sicko_wm_mode
-: 1746456478:0;~/.bin/bar_toggle
-: 1746456486:0;sicko_wm_mode && bar_toggle
-: 1746520898:0;xdg-ninja
-: 1746520906:0;v _fastwqcfg.json
-: 1746520925:0;rm _fastwqcfg.json
-: 1746520934:0;xdg-ninja
-: 1746523196:0;nmtui
-: 1746525986:0;power-save
-: 1746526715:0;nmtui
-: 1746730549:0;power-save
-: 1746820218:0;mpv https://www.youtube.com/watch\?v\=FA4wbeMHryE
-: 1746863667:0;power-save
-: 1746867221:0;ls
-: 1746867230:0;f rclone mount koofr: /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1746867295:0;rclone umount Mounts
-: 1746867297:0;rclone umount Mounts/koofr
-: 1746867308:0;xkill
-: 1746867311:0;try xorg.xkill
-: 1746867315:0;xkill
-: 1746867324:0;v .config/sxhkd/sxhkdrc
-: 1746867333:0;lf
-: 1746867356:0;v .config/sxhkd/sxhkdrc
-: 1746867374:0;n
-: 1746867409:0;home "xkill and hotkey"
-: 1746867413:0;nu
-: 1746867572:0;home idk
-: 1746867606:0;umount Mounts/koofr
-: 1746867628:0;rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1746867653:0;v ~/.config/bspwm/bspwmrc
-: 1746867658:0;xdg-ninja
-: 1746867668:0;n
-: 1746867720:0;rm .compose-cache
-: 1746867726:0;n
-: 1746867728:0;nu
-: 1746867733:0;z
-: 1746867743:0;e nu
-: 1746867755:0;v ~/.config/bspwm/bspwmrc
-: 1746867768:0;smbios-thermal-ctl
-: 1746867772:0;n
-: 1746867788:0;smbios-thermal-ctl
-: 1746867800:0;e nu
-: 1746867803:0;n
-: 1746867809:0;z
-: 1746867842:0;n
-: 1746867911:0;rm .xsession-errors.old
-: 1746867912:0;rm .xsession-errors
-: 1746867925:0;sudo smbios-thermal-ctl --set-thermal-mode quiet
-: 1746867943:0;sudo modprobe dell-smbios-wmi
-: 1746867947:0;modprobe dell-smbios-wmi
-: 1746867964:0;modprobe dcdbas
-: 1746867967:0;sudo modprobe dell-smbios-wmi
-: 1746867977:0;sudo smbios-thermal-ctl --set-thermal-mode quiet
-: 1746868019:0;z
-: 1746868022:0;n
-: 1746868298:0;v ~/.config/bspwm/bspwmrc
-: 1746868357:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
-: 1746868362:0;f rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1746868377:0;home "automounts on bspwm"
-: 1746869542:0;yt-dlp https://music.youtube.com/watch\?v\=NT4eF9YsYnM\&si\=TkMFbt50_RJP9AeG
-: 1746871014:0;deezer
-: 1746871016:0;deezer-downloader
-: 1746871815:0;sudo upower -i /org/freedesktop/UPower/devices/battery_BAT0
-: 1746871818:0;watch sudo upower -i /org/freedesktop/UPower/devices/battery_BAT0
-: 1746891012:0;lsblk
-: 1746891017:0;sudo lf /run/media/lap/EVO_MEDIA
-: 1746891038:0;lsblk
-: 1746891047:0;sudo eject /run/media/lap/EVO_MEDIA
-: 1746891051:0;lsblk
-: 1746891056:0;sudo eject /dev/sda1
-: 1746891057:0;sudo eject /dev/sda
-: 1746891064:0;sudo umount /dev
-: 1746891082:0;lsblk
-: 1746891091:0;sudo umount /dev/sda1
-: 1746891093:0;sudo eject /dev/sda
-: 1746891130:0;lsblk
-: 1746891145:0;sudo lf /run/media/lap/9600EC4300EC2C45/
-: 1746891175:0;lsblk
-: 1746891217:0;mkdir Mounts/drive
-: 1746891226:0;sudo mount /dev/sda1 ~/Mounts/drive -o user=lap
-: 1746891240:0;lsblk
-: 1746891249:0;sudo umount ~/Mounts/drive
-: 1746891261:0;mount /dev/sda1 ~/Mounts/drive
-: 1746891278:0;sudo lf Mounts/drive
-: 1746893881:0;kill anki
-: 1746894237:0;power-save
-: 1746894451:0;v ~/.config/mpv/script-opts/subs2srs.conf
-: 1746895546:0;f mpv https://www.youtube.com/watch\?v\=v4yxNKEDyV0
-: 1746896362:0;rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1746896375:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream
-: 1746896381:0;f rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1746897228:0;fd theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg
-: 1746897236:0;fd -H theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {}
-: 1746897273:0;fd -H
-: 1746897285:0;fd -H theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {} ~/.local/share/Anki2
-: 1746897299:0;fd -H theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg
-: 1746897302:0;l
-: 1746897312:0;fd -H theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {} ~/.local/share/Anki2/User/collection.media/
-: 1746897316:0;fd theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg -x mpv {} ~/.local/share/Anki2/User/collection.media/
-: 1746897330:0;fd theapothecarydiariess02e02caravanmald_16m13s751ms_16m16s170ms.ogg
-: 1746897466:0;home idk
-: 1746897562:0;mv Downloads/subs2srs.conf .config/mpv/script-opts/subs2srs.conf
-: 1746897569:0;kill shim
-: 1746898412:0;power-save
-: 1746902337:0;z
-: 1746902351:0;home fixed mpv
-: 1746902358:0;z
-: 1746902366:0;home fixed mpv
-: 1746902368:0;n
-: 1746902375:0;z
-: 1746902382:0;home fixed mpv
-: 1746902384:0;z
-: 1746902395:0;home fixed mpv
-: 1746902399:0;z
-: 1746902433:0;home 2 fixed mpv
-: 1746902437:0;home2 fixed mpv
-: 1746902443:0;home2 "fixed mpv"
-: 1746902448:0;home2 \"fixed mpv\"
-: 1746902459:0;z
-: 1746902474:0;home fixed mpv
-: 1746902479:0;z
-: 1746902491:0;home fixed mpv
-: 1746902492:0;n
-: 1746902494:0;z
-: 1746902507:0;home fixed mpv
-: 1746902509:0;n
-: 1746902528:0;z
-: 1746902609:0;home fixed mpv
-: 1746902647:0;v ~/.config/bspwm/bspwmrc
-: 1746902654:0;v ~/.config/sxhkd/sxhkdrc
-: 1746902677:0;kill sxhkd && f sxhkd
-: 1746902681:0;kill sxhkd && sxhkd
-: 1746902687:0;n
-: 1746902690:0;s
-: 1746902692:0;n
-: 1746902693:0;z
-: 1746902724:0;zsh
-: 1746902726:0;s
-: 1746904907:0;whoami
-: 1746904913:0;ip addr|grep 192
-: 1746983084:0;nmtui
-: 1746983134:0;power-save
-: 1746988168:0;sicko_wm_mode && bar_toggle
-: 1747000961:0;kill sxhkd && sxhkd
-: 1747000966:0;f sxhkd
-: 1747000969:0;v ~/.config/sxhkd/sxhkdrc
-: 1747004831:0;power-save
-: 1747158477:0;ssh sakusier@cream.seedhost.eu
-: 1747256797:0;power-save
-: 1747390768:0;nmtui
-: 1747390777:0;neofetch
-: 1747390781:0;matrix
-: 1747390784:0;try matrix
-: 1747390787:0;try cmatrix
-: 1747390801:0;cmatrix 
-: 1747390825:0;power-save
-: 1747435953:0;try spotdl
-: 1747436037:0;spotdl madreblu certamente
-: 1747436067:0;try spotdl
-: 1747436092:0;spotdl "madreblu certamente"
-: 1747436141:0;yt-dlp https://music.youtube.com/watch\?v\=NT4eF9YsYnM\&si\=TkMFbt50_RJP9AeG
-: 1747436152:65;spotdl "madreblu certamente"
-: 1747436222:0;yt-dlp https://music.youtube.com/watch\?v\=NT4eF9YsYnM\&si\=TkMFbt50_RJP9AeG
-: 1747436225:0;try spotdl
-: 1747436265:0;spotdl "all my people epic games"
-: 1747436471:0;spotdl "raya escapism"
-: 1747436571:0;spotdl "raye - escapism"
-: 1747436968:0;yt-dlp https://music.youtube.com/watch\?v\=NT4eF9YsYnM\&si\=TkMFbt50_RJP9AeG
-: 1747437006:0;which mkscript
-: 1747437010:0;mkscript yt
-: 1747437019:0;./yt do domenica subsonic
-: 1747437023:0;./yt do domenica subsoni
-: 1747437112:0;v ~/.config/sxhkd/sxhkdrc
-: 1747437118:0;v yt
-: 1747437141:0;./yt do domenica subsoni
-: 1747468062:0;ls
-: 1747468065:0;rm PASSO\ BEM\ SOLTO\ \(Slowed\)\ \[NT4eF9YsYnM\].webm
-: 1747468068:0;v yt
-: 1747468131:0;yt kryptonite
-: 1747468137:0;./yt kryptonite
-: 1747468171:0;./yt kryptonite 3 doors down
-: 1747468288:0;mkscript yt
-: 1747468299:0;./yt "3 doors down" "kryptonite"
-: 1747468531:0;v yt
-: 1747468545:0;v config.toml
-: 1747468578:0;sudo -e config.tomlOA
-: 1747468582:0;./yt
-: 1747468585:0;./yt "3 doors down" "kryptonite"
-: 1747468596:0;v config.toml
-: 1747468648:0;v yt 
-: 1747468655:0;./yt "3 doors down" "kryptonite"
-: 1747469257:0;nix-shell -p python3 python3Packages.youtube-search-python
-: 1747469284:0;nix-shell -p python3 python3Packages.tube-search
-: 1747469646:0;power-save
-: 1747523226:0;n
-: 1747523249:0;nu
-: 1747524092:0;ls
-: 1747524096:0;ls tosort
-: 1747524105:0;mkdir Scripts
-: 1747524109:0;cd Scripts
-: 1747524187:0;wget -r -np -nH --cut-dirs=3 -R "index.html*" https://github.com/Sakusuke/dotfiles_windows_nixoswsl_2025/tree/main/Scripts/ytm/
-: 1747524188:0;ls
-: 1747524207:0;mv main/Scripts/ytm . && rm main
-: 1747524208:0;ls
-: 1747524210:0;cd ytm
-: 1747524211:0;ls
-: 1747524231:0;cd ..
-: 1747524232:0;rm ytm
-: 1747524232:0;ls
-: 1747524245:0;wget -r -np -nH --cut-dirs=3 -R "index.html*" https://github.com/Sakusuke/dotfiles_windows_nixoswsl_2025/tree/main/Scripts/ytm/\*
-: 1747524247:0;ls
-: 1747524260:0;try svn
-: 1747524265:0;svn
-: 1747524270:0;try subversion
-: 1747524281:0;svn export https://github.com/Sakusuke/dotfiles_windows_nixoswsl_2025/trunk/Scripts/ytm
-: 1747524302:0;svn export https://github.com/Sakusuke/dotfiles_windows_nixoswsl_2025/tree/main/Scripts/ytm
-: 1747524674:0;try zotify
-: 1747524684:0;zotify
-: 1747524704:0;zotify -s pokemon
-: 1747524707:0;try zotify
-: 1747524714:0;zotify -s pokemon
-: 1747524787:0;try stacher
-: 1747524792:0;stacher
-: 1747524810:0;soulseek
-: 1747524814:0;try soulseek
-: 1747525156:0;cd Scripts
-: 1747525157:0;ls
-: 1747525159:0;git clone https://github.com/Sakusuke/dotfiles_windows_nixoswsl_2025.git
-: 1747525167:0;mv dotfiles_windows_nixoswsl_2025/Scripts/ytm .
-: 1747525169:0;rm dotfiles_windows_nixoswsl_2025
-: 1747525169:0;ls
-: 1747525170:0;cd ytm
-: 1747525171:0;ls
-: 1747525187:0;python ytm_complete.py chrystal notion remix
-: 1747525189:0;python ytm_complete.py "chrystal notion remix"
-: 1747525193:0;n
-: 1747525198:0;nu
-: 1747525208:0;z
-: 1747525210:0;n
-: 1747525220:0;nu
-: 1747525228:0;n
-: 1747525234:0;nu
-: 1747525329:0;n
-: 1747525350:0;nu
-: 1747525441:0;python ytm_complete.py "chrystal notion remix"
-: 1747525444:0;n
-: 1747525541:0;nu
-: 1747525634:0;cd Scripts/ytm
-: 1747525638:0;python ytm_complete.py "chrystal notion remix"
-: 1747525671:0;v ytm_complete.py
-: 1747525785:0;python ytm_complete.py "chrystal the days"
-: 1747525802:0;python ytm_complete.py "chrystal the days original"
-: 1747527304:0;try picard
-: 1747527346:0;picard
-: 1747558098:0;try picard
-: 1747558106:0;cd Scripts/ytm
-: 1747558144:0;python ytm_complete.py "passo bem salto slowed"
-: 1747558169:0;rm ~/Music/ATLXS
-: 1747558171:0;rm ~/Music/CHRYSTAL,\ NOTION
-: 1747558175:0;python ytm_complete.py "passo bem salto"
-: 1747558188:0;picard
-: 1747558298:0;python ytm_complete.py "theme of kikoru"
-: 1747558311:0;picard
-: 1747768775:0;power-save
-: 1747769360:0;try vscode
-: 1747769522:0;vscode
-: 1747769528:0;code
-: 1747769620:0;try cargo
-: 1747769655:0;cargo
-: 1747769668:0;mkdir Documents
-: 1747769670:0;cd Documents
-: 1747769671:0;ls
-: 1747769680:0;cargo new jrossateher
-: 1747769683:0;cd jrossateher
-: 1747769683:0;ls
-: 1747769687:0;cargo run
-: 1747769692:0;v src/main.rs
-: 1747769709:0;rm .config.toml.swp 
-: 1747769713:0;lf
-: 1747769745:0;mkdir .config/nvim
-: 1747769749:0;cd .config/nvim
-: 1747769752:0;v init.vim
-: 1747769902:0;n
-: 1747769951:0;nu
-: 1747770058:0;nvim
-: 1747770060:0;v
-: 1747770062:0;z
-: 1747770145:0;n
-: 1747770147:0;v
-: 1747771639:0;n
-: 1747771664:0;nu
-: 1747771869:0;v ~/.config/nvim/init.vim
-: 1747771901:0;v
-: 1747771916:0;try vimplug
-: 1747771944:0;v
-: 1747771981:0;try vimplugsh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-: 1747771989:0;sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-: 1747771992:0;n
-: 1747771995:0;v
-: 1747772014:0;rm .viminfo
-: 1747772025:0;v
-: 1747772032:0;n
-: 1747772036:0;v ~/.config/nvim/init.vim
-: 1747772078:0;v
-: 1747772114:0;v ~/.config/nvim/init.vim
-: 1747772121:0;v
-: 1747772134:0;cd ~/Documents/jrossateher/src
-: 1747772138:0;v main.rs
-: 1747772212:0;cargo run
-: 1747772217:0;n
-: 1747772228:0;nu
-: 1747772262:0;n
-: 1747772267:0;vs
-: 1747772269:0;z
-: 1747772310:0;vs
-: 1747772361:0;v
-: 1747772365:0;n
-: 1747772367:0;vs
-: 1747772492:0;n
-: 1747772499:0;v
-: 1747772506:0;vs
-: 1747772663:0;n
-: 1747772669:0;z
-: 1747772672:0;vs
-: 1747772777:0;cd ~/Documents/jrossateher/src
-: 1747772778:0;v main.rs
-: 1747772892:0;vs
-: 1747772963:0;v main.rs
-: 1747773030:0;cargo run
-: 1747773041:0;rustup default stable
-: 1747773072:0;cargo run
-: 1747773079:0;rustup default stable
-: 1747773082:0;cargo run
-: 1747773087:0;cd ~/Documents/jrossateher/src
-: 1747773088:0;cargo run
-: 1747773095:0;rustup default stable
-: 1747773099:0;cargo run
-: 1747773103:0;z
-: 1747773105:0;vs
-: 1747773126:0;n
-: 1747773157:0;rustup component add rust-analyzer
-: 1747773160:0;ls
-: 1747773171:0;ls ~/.cargo
-: 1747773178:0;lf
-: 1747773210:0;n
-: 1747773212:0;vs
-: 1747773256:0;cd ~/Documents/jrossateher/src
-: 1747773258:0;v main.rs 
-: 1747773419:0;cd ~/.config/nvim/
-: 1747773420:0;ls
-: 1747773427:0;mkdir plugins
-: 1747773442:0;v init.lua
-: 1747773454:0;lf
-: 1747773498:0;rm init.vim
-: 1747773500:0;ls
-: 1747773504:0;v
-: 1747773507:0;vs
-: 1747773511:0;z
-: 1747773523:0;ls
-: 1747773525:0;rm lazy-lock.json
-: 1747773526:0;l
-: 1747773533:0;yadm add init.lua
-: 1747773535:0;ls plugins
-: 1747773549:0;rm ~/.vim
-: 1747773552:0;rm ~/.vscode
-: 1747773558:0;cd ~/Documents/jrossateher/src
-: 1747773559:0;v main.rs
-: 1747773605:0;n
-: 1747773640:0;cargo run
-: 1747773645:0;v main.rs
-: 1747773649:0;cargo run
-: 1747773660:0;v main.rs
-: 1747773683:0;vs
-: 1747773758:0;nvim --version | grep clipboard\
+: 1747905170:0;python ytm_complete.py "munich rats"
+: 1747905178:0;python ytm_complete.py "editors rats"
+: 1747905201:0;v ytm_complete.py
+: 1747905242:0;python ytm_complete.py "editors rats"
+: 1747905308:0;nix-shell -p maim xclip --run 'maim -s -u | xclip -selection clipboard -t image/png'
+: 1747905443:0;v ytm_complete.py
+: 1747905465:0;python ytm_complete.py "editors rats"
+: 1747905514:0;nix-shell -p maim xclip --run 'maim -s -u | xclip -selection clipboard -t image/png'
+: 1747905617:0;ffprobe
+: 1747905621:0;v ytm_complete.py
+: 1747905714:0;python ytm_complete.py "editors rats"
+: 1747905786:0;pd
+: 1747905787:0;pdl
+: 1747905790:0;v ytm_complete.py
+: 1747905796:0;python ytm_complete.py "editors rats"
+: 1747905819:0;ls
+: 1747905874:0;v ytm_complete.py
+: 1747905897:0;python ytm_complete.py "editors rats"
+: 1747906109:0;v ytm_complete.py
+: 1747906118:0;python ytm_complete.py "editors rats"
+: 1747906237:0;v ytm_complete.py
+: 1747906244:0;python ytm_complete.py "editors rats"
+: 1747906272:0;v ytm_complete.py
+: 1747906279:0;python ytm_complete.py "editors rats"
+: 1747906471:0;v ytm_complete.py
+: 1747906477:0;python ytm_complete.py "editors rats"
+: 1747906511:0;v ytm_complete.sh
+: 1747906522:0;ytm_complete.sh "editors rats"
+: 1747906526:0;chmod +x ytm_complete.sh
+: 1747906535:0;./ytm_complete.sh "editors rats"
+: 1747906601:0;rm ytm_complete.sh
+: 1747906604:0;v ytm_download.sh
+: 1747906619:0;v ytm_search.py
+: 1747906624:0;v ytm_complete.py
+: 1747906635:0;mv ~/Downloads/download.py ytm_complete.py
+: 1747907138:0;zsh
+: 1747906789:0;cd Music/Editors
+: 1747906790:0;ls
+: 1747906809:0;mkscript fix_cover.sh
+: 1747906815:0;./fix_cover.sh Munich.mp3
+: 1747906819:0;try imagemagick
+: 1747906824:0;./fix_cover.sh Munich.mp3
+: 1747906849:0;v fix_cover.sh
+: 1747906875:0;./fix_cover.sh Munich.mp3
+: 1747907046:0;lf
+: 1747907058:0;which cp
+: 1747907063:0;cp ~/Music/* .
+: 1747907069:0;touch p
+: 1747907070:0;ls
+: 1747907071:0;rm *
+: 1747907084:0;lsblk
+: 1747907092:0;udevil /dev/sda1
+: 1747907114:0;which m
+: 1747907121:0;mount /dev/sda1 Mounts/walkman
+: 1747907124:0;lf Mounts/walkman
+: 1747907148:0;which mount
+: 1747907157:0;sudo umount Mounts/walkman
+: 1747907167:0;mount /dev/sda1 Mounts/walkman -o allow_others
+: 1747907185:0;mount /dev/sda1 Mounts/walkman -o allow_other
+: 1747907271:0;lsblk
+: 1747907274:0;bash
+: 1747944393:0;mount /dev/sda1 ~/Mounts/walkman/
+: 1747944393:0;mount /dev/sda1 ~/Mounts/walkman/
+: 1747944393:0;udevil mount /dev/sda1 ~/Mounts/walkman/
+: 1747907341:0;mount /dev/sda1 ~/Mounts/walkman/
+: 1747907349:0;lf Mounts/walkman/MUSIC
+: 1747907358:0;sudo rm -rf ./*
+: 1747907359:0;ls
+: 1747907365:0;sudo cp -r ~/Music/* .
+: 1747907367:0;ls
+: 1747907368:0;ls ATLXS
+: 1747907377:0;lf
+: 1747909240:0;lsblk
+: 1747909255:0;power-save
+: 1747909268:0;n
+: 1747909311:0;nu
+: 1747909323:0;udisksctl mount -b /dev/sda
+: 1747909327:0;lsblk
+: 1747909332:0;udisksctl mount -b /dev/sda
+: 1747909335:0;udisksctl mount -b /dev/sda1
+: 1747909341:0;cd /run/media/lap/WALKMAN
+: 1747909343:0;lf
+: 1747909352:0;cd /run/media/lap/WALKMAN
+: 1747909353:0;ls
+: 1747909355:0;cd MUSIC/
+: 1747909356:0;ls
+: 1747909460:0;rsync -avh --progress ~/Music/* .
+: 1747909519:0;rsync -avh --progress ~/Music/Blur ./
+: 1747909570:0;lsblk
+: 1747909600:0;sudo mount -o sync,noatime,flush /dev/sda1 ~/Mounts/walkman
+: 1747909610:0;cd del
+: 1747909611:0;ls
+: 1747909613:0;mkdir del
+: 1747909614:0;cd del
+: 1747909620:0;cp -r ~/Music/* .
+: 1747909628:0;convmv -f utf8 -t ascii -r --notest ./
+: 1747909632:0;try convmv
+: 1747909635:0;convmv -f utf8 -t ascii -r --notest ./
+: 1747909646:0;cd Stromae
+: 1747909651:0;mv Ta\ fÃªte.mp3 Ta\ fete.mp3
+: 1747909653:0;cd ..
+: 1747909656:0;convmv -f utf8 -t ascii -r --notest ./
+: 1747909701:0;find ./ -type f | split -l 20 - walkman_batch_\
+for batch in walkman_batch_*; do\
+  while read file; do cp "$file" ~/Mounts/walkman/WALKMAN/MUSIC/; done < "$batch"\
+  sleep 5  # Pause between batches\
+done
+: 1747909712:0;find ./ -type f | split -l 20 - walkman_batch_\
+for batch in walkman_batch_*; do\
+  while read file; do sudo cp "$file" ~/Mounts/walkman/WALKMAN/MUSIC/; done < "$batch"\
+  sleep 5  # Pause between batches\
+done
+: 1747909723:0;sudo ls Mounts/walkman
+: 1747909735:0;find ./ -type f | split -l 20 - walkman_batch_\
+for batch in walkman_batch_*; do\
+  while read file; do cp "$file" ~/Mounts/walkman/MUSIC/; done < "$batch"\
+  sleep 5  # Pause between batches\
+done
+: 1747909739:0;find ./ -type f | split -l 20 - walkman_batch_\
+for batch in walkman_batch_*; do\
+  while read file; do sudo cp "$file" ~/Mounts/walkman/MUSIC/; done < "$batch"\
+  sleep 5  # Pause between batches\
+done
+: 1747909952:0;sudo ls ~/Mounts/walkman
+: 1747909954:0;sudo mount -o sync,noatime,flush /dev/sda1 ~/Mounts/walkman
+: 1747909964:0;sudo ls ~/Mounts/walkman
+: 1747909972:0;sudo mount -o sync,noatime,flush /dev/sda1 ~/Mounts/walkman
+: 1747909977:0;sudo mount -o sync,noatime,flush /dev/sdb1 ~/Mounts/walkman
+: 1747909979:0;sudo ls ~/Mounts/walkman
+: 1747909984:0;cd ~/Mounts/walkman
+: 1747909985:0;ls
+: 1747909987:0;cd MUSIC
+: 1747909988:0;ls
+: 1747909995:0;sudo rm -rf ./*
+: 1747910025:0;cd ~/Mounts/walkman/MUSIC
+: 1747910026:0;sudo ls
+: 1747910032:0;sudo rm -rf ./*
+: 1747910035:0;ls
+: 1747910045:0;sudo rm -rf ./Stromae
+: 1747910052:0;ls
+: 1747910057:0;sudo mount -o sync,noatime,flush /dev/sdc1 ~/Mounts/walkman
+: 1747910058:0;ls
+: 1747910062:0;ls ../
+: 1747910064:0;ls
+: 1747910096:0;sudo rsync -avh ~/Music/Stromae
+: 1747910099:0;ls
+: 1747910101:0;sudo rsync -avh ~/Music/Stromae .
+: 1747910102:0;ls
+: 1747910320:0;lsblk
+: 1747943398:0;power-save
+: 1747944278:0;try fish
+: 1747944293:0;fish
+: 1747944370:0;try fish du-dust
+: 1747944394:0;try fish du-dust yazi
+: 1747944497:0;yazi
+: 1747944560:0;try fish du-dust yazi foot
+: 1747944580:0;foot
+: 1747944613:0;try fish du-dust yazi wezterm
+: 1747944636:0;wezterm-gui
+: 1747944639:0;ls
+: 1747944642:0;yazi
+: 1747944701:0;wezterm
+: 1747944712:0;ls
+: 1747944714:0;s
+: 1747944720:0;ls
+: 1747945529:0;try fish du-dust yazi wezterm wiki-tui
+: 1747945538:0;try fish du-dust yazi wezterm wiki-tui ripgrep
+: 1747945830:0;rg
+: 1747945833:0;rg pokemon
+: 1747945837:0;rg -r pokemon
+: 1747945843:0;rg pflege
+: 1747945846:0;rg doc
+: 1747945848:0;rg docs
+: 1747945852:0;rg dominion
+: 1747945857:0;try fish du-dust yazi wezterm wiki-tui ripgrep
+: 1747945867:0;nomacs Downloads/0514e36b4fd0ec2bfb6f958941fafd9929aacab4.jpg
+: 1747945922:0;try fish du-dust yazi wezterm wiki-tui ripgrep emulsion
+: 1747945942:0;emulsion Downloads
+: 1747945991:0;try fish du-dust yazi wezterm wiki-tui ripgrep emulsion oculante
+: 1747946013:0;emulsion Downloads
+: 1747946020:0;oculante Downloads
+: 1747946318:0;emulsion Downloads
+: 1747946512:0;try fish du-dust yazi wezterm wiki-tui ripgrep emulsion oculante
+: 1747946853:0;wiki-tui 
+: 1747946897:0;wezterm
+: 1747946899:0;ls
+: 1747946907:0;lls
+: 1747946908:0;ls
+: 1747946911:0;fish
+: 1747947019:0;nomacs Downloads
+: 1748071160:0;rustdoc
+: 1748071168:0;rustup default stable
+: 1748071208:0;rustdoc
+: 1748071214:0;rust-gdbgui
+: 1748071229:0;rustdoc
+: 1748071273:0;rustup doc
+: 1748071295:0;cd Documents
+: 1748071296:0;ls
+: 1748071299:0;cd jrossateher/src
+: 1748071299:0;ls
+: 1748071301:0;v main.rs
+: 1748071303:0;cargo run
+: 1748105644:0;power-save
+: 1748105995:0;cd Documents
+: 1748105995:0;ls
+: 1748105998:0;cd jrossateher
+: 1748105998:0;ls
+: 1748106000:0;cd ..
+: 1748106004:0;mkdir jrossgo
+: 1748106006:0;cd jross
+: 1748106007:0;ls
+: 1748106010:0;cd jrossgo
+: 1748106010:0;ls
+: 1748106011:0;go
+: 1748106018:0;nix shell -p go
+: 1748106023:0;which try
+: 1748106029:0;nix-shell -p go
+: 1748106108:0;v go.mod
+: 1748106116:0;go get github.com/ikawaha/kagome/v2
+: 1748106168:0;v main.gp
+: 1748106170:0;v main.go
+: 1748106178:0;go run main.go
+: 1748106218:0;go run main.go æƒ¸¨æƒ·¥ãƒ¹ãƒ­çƒ¤¼ãƒ­ã‚ƒ²é£ƒ¿ã¹ã¾ãƒ·ãƒ¿
+: 1748106224:0;go run main.go
+: 1748106246:0;v main.go
+: 1748106254:0;go run main.go\
 
-: 1747773760:0;nvim --version\
-
-: 1747773768:0;nvim -V1 -v
-: 1747773843:0;vs
-: 1747773848:0;cd ~/Documents/jrossateher/src
-: 1747773850:0;v main.rs
-: 1747773875:0;cargo run
-: 1747773879:0;v main.rs
-: 1747773911:0;cargo run
-: 1747773918:0;v main.rs
-: 1747773940:0;cargo run
-: 1747774028:0;try gcc
-: 1747774032:0;cargo run
-: 1747774034:0;v main.rs
-: 1747774290:0;cargo run
-: 1747774381:0;v main.rs main.rs
-: 1747774384:0;v main.rs 
-: 1747774416:0;cargo run
-: 1747774493:0;v main.rs 
-: 1747774635:0;cargo run
-: 1747774642:0;v main.rs 
-: 1747774653:0;vs
-: 1747774664:0;cargo test
-: 1747774743:0;v main.rs 
-: 1747774746:0;cd ~/Documents/jrossateher/src
-: 1747774757:0;v main.rs
-: 1747774775:0;cargo run
-: 1747775317:0;v ../Cargo.toml
-: 1747775329:0;cargo run
-: 1747775333:0;v main.rs
-: 1747775512:0;v ../Cargo.toml
-: 1747775521:0;cargo update
-: 1747775598:0;v main.rs
-: 1747775788:0;cargo update
-: 1747775792:0;cargo run
-: 1747775943:0;sudo cargo runOA
-: 1747775946:0;cargo run
-: 1747843343:0;watch lsblk
-: 1747843414:0;fd -e mp3
-: 1747843421:0;cd 
-: 1747843422:0;cd Music
-: 1747843423:0;tree
-: 1747843426:0;try tree
-: 1747843430:0;tree
-: 1747843445:0;cd ../
-: 1747843452:0;cp ~/Music/Yuta\ Bandoh,\ MONâ§¸KU,\ Yuta\ Bandoh,\ MON\ â§¸KU/Theme\ of\ KIKORU.mp3 .
-: 1747843510:0;try picard
-: 1747843525:0;picard
-: 1747843669:0;try musicbee
-: 1747843691:0;n
-: 1747844320:0;nu
-: 1747844328:0;z
-: 1747844334:0;e nu
-: 1747844335:0;enu
-: 1747844337:0;e nu
-: 1747844687:0;try mp3tag
-: 1747844797:0;ffmpeg -i Theme\ of\ KIKORU.mp3 -i cover.jpg -map 0 -map 1 -c copy -metadata:s:v title="Album cover" -metadata:s:v comment="Cover (front)" -id3v2_version 3 output.mp3
-: 1747844884:0;lsblk
-: 1747844905:0;udevil /dev/sda1
-: 1747844913:0;mkdir Mounts/walkman
-: 1747844921:0;mount /dev/sda1 ~/Mounts/walkman
-: 1747844937:0;lsblk
-: 1747845127:0;power-save
-: 1747849922:0;v .config/mpv/input.conf
-: 1747849946:0;v .config/jellyfin-mpv-shim/cred.json
-: 1747849949:0;v .config/jellyfin-mpv-shim/conf.json
-: 1747849995:0;kill shim; f jellyfin-mpv-shim
-: 1747850637:0;v .config/bspwm/bspwmrc
-: 1747850643:0;rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1747850646:0;f rclone mount koofr:"/My desktop sync" /home/lap/Mounts/koofr/ --vfs-cache-mode full
-: 1747853798:0;v .config/jellyfin-mpv-shim/conf.json
-: 1747853809:0;home idfk shim mouse brok
+: 1748106257:0;go run main.go
+: 1748106267:0;go get github.com/ikawaha/kagome/v2/dict
+: 1748106280:0;go get github.com/ikawaha/kagome/v2
+: 1748106282:0;go run main.go
+: 1748106344:0;v main.go
+: 1748106357:0;go run main.go
+: 1748106420:0;v main.go
+: 1748106438:0;go run main.go
+: 1748106463:0;v main.go
+: 1748106473:0;go build
+: 1748106475:0;./jgloss-go
+: 1748106490:0;lf
+: 1748106631:0;go run
+: 1748106633:0;go run main.go
+: 1748106724:0;lf
+: 1748106736:0;go run main.go
+: 1748106899:0;v main.go
+: 1748106916:0;go get fyne.io/fyne/v2@latest
+: 1748106937:0;go install fyne.io/fyne/v2@latest
+: 1748106947:0;go install fyne.io/fyne/@latest
+: 1748106951:0;go install fyne.io/fyne/v2@latest
+: 1748106956:0;go mod init jrossgo
+: 1748106964:0;go get fyne.io/fyne/v2@latest
+: 1748106968:0;go mod tidy
+: 1748106994:0;go run main.go
+: 1748107073:0;try pkg-config
+: 1748107077:0;go run main.go
+: 1748107093:0;try xlib
+: 1748107096:0;try xorg.xlib
+: 1748107099:0;try xorg.lib
+: 1748107107:0;go run main.go
+: 1748107167:0;go mod init jgloss-go
+: 1748107167:0;ls
+: 1748107167:0;ls
+: 1748107167:0;v go.mod 
+: 1748107167:0;zsh
+: 1748107110:0;cd ..
+: 1748107112:0;rm jrossgo
+: 1748107113:0;ls
+: 1748107118:0;mkdir go
+: 1748107119:0;cd go
+: 1748107120:0;ls
+: 1748107124:0;mkdir jglossator
+: 1748107125:0;cd jglossator
+: 1748107126:0;ls
+: 1748107176:0;cd ~/Documents/go/jglossator
+: 1748107177:0;ls
+: 1748107182:0;nix-shell -p go
+: 1748107249:0;ls
+: 1748107270:0;go mod init jglossator
+: 1748107272:0;ls
+: 1748107273:0;v go.mod
+: 1748107289:0;v main.go
+: 1748107295:0;go mod init jglossator
+: 1748107299:0;go mod tidy
+: 1748107309:0;go run main.go
+: 1748107694:0;ls
+: 1748107694:0;zsh
+: 1748107354:0;go mod tidy
+: 1748107356:0;go run main.go
+: 1748107397:0;go build
+: 1748107404:0;cd ~/Documents/go/jglossator
+: 1748107404:0;ls
+: 1748107407:0;v go.sum
+: 1748107639:0;htop
+: 1748107670:0;cd ~/Documents/
+: 1748107674:0;ls
+: 1748107676:0;mkdir rust
+: 1748107679:0;mv jrossateher rust
+: 1748107680:0;cd rust
+: 1748107681:0;ls
+: 1748107682:0;cd jrossateher
+: 1748107682:0;ls
+: 1748107685:0;cd src
+: 1748107685:0;ls
+: 1748107687:0;v main.rs
+: 1748107691:0;cd ..
+: 1748107700:0;cd ~/Documents/rust/jrossateher/
+: 1748107701:0;cd src
+: 1748107702:0;ls
+: 1748107715:0;v main.rs
+: 1748107740:0;v ../Cargo.toml
+: 1748107765:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig
+: 1748107776:0;cargo run
+: 1748107805:0;v ../Cargo.toml
+: 1748107808:0;cargo run
+: 1748107867:0;ld
+: 1748107900:0;try code
+: 1748107908:0;try vscode
+: 1748108019:0;ls
+: 1748108023:0;code
+: 1748108456:0;nix-shell -p go pkg-config xorg.libXrandr xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXmu xorg.libXtst xorg.libXdamage xorg.libXcomposite xorg.libXrender xorg.libXxf86vm xorg.libxcb xorg.libxkbcommon fontconfig
+: 1748108456:0;nix-shell -p go pkg-config xorg.libXrandr xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXmu xorg.libXtst xorg.libXdamage xorg.libXcomposite xorg.libXrender xorg.libXxf86vm xorg.libxcb libxkbcommon fontconfig
+: 1748108456:0;nix-shell -p go pkg-config libGL xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender
+: 1748108456:0;zsh
+: 1748108430:0;ncdu Documents
+: 1748108641:0;zsh
+: 1748108471:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig xorg.libxkbcommon
+: 1748108514:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libglvnd
+: 1748108532:0;export LD_LIBRARY_PATH=$(nix-store -qd $(nix-shell -p xorg.libxkbcommon --run "echo \$out"))/lib:$LD_LIBRARY_PATH nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libglvnd
+: 1748108538:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libglvnd
+: 1748108573:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libxkbcommon
+: 1748108586:0;cargo run
+: 1748108599:0;export LD_LIBRARY_PATH=$(nix-store -qd $(nix-shell -p xorg.libxkbcommon --run "echo \$out"))/lib:$LD_LIBRARY_PATH cargo run
+: 1748108607:0;export LD_LIBRARY_PATH=$(nix-store -qd $(nix-shell -p xorg.libxkbcommon --run "echo \$out"))/lib:$LD_LIBRARY_PATH
+: 1748108631:0;export LD_LIBRARY_PATH=$(nix-store -qd $(nix-shell -p libxkbcommon --run "echo \$out"))/lib:$LD_LIBRARY_PATH
+: 1748108877:0;zsh
+: 1748108646:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libxkbcommon
+: 1748108654:0;ls ~/.zs
+: 1748108656:0;ls ~/.
+: 1748108713:0;ls
+: 1748108716:0;v main.rs
+: 1748108718:0;ls
+: 1748108720:0;v ../Cargo.toml
+: 1748108778:0;cd ,,
+: 1748108780:0;cd ..
+: 1748108785:0;rm -rf jrossateher/
+: 1748108786:0;ls
+: 1748108811:0;cargo new jrossateher
+: 1748108814:0;cd jrossateher
+: 1748108814:0;ls
+: 1748108816:0;v Cargo.toml
+: 1748108832:0;cd ..
+: 1748108834:0;v jrossateher/src/main.rs
+: 1748108856:0;cd jrossateher
+: 1748108858:0;cargo run
+: 1748108884:0;cd ~/Documents/rust/jrossateher/src
+: 1748108893:0;cargo run
+: 1748108943:0;cd ..
+: 1748108944:0;nix-shell -p gcc pkg-config
+: 1748108950:0;cargo run
+: 1748109314:0;zsh
+: 1748109276:0;nix-shell -p gcc pkg-config xorg.libX11
+: 1748109310:0;cargo run
+: 1748109321:0;zsh
+: 1748109321:0;cargo run
+: 1748109324:0;cd ~/Documents/rust/jrossateher/src
+: 1748109326:0;cd ..
+: 1748109328:0;cargo run
+: 1748109341:0;nix-shell -p gcc pkg-config xorg.libX11 rustc
+: 1748109345:0;n
+: 1748109367:0;ls
+: 1748109370:0;cargo run
+: 1748109400:0;cd ~/Documents/rust/jrossateher/src
+: 1748109401:0;v main.rs
+: 1748109438:0;power-save
+: 1748109447:0;htop
+: 1748109878:0;cargo run
+: 1748109878:0;ls
+: 1748109878:0;zsh
+: 1748109645:0;nix-shell -p gcc pkg-config xorg.libX11 xorg.libXcursors rustc
+: 1748109701:0;nix-shell -p gcc pkg-config xorg.libX11 libXcursors rustc
+: 1748109704:0;nix-shell -p gcc pkg-config xorg.libX11 xorg.libXcursors rustc
+: 1748109728:0;nix-shell -p gcc pkg-config xorg.libX11 xorg.libXcursor rustc
+: 1748109735:0;cargo run
+: 1748109843:0;nix-shell -p gcc pkg-config xorg.libX11 xorg.libXcursor rustc
+: 1748109878:0;cargo run
+: 1748119208:0;zsh
+: 1748109880:0;ls
+: 1748109884:0;v shell.nix
+: 1748109898:0;man nix-shell
+: 1748109918:0;nix-shell ./shell.nix
+: 1748109967:0;nix-shell
+: 1748109973:0;ls
+: 1748109975:0;nix-shell
+: 1748109978:0;v shell.nix
+: 1748109981:0;nix-shell
+: 1748109996:0;v shell.nix
+: 1748110000:0;nix-shell
+: 1748110057:0;v shell.nix
+: 1748110061:0;nix-shell
+: 1748110072:0;v shell.nix
+: 1748110085:0;nix-shell
+: 1748110144:0;v shell.nix
+: 1748110157:0;nix-shell
+: 1748119208:0;fortune|cowsay
+: 1748119208:0;fortune|cowsay
+: 1748119208:0;fortune|cowsay
+: 1748119208:0;fortune|cowsay
+: 1748119208:0;fortune|cowsay
+: 1748110241:0;v shell.nix
+: 1748110262:0;nix-shell
+: 1748110307:0;v shell.nix
+: 1748110369:0;nix-shell
+: 1748110399:0;fortune|cowsay
+: 1748110412:0;cargo run
+: 1748110425:0;v Cargo.toml
+: 1748110450:0;cargo run
+: 1748110785:0;v src/main.rs
+: 1748110792:0;cargo run
+: 1748110844:0;v src/main.rs
+: 1748110849:0;cargo run
+: 1748110900:0;v src/main.rs
+: 1748110907:0;cargo run
+: 1748110946:0;v Cargo.toml
+: 1748110956:0;v src/main.rs
+: 1748110962:0;cargo run
+: 1748110997:0;ls /run/current-system/sw/share/fonts/\
+ls /usr/share/fonts/
+: 1748111008:0;sudo ls /run/current-system/sw/share/fonts/\
+ls /usr/share/fonts/
+: 1748111010:0;sudo ls /run/current-system/sw/share/fonts/\
+sudo ls /usr/share/fonts/
+: 1748111077:0;sudo fd -e ttf . /
+: 1748111142:0;ls /run/current-system/sw/share/X11/fonts/ 
+: 1748111156:0;fd -e ttc . /run/current-system/sw/share/X11/xkb/
+: 1748111158:0;fd -e ttc . /run/current-system/sw/share/X11/
+: 1748111159:0;fd -e ttc . /run/current-system/sw/share/
+: 1748111160:0;fd -e ttc . /run/current-system/sw/
+: 1748111161:0;fd -e ttc . /run/current-system/
+: 1748111163:0;fd -e ttc . /run/
+: 1748111163:0;fd -e ttc . /
+: 1748111194:0;lf /run/current-system
+: 1748111270:0;ls /run/current-system/sw/share/X11/fonts/
+: 1748111282:0;fd -e conf . /run/current-system
+: 1748111291:0;fd -e conf . /run/current-system/
+: 1748111294:0;lf /run/current-system/
+: 1748119208:0;zsh
+: 1748111341:0;sudo fd --no-ignore-vcs --hidden -e ttf . /
+: 1748111348:0;sudo fd --no-ignore-vcs --hidden -e ttf . /run/current-system
+: 1748111352:0;sudo fd --no-ignore-vcs --hidden -e conf . /run/current-system
+: 1748111374:0;cd Scripts/ytm
+: 1748111381:0;python ytm_complete.py "tiemblo"
+: 1748111396:0;rm ~/Music/Viti\ Ruiz/
+: 1748111403:0;python ytm_complete.py "tiemblo alizzz"
+: 1748111605:0;fd --exclude /nix/store -e ttf /
+: 1748111607:0;fd --exclude /nix/store -e ttf . /
+: 1748111626:0;fd --exclude /nix/store --exclude /var/lib/flatpak -e ttf . /
+: 1748111646:0;fd --exclude /nix/store --exclude /var/lib/flatpak --hidden --no-ignore-vcs -e ttf . /
+: 1748111669:0;fd --exclude /nix/store  /var/lib/flatpak --hidden --no-ignore-vcs -e ttf . /
+: 1748111675:0;fd --exclude /nix/store;/var/lib/flatpak --hidden --no-ignore-vcs -e ttf . /
+: 1748111725:0;fd -E /nix/store -E /var/lib/flatpak -E /home --hidden --no-ignore-vcs -e ttf . /
+: 1748111730:0;fd -E /nix/store -E /var/lib/flatpak  --hidden --no-ignore-vcs -e ttf . /
+: 1748111841:0;fd -t d
+: 1748111846:0;fd -t d X11 /
+: 1748111863:0;fd -t d lib/X11 /
+: 1748111867:0;fd -t d lib.X11 /
+: 1748111873:0;fd -t d X11 /
+: 1748111887:0;fd -t d fonts /
+: 1748111902:0;fd -E /nix/store -t d fonts /
+: 1748111921:0;which $NIX_PROFILES
+: 1748111936:0;ls .nix-profile
+: 1748111942:0;v .nix-profile/bin/fastanime
+: 1748111958:0;fd -e ttc . /
+: 1748111966:0;fd -e ttf . /
+: 1748111991:0;mkdir .local/share/fonts
+: 1748111996:0;fd -e ttf . / -x cp {} ~/.local/share/fonts
+: 1748112008:0;cd ~/Documents/rust/jrossateher/src
+: 1748112011:0;nix-shell
+: 1748112013:0;ls
+: 1748112014:0;cd ..
+: 1748112016:0;nix-shell
+: 1748112025:0;cargo run
+: 1748112036:0;v src/main.rs
+: 1748112064:0;cargo run
+: 1748112081:0;ls .local/share/fonts/
+: 1748112091:0;v src/main.rs
+: 1748112096:0;cargo run
+: 1748112261:0;v Cargo.toml
+: 1748112275:0;v src/main.rs
+: 1748112280:0;cargo run
+: 1748112298:0;v src/main.rs
+: 1748112307:0;cargo run
+: 1748112341:0;v src/main.rs
+: 1748112376:0;cargo run
+: 1748112398:0;c
+: 1748112399:0;cargo run
+: 1748112426:0;v src/main.rs
+: 1748112436:0;cargo run
+: 1748112703:0;v Cargo.toml
+: 1748112721:0;v src/main.rs
+: 1748112729:0;cargo run
+: 1748119208:0;zsh
+: 1748117702:0;ssh yasmin@desk
+: 1748118709:0;v .ssh/known_hosts
+: 1748118797:0;ssh yasmin@windesk
+: 1748118847:0;ssh yasmin@windesk -c wsl
+: 1748118860:0;ssh-copy-id yasmin@windesk
+: 1748118866:0;ssh yasmin@windesk -c wsl
+: 1748118869:0;ssh yasmin@desk
+: 1748118874:0;ssh yasmin@windesk
+: 1748118889:0;ssh-copy-id yasmin@windesk
+: 1748118909:0;ssh 'yasmin@windesk'
+: 1748118918:0;man ssh
+: 1748118925:0;ssh 'yasmin@windesk' wsl
+: 1748118950:0;ls
+: 1748118956:0;man ssh
+: 1748119000:0;ssh 'yasmin@windesk' wsl
+: 1748119008:0;ssh 'yasmin@windesk' whoami
+: 1748119016:0;ssh 'yasmin@windesk' wsl
+: 1748119026:0;ssh 'yasmin@windesk'
+: 1748119053:0;ssh 'yasmin@windesk' powershell.exe
+: 1748119065:0;ssh 'yasmin@windesk' "powershell.exe -c wsl"
+: 1748119077:0;ssh 'yasmin@windesk' "wsl.exe"
+: 1748119084:0;ssh 'yasmin@windesk' "powershell.exe -c wsl"
+: 1748119087:0;ssh 'yasmin@windesk' "powershell.exe"
+: 1748119182:0;ssh 'yasmin@windesk' "powershell.exe "wsl.exe""
+: 1748119197:0;ssh 'yasmin@windesk' "powershell.exe"
+: 1748119228:0;ssh 'yasmin@windesk' "cmd.exe"
+: 1748119253:0;ssh 'yasmin@windesk' "powershell.exe"
+: 1748119456:0;ls
+: 1748119462:0;hist
+: 1748119487:0;which $HISTFILE
+: 1748119493:0;v .local/state/zsh/history 
+: 1748119504:0;home idk
