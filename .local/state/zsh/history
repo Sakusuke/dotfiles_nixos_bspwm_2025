@@ -530,3 +530,140 @@ sudo ls /usr/share/fonts/
 : 1748119487:0;which $HISTFILE
 : 1748119493:0;v .local/state/zsh/history 
 : 1748119504:0;home idk
+: 1748119756:0;sshfs
+: 1748119757:0;man sshfs
+: 1748119772:0;sshfs yasmin@windesk: Mounts/walkman
+: 1748119776:0;ls Mounts/walkman
+: 1748119800:0;rsync -avh --progress ~/tosort/* Mounts/walkman/Desktop/Videos\ to\ backup/linux\ videos\ to\ backup
+: 1748119814:0;cd Mounts/walkman
+: 1748119816:0;cd
+: 1748119828:0;umount ~/Mounts/walkman
+: 1748119834:0;sshfs yasmin@windesk: Mounts/drive
+: 1748119861:0;rsync -avh --progress ~/tosort/* ~/Mounts/drive/Desktop/Videos\ to\ backup/linux\ videos\ to\ backup
+: 1748120166:0;umount ~/Mounts/drive
+: 1748120168:0;sshfs yasmin@windesk: Mounts/drive
+: 1748120172:0;rsync -avh --progress ~/tosort/* ~/Mounts/drive/Desktop/Videos\ to\ backup/linux\ videos\ to\ backup
+: 1748120179:0;ls Mounts/drive
+: 1748120205:0;rsync -avh --progress ~/tosort/* ~/Mounts/drive/Users/Yasmin/Desktop/Videos\ to\ backup/linux\ videos\ to\ backup
+: 1748120291:0;ls
+: 1748120293:0;cd Examen\ Bucher
+: 1748120294:0;ls
+: 1748120335:0;rsync -avz -e ssh yasmin@windesk:
+: 1748120367:0;rsync -avz -e ssh ./EBOOK/FACHPFLEGE\ Intensivpflege.azw3 yasmin@windesk:/
+: 1748120410:0;n
+: 1748120501:0;ssh windesk@nixos
+: 1748120521:0;ssh windesk@windesk
+: 1748120712:0;ssh yasmin@windesk
+: 1748120746:0;ssh windesk@windesk
+: 1748120864:0;ssh yasmin@windesk
+: 1748120893:0;ssh windesk@nixos
+: 1748120903:0;ssh windesk@windesk
+: 1748120906:0;ssh sssswindesk@windesk
+: 1748120913:0;ssh sssswindeskasddasdjnfgsf@windesk
+: 1748120959:0;hostname
+: 1748120964:0;whoami
+: 1748121349:0;lsblk
+: 1748121362:0;mount /dev/sda1 ~/Mounts/drive
+: 1748121371:0;umount ~/Mounts/drive
+: 1748121393:0;ncdu
+: 1748121400:0;ncdu .
+: 1748121405:0;ncdu -x
+: 1748121479:0;ncdu Downloads
+: 1748121485:0;ls
+: 1748121487:0;ncdu
+: 1748121508:0;cd Users/Yasmin
+: 1748121509:0;ncdu
+: 1748121557:0;sudo rm -rf .rustup
+: 1748121565:0;ncdu
+: 1748121606:0;lf
+: 1748121631:0;lsblk
+: 1748121647:0;sudo lf /run/media/lap/EVO_MEDIA
+: 1748122023:0;fd -t d cool
+: 1748122071:0;fd -t d viber
+: 1748122093:0;fd -t d cute
+: 1748122124:0;cd Users/Yasmin/My\ Drive/\#general
+: 1748122125:0;ls
+: 1748122127:0;lf
+: 1748122172:0;umount ~/Mounts/drive
+: 1748122377:0;ls
+: 1748122382:0;lsblk
+: 1748122387:0;sudo cd /run/media/lap
+: 1748122395:0;cd /run/media/lap
+: 1748122396:0;ls
+: 1748122398:0;cd EVO_MEDIA
+: 1748122399:0;ls
+: 1748122401:0;sudo lf
+: 1748122405:0;ls
+: 1748122418:0;sudo fd -t d general EVO_MEDIA
+: 1748122426:0;sudo fd -t d general ./EVO_MEDIA
+: 1748122429:0;sudo fd -t d cute ./EVO_MEDIA
+: 1748122432:0;ls EVO_MEDIA
+: 1748122434:0;su
+: 1748122598:0;fd -t d nextcloud
+: 1748122738:0;fd -t d -0 | xargs -0 du -sh | sort -h
+: 1748122884:0;fd -t d -0 nextcloud | xargs -0 du -sh | sort -h
+: 1748122975:0;ls
+: 1748122979:0;ncdu
+: 1748123449:0;fd -t nextcloud
+: 1748123451:0;fd -t d nextcloud
+: 1748123455:0;ls Mounts/nextcloud-sh
+: 1748123469:0;sudo ncdu -x . /
+: 1748123478:0;sudo ncdu -x  /
+: 1748123517:0;lsblk
+: 1748123528:0;watch lsblk]
+: 1748123530:0;watch lsblk
+: 1748123541:0;lsblk
+: 1748123581:0;su
+: 1748123587:0;sudo su
+: 1748335722:0;sudo rm -rf 27.05.2025\ Sources\ DATENSCHUTZ.zip
+: 1748335731:0;cd Downloads
+: 1748335731:0;ls
+: 1748335740:0;sudo rm -rf 21.05.2025.zip
+: 1748336010:0;n
+: 1748336585:0;nmtui
+: 1748338659:0;libreoffice 
+: 1748341458:0;fcitx5
+: 1748343880:0;f fcitx5
+: 1748344872:0;lf
+: 1748345732:0;v Assessmentbogen blanko.md
+: 1748345770:0;typora
+: 1748345772:0;try typora
+: 1748345877:0;typora
+: 1748345889:0;f typora
+: 1748346080:0;v AI\ Promts.txt
+: 1748346120:0;v Assessmentbogen.md
+: 1748353216:0;xclip -o
+: 1748353233:0;n
+: 1748353234:0;z
+: 1748353296:0;c2f Assessmentbogen.md
+: 1748353306:0;z
+: 1748353324:0;c2f Assessmentbogen.md
+: 1748353329:0;clip2file Assessmentbogen.md
+: 1748353332:0;c2f Assessmentbogen.md
+: 1748353337:0;echo 3
+: 1748353343:0;clip2file Assessmentbogen.md
+: 1748353349:0;v as	
+: 1748353353:0;v Assessmentbogen.md
+: 1748353398:0;clip2file Assessmentbogen.md
+: 1748353452:0;z
+: 1748353565:0;zsh
+: 1748353569:0;clip2file Assessmentbogen.md
+: 1748353573:0;v Assessmentbogen.md
+: 1748353577:0;clip2file Assessmentbogen.md
+: 1748353587:0;v Assessmentbogen.md
+: 1748353599:0;z
+: 1748353618:0;clip2file Assessmentbogen.md
+: 1748353626:0;z
+: 1748353647:0;clip2file Assessmentbogen.md
+: 1748353657:0;echo |n
+: 1748353660:0;echo \n
+: 1748353663:0;echo \\n
+: 1748353668:0;echo "\n"
+: 1748353669:0;n
+: 1748353672:0;z
+: 1748353699:0;clip2file Assessmentbogen.md
+: 1748353706:0;z
+: 1748353714:0;clip2file Assessmentbogen.md
+: 1748353717:0;zsh
+: 1748353718:0;clip2file Assessmentbogen.md
+: 1748353729:0;home zshclip

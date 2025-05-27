@@ -118,7 +118,8 @@ file2clip() {
 }
 
 clip2file() {
-  xclip -sel c -o > "$1"
+  echo "$(xclip -o -sel clip)" > "$1"
+  echo "✅Saved to '$1', first two lines: \\n$(xclip -o -sel clip | head -n 2)"
 }
 
 mk() {

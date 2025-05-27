@@ -43,6 +43,8 @@ x-scheme-handler/webcal=userapp-Thunderbird-N7NZW2.desktop
 text/calendar=userapp-Thunderbird-N7NZW2.desktop
 application/x-extension-ics=userapp-Thunderbird-N7NZW2.desktop
 x-scheme-handler/webcals=userapp-Thunderbird-N7NZW2.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=writer.desktop
+application/vnd.oasis.opendocument.text=writer.desktop
 
 [Added Associations]
 image/jpeg=userapp-nsxiv-IOCEC2.desktop;sxiv.desktop;userapp-sxiv -r-R9RPA1.desktop;userapp-nsxiv-HPQEC2.desktop;org.nomacs.ImageLounge.desktop;
@@ -74,5 +76,7 @@ x-scheme-handler/mailto=userapp-Thunderbird-NF6XW2.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-NF6XW2.desktop;
 x-scheme-handler/webcal=userapp-Thunderbird-N7NZW2.desktop;
 x-scheme-handler/webcals=userapp-Thunderbird-N7NZW2.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=writer.desktop;
+application/vnd.oasis.opendocument.text=writer.desktop;
 
 [Removed Associations]
