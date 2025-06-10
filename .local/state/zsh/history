@@ -1,669 +1,517 @@
-: 1747905170:0;python ytm_complete.py "munich rats"
-: 1747905178:0;python ytm_complete.py "editors rats"
-: 1747905201:0;v ytm_complete.py
-: 1747905242:0;python ytm_complete.py "editors rats"
-: 1747905308:0;nix-shell -p maim xclip --run 'maim -s -u | xclip -selection clipboard -t image/png'
-: 1747905443:0;v ytm_complete.py
-: 1747905465:0;python ytm_complete.py "editors rats"
-: 1747905514:0;nix-shell -p maim xclip --run 'maim -s -u | xclip -selection clipboard -t image/png'
-: 1747905617:0;ffprobe
-: 1747905621:0;v ytm_complete.py
-: 1747905714:0;python ytm_complete.py "editors rats"
-: 1747905786:0;pd
-: 1747905787:0;pdl
-: 1747905790:0;v ytm_complete.py
-: 1747905796:0;python ytm_complete.py "editors rats"
-: 1747905819:0;ls
-: 1747905874:0;v ytm_complete.py
-: 1747905897:0;python ytm_complete.py "editors rats"
-: 1747906109:0;v ytm_complete.py
-: 1747906118:0;python ytm_complete.py "editors rats"
-: 1747906237:0;v ytm_complete.py
-: 1747906244:0;python ytm_complete.py "editors rats"
-: 1747906272:0;v ytm_complete.py
-: 1747906279:0;python ytm_complete.py "editors rats"
-: 1747906471:0;v ytm_complete.py
-: 1747906477:0;python ytm_complete.py "editors rats"
-: 1747906511:0;v ytm_complete.sh
-: 1747906522:0;ytm_complete.sh "editors rats"
-: 1747906526:0;chmod +x ytm_complete.sh
-: 1747906535:0;./ytm_complete.sh "editors rats"
-: 1747906601:0;rm ytm_complete.sh
-: 1747906604:0;v ytm_download.sh
-: 1747906619:0;v ytm_search.py
-: 1747906624:0;v ytm_complete.py
-: 1747906635:0;mv ~/Downloads/download.py ytm_complete.py
-: 1747907138:0;zsh
-: 1747906789:0;cd Music/Editors
-: 1747906790:0;ls
-: 1747906809:0;mkscript fix_cover.sh
-: 1747906815:0;./fix_cover.sh Munich.mp3
-: 1747906819:0;try imagemagick
-: 1747906824:0;./fix_cover.sh Munich.mp3
-: 1747906849:0;v fix_cover.sh
-: 1747906875:0;./fix_cover.sh Munich.mp3
-: 1747907046:0;lf
-: 1747907058:0;which cp
-: 1747907063:0;cp ~/Music/* .
-: 1747907069:0;touch p
-: 1747907070:0;ls
-: 1747907071:0;rm *
-: 1747907084:0;lsblk
-: 1747907092:0;udevil /dev/sda1
-: 1747907114:0;which m
-: 1747907121:0;mount /dev/sda1 Mounts/walkman
-: 1747907124:0;lf Mounts/walkman
-: 1747907148:0;which mount
-: 1747907157:0;sudo umount Mounts/walkman
-: 1747907167:0;mount /dev/sda1 Mounts/walkman -o allow_others
-: 1747907185:0;mount /dev/sda1 Mounts/walkman -o allow_other
-: 1747907271:0;lsblk
-: 1747907274:0;bash
-: 1747944393:0;mount /dev/sda1 ~/Mounts/walkman/
-: 1747944393:0;mount /dev/sda1 ~/Mounts/walkman/
-: 1747944393:0;udevil mount /dev/sda1 ~/Mounts/walkman/
-: 1747907341:0;mount /dev/sda1 ~/Mounts/walkman/
-: 1747907349:0;lf Mounts/walkman/MUSIC
-: 1747907358:0;sudo rm -rf ./*
-: 1747907359:0;ls
-: 1747907365:0;sudo cp -r ~/Music/* .
-: 1747907367:0;ls
-: 1747907368:0;ls ATLXS
-: 1747907377:0;lf
-: 1747909240:0;lsblk
-: 1747909255:0;power-save
-: 1747909268:0;n
-: 1747909311:0;nu
-: 1747909323:0;udisksctl mount -b /dev/sda
-: 1747909327:0;lsblk
-: 1747909332:0;udisksctl mount -b /dev/sda
-: 1747909335:0;udisksctl mount -b /dev/sda1
-: 1747909341:0;cd /run/media/lap/WALKMAN
-: 1747909343:0;lf
-: 1747909352:0;cd /run/media/lap/WALKMAN
-: 1747909353:0;ls
-: 1747909355:0;cd MUSIC/
-: 1747909356:0;ls
-: 1747909460:0;rsync -avh --progress ~/Music/* .
-: 1747909519:0;rsync -avh --progress ~/Music/Blur ./
-: 1747909570:0;lsblk
-: 1747909600:0;sudo mount -o sync,noatime,flush /dev/sda1 ~/Mounts/walkman
-: 1747909610:0;cd del
-: 1747909611:0;ls
-: 1747909613:0;mkdir del
-: 1747909614:0;cd del
-: 1747909620:0;cp -r ~/Music/* .
-: 1747909628:0;convmv -f utf8 -t ascii -r --notest ./
-: 1747909632:0;try convmv
-: 1747909635:0;convmv -f utf8 -t ascii -r --notest ./
-: 1747909646:0;cd Stromae
-: 1747909651:0;mv Ta\ fÃªte.mp3 Ta\ fete.mp3
-: 1747909653:0;cd ..
-: 1747909656:0;convmv -f utf8 -t ascii -r --notest ./
-: 1747909701:0;find ./ -type f | split -l 20 - walkman_batch_\
-for batch in walkman_batch_*; do\
-  while read file; do cp "$file" ~/Mounts/walkman/WALKMAN/MUSIC/; done < "$batch"\
-  sleep 5  # Pause between batches\
-done
-: 1747909712:0;find ./ -type f | split -l 20 - walkman_batch_\
-for batch in walkman_batch_*; do\
-  while read file; do sudo cp "$file" ~/Mounts/walkman/WALKMAN/MUSIC/; done < "$batch"\
-  sleep 5  # Pause between batches\
-done
-: 1747909723:0;sudo ls Mounts/walkman
-: 1747909735:0;find ./ -type f | split -l 20 - walkman_batch_\
-for batch in walkman_batch_*; do\
-  while read file; do cp "$file" ~/Mounts/walkman/MUSIC/; done < "$batch"\
-  sleep 5  # Pause between batches\
-done
-: 1747909739:0;find ./ -type f | split -l 20 - walkman_batch_\
-for batch in walkman_batch_*; do\
-  while read file; do sudo cp "$file" ~/Mounts/walkman/MUSIC/; done < "$batch"\
-  sleep 5  # Pause between batches\
-done
-: 1747909952:0;sudo ls ~/Mounts/walkman
-: 1747909954:0;sudo mount -o sync,noatime,flush /dev/sda1 ~/Mounts/walkman
-: 1747909964:0;sudo ls ~/Mounts/walkman
-: 1747909972:0;sudo mount -o sync,noatime,flush /dev/sda1 ~/Mounts/walkman
-: 1747909977:0;sudo mount -o sync,noatime,flush /dev/sdb1 ~/Mounts/walkman
-: 1747909979:0;sudo ls ~/Mounts/walkman
-: 1747909984:0;cd ~/Mounts/walkman
-: 1747909985:0;ls
-: 1747909987:0;cd MUSIC
-: 1747909988:0;ls
-: 1747909995:0;sudo rm -rf ./*
-: 1747910025:0;cd ~/Mounts/walkman/MUSIC
-: 1747910026:0;sudo ls
-: 1747910032:0;sudo rm -rf ./*
-: 1747910035:0;ls
-: 1747910045:0;sudo rm -rf ./Stromae
-: 1747910052:0;ls
-: 1747910057:0;sudo mount -o sync,noatime,flush /dev/sdc1 ~/Mounts/walkman
-: 1747910058:0;ls
-: 1747910062:0;ls ../
-: 1747910064:0;ls
-: 1747910096:0;sudo rsync -avh ~/Music/Stromae
-: 1747910099:0;ls
-: 1747910101:0;sudo rsync -avh ~/Music/Stromae .
-: 1747910102:0;ls
-: 1747910320:0;lsblk
-: 1747943398:0;power-save
-: 1747944278:0;try fish
-: 1747944293:0;fish
-: 1747944370:0;try fish du-dust
-: 1747944394:0;try fish du-dust yazi
-: 1747944497:0;yazi
-: 1747944560:0;try fish du-dust yazi foot
-: 1747944580:0;foot
-: 1747944613:0;try fish du-dust yazi wezterm
-: 1747944636:0;wezterm-gui
-: 1747944639:0;ls
-: 1747944642:0;yazi
-: 1747944701:0;wezterm
-: 1747944712:0;ls
-: 1747944714:0;s
-: 1747944720:0;ls
-: 1747945529:0;try fish du-dust yazi wezterm wiki-tui
-: 1747945538:0;try fish du-dust yazi wezterm wiki-tui ripgrep
-: 1747945830:0;rg
-: 1747945833:0;rg pokemon
-: 1747945837:0;rg -r pokemon
-: 1747945843:0;rg pflege
-: 1747945846:0;rg doc
-: 1747945848:0;rg docs
-: 1747945852:0;rg dominion
-: 1747945857:0;try fish du-dust yazi wezterm wiki-tui ripgrep
-: 1747945867:0;nomacs Downloads/0514e36b4fd0ec2bfb6f958941fafd9929aacab4.jpg
-: 1747945922:0;try fish du-dust yazi wezterm wiki-tui ripgrep emulsion
-: 1747945942:0;emulsion Downloads
-: 1747945991:0;try fish du-dust yazi wezterm wiki-tui ripgrep emulsion oculante
-: 1747946013:0;emulsion Downloads
-: 1747946020:0;oculante Downloads
-: 1747946318:0;emulsion Downloads
-: 1747946512:0;try fish du-dust yazi wezterm wiki-tui ripgrep emulsion oculante
-: 1747946853:0;wiki-tui 
-: 1747946897:0;wezterm
-: 1747946899:0;ls
-: 1747946907:0;lls
-: 1747946908:0;ls
-: 1747946911:0;fish
-: 1747947019:0;nomacs Downloads
-: 1748071160:0;rustdoc
-: 1748071168:0;rustup default stable
-: 1748071208:0;rustdoc
-: 1748071214:0;rust-gdbgui
-: 1748071229:0;rustdoc
-: 1748071273:0;rustup doc
-: 1748071295:0;cd Documents
-: 1748071296:0;ls
-: 1748071299:0;cd jrossateher/src
-: 1748071299:0;ls
-: 1748071301:0;v main.rs
-: 1748071303:0;cargo run
-: 1748105644:0;power-save
-: 1748105995:0;cd Documents
-: 1748105995:0;ls
-: 1748105998:0;cd jrossateher
-: 1748105998:0;ls
-: 1748106000:0;cd ..
-: 1748106004:0;mkdir jrossgo
-: 1748106006:0;cd jross
-: 1748106007:0;ls
-: 1748106010:0;cd jrossgo
-: 1748106010:0;ls
-: 1748106011:0;go
-: 1748106018:0;nix shell -p go
-: 1748106023:0;which try
-: 1748106029:0;nix-shell -p go
-: 1748106108:0;v go.mod
-: 1748106116:0;go get github.com/ikawaha/kagome/v2
-: 1748106168:0;v main.gp
-: 1748106170:0;v main.go
-: 1748106178:0;go run main.go
-: 1748106218:0;go run main.go æƒ¸¨æƒ·¥ãƒ¹ãƒ­çƒ¤¼ãƒ­ã‚ƒ²é£ƒ¿ã¹ã¾ãƒ·ãƒ¿
-: 1748106224:0;go run main.go
-: 1748106246:0;v main.go
-: 1748106254:0;go run main.go\
-
-: 1748106257:0;go run main.go
-: 1748106267:0;go get github.com/ikawaha/kagome/v2/dict
-: 1748106280:0;go get github.com/ikawaha/kagome/v2
-: 1748106282:0;go run main.go
-: 1748106344:0;v main.go
-: 1748106357:0;go run main.go
-: 1748106420:0;v main.go
-: 1748106438:0;go run main.go
-: 1748106463:0;v main.go
-: 1748106473:0;go build
-: 1748106475:0;./jgloss-go
-: 1748106490:0;lf
-: 1748106631:0;go run
-: 1748106633:0;go run main.go
-: 1748106724:0;lf
-: 1748106736:0;go run main.go
-: 1748106899:0;v main.go
-: 1748106916:0;go get fyne.io/fyne/v2@latest
-: 1748106937:0;go install fyne.io/fyne/v2@latest
-: 1748106947:0;go install fyne.io/fyne/@latest
-: 1748106951:0;go install fyne.io/fyne/v2@latest
-: 1748106956:0;go mod init jrossgo
-: 1748106964:0;go get fyne.io/fyne/v2@latest
-: 1748106968:0;go mod tidy
-: 1748106994:0;go run main.go
-: 1748107073:0;try pkg-config
-: 1748107077:0;go run main.go
-: 1748107093:0;try xlib
-: 1748107096:0;try xorg.xlib
-: 1748107099:0;try xorg.lib
-: 1748107107:0;go run main.go
-: 1748107167:0;go mod init jgloss-go
-: 1748107167:0;ls
-: 1748107167:0;ls
-: 1748107167:0;v go.mod 
-: 1748107167:0;zsh
-: 1748107110:0;cd ..
-: 1748107112:0;rm jrossgo
-: 1748107113:0;ls
-: 1748107118:0;mkdir go
-: 1748107119:0;cd go
-: 1748107120:0;ls
-: 1748107124:0;mkdir jglossator
-: 1748107125:0;cd jglossator
-: 1748107126:0;ls
-: 1748107176:0;cd ~/Documents/go/jglossator
-: 1748107177:0;ls
-: 1748107182:0;nix-shell -p go
-: 1748107249:0;ls
-: 1748107270:0;go mod init jglossator
-: 1748107272:0;ls
-: 1748107273:0;v go.mod
-: 1748107289:0;v main.go
-: 1748107295:0;go mod init jglossator
-: 1748107299:0;go mod tidy
-: 1748107309:0;go run main.go
-: 1748107694:0;ls
-: 1748107694:0;zsh
-: 1748107354:0;go mod tidy
-: 1748107356:0;go run main.go
-: 1748107397:0;go build
-: 1748107404:0;cd ~/Documents/go/jglossator
-: 1748107404:0;ls
-: 1748107407:0;v go.sum
-: 1748107639:0;htop
-: 1748107670:0;cd ~/Documents/
-: 1748107674:0;ls
-: 1748107676:0;mkdir rust
-: 1748107679:0;mv jrossateher rust
-: 1748107680:0;cd rust
-: 1748107681:0;ls
-: 1748107682:0;cd jrossateher
-: 1748107682:0;ls
-: 1748107685:0;cd src
-: 1748107685:0;ls
-: 1748107687:0;v main.rs
-: 1748107691:0;cd ..
-: 1748107700:0;cd ~/Documents/rust/jrossateher/
-: 1748107701:0;cd src
-: 1748107702:0;ls
-: 1748107715:0;v main.rs
-: 1748107740:0;v ../Cargo.toml
-: 1748107765:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig
-: 1748107776:0;cargo run
-: 1748107805:0;v ../Cargo.toml
-: 1748107808:0;cargo run
-: 1748107867:0;ld
-: 1748107900:0;try code
-: 1748107908:0;try vscode
-: 1748108019:0;ls
-: 1748108023:0;code
-: 1748108456:0;nix-shell -p go pkg-config xorg.libXrandr xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXmu xorg.libXtst xorg.libXdamage xorg.libXcomposite xorg.libXrender xorg.libXxf86vm xorg.libxcb xorg.libxkbcommon fontconfig
-: 1748108456:0;nix-shell -p go pkg-config xorg.libXrandr xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXmu xorg.libXtst xorg.libXdamage xorg.libXcomposite xorg.libXrender xorg.libXxf86vm xorg.libxcb libxkbcommon fontconfig
-: 1748108456:0;nix-shell -p go pkg-config libGL xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender
-: 1748108456:0;zsh
-: 1748108430:0;ncdu Documents
-: 1748108641:0;zsh
-: 1748108471:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig xorg.libxkbcommon
-: 1748108514:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libglvnd
-: 1748108532:0;export LD_LIBRARY_PATH=$(nix-store -qd $(nix-shell -p xorg.libxkbcommon --run "echo \$out"))/lib:$LD_LIBRARY_PATH nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libglvnd
-: 1748108538:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libglvnd
-: 1748108573:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libxkbcommon
-: 1748108586:0;cargo run
-: 1748108599:0;export LD_LIBRARY_PATH=$(nix-store -qd $(nix-shell -p xorg.libxkbcommon --run "echo \$out"))/lib:$LD_LIBRARY_PATH cargo run
-: 1748108607:0;export LD_LIBRARY_PATH=$(nix-store -qd $(nix-shell -p xorg.libxkbcommon --run "echo \$out"))/lib:$LD_LIBRARY_PATH
-: 1748108631:0;export LD_LIBRARY_PATH=$(nix-store -qd $(nix-shell -p libxkbcommon --run "echo \$out"))/lib:$LD_LIBRARY_PATH
-: 1748108877:0;zsh
-: 1748108646:0;nix-shell -p rustc cargo pkg-config xorg.libX11 xorg.libXcursor xorg.libXext xorg.libXfixes xorg.libXinerama xorg.libXrandr xorg.libXi xorg.libXrender libGL fontconfig libxkbcommon
-: 1748108654:0;ls ~/.zs
-: 1748108656:0;ls ~/.
-: 1748108713:0;ls
-: 1748108716:0;v main.rs
-: 1748108718:0;ls
-: 1748108720:0;v ../Cargo.toml
-: 1748108778:0;cd ,,
-: 1748108780:0;cd ..
-: 1748108785:0;rm -rf jrossateher/
-: 1748108786:0;ls
-: 1748108811:0;cargo new jrossateher
-: 1748108814:0;cd jrossateher
-: 1748108814:0;ls
-: 1748108816:0;v Cargo.toml
-: 1748108832:0;cd ..
-: 1748108834:0;v jrossateher/src/main.rs
-: 1748108856:0;cd jrossateher
-: 1748108858:0;cargo run
-: 1748108884:0;cd ~/Documents/rust/jrossateher/src
-: 1748108893:0;cargo run
-: 1748108943:0;cd ..
-: 1748108944:0;nix-shell -p gcc pkg-config
-: 1748108950:0;cargo run
-: 1748109314:0;zsh
-: 1748109276:0;nix-shell -p gcc pkg-config xorg.libX11
-: 1748109310:0;cargo run
-: 1748109321:0;zsh
-: 1748109321:0;cargo run
-: 1748109324:0;cd ~/Documents/rust/jrossateher/src
-: 1748109326:0;cd ..
-: 1748109328:0;cargo run
-: 1748109341:0;nix-shell -p gcc pkg-config xorg.libX11 rustc
-: 1748109345:0;n
-: 1748109367:0;ls
-: 1748109370:0;cargo run
-: 1748109400:0;cd ~/Documents/rust/jrossateher/src
-: 1748109401:0;v main.rs
-: 1748109438:0;power-save
-: 1748109447:0;htop
-: 1748109878:0;cargo run
-: 1748109878:0;ls
-: 1748109878:0;zsh
-: 1748109645:0;nix-shell -p gcc pkg-config xorg.libX11 xorg.libXcursors rustc
-: 1748109701:0;nix-shell -p gcc pkg-config xorg.libX11 libXcursors rustc
-: 1748109704:0;nix-shell -p gcc pkg-config xorg.libX11 xorg.libXcursors rustc
-: 1748109728:0;nix-shell -p gcc pkg-config xorg.libX11 xorg.libXcursor rustc
-: 1748109735:0;cargo run
-: 1748109843:0;nix-shell -p gcc pkg-config xorg.libX11 xorg.libXcursor rustc
-: 1748109878:0;cargo run
-: 1748119208:0;zsh
-: 1748109880:0;ls
-: 1748109884:0;v shell.nix
-: 1748109898:0;man nix-shell
-: 1748109918:0;nix-shell ./shell.nix
-: 1748109967:0;nix-shell
-: 1748109973:0;ls
-: 1748109975:0;nix-shell
-: 1748109978:0;v shell.nix
-: 1748109981:0;nix-shell
-: 1748109996:0;v shell.nix
-: 1748110000:0;nix-shell
-: 1748110057:0;v shell.nix
-: 1748110061:0;nix-shell
-: 1748110072:0;v shell.nix
-: 1748110085:0;nix-shell
-: 1748110144:0;v shell.nix
-: 1748110157:0;nix-shell
-: 1748119208:0;fortune|cowsay
-: 1748119208:0;fortune|cowsay
-: 1748119208:0;fortune|cowsay
-: 1748119208:0;fortune|cowsay
-: 1748119208:0;fortune|cowsay
-: 1748110241:0;v shell.nix
-: 1748110262:0;nix-shell
-: 1748110307:0;v shell.nix
-: 1748110369:0;nix-shell
-: 1748110399:0;fortune|cowsay
-: 1748110412:0;cargo run
-: 1748110425:0;v Cargo.toml
-: 1748110450:0;cargo run
-: 1748110785:0;v src/main.rs
-: 1748110792:0;cargo run
-: 1748110844:0;v src/main.rs
-: 1748110849:0;cargo run
-: 1748110900:0;v src/main.rs
-: 1748110907:0;cargo run
-: 1748110946:0;v Cargo.toml
-: 1748110956:0;v src/main.rs
-: 1748110962:0;cargo run
-: 1748110997:0;ls /run/current-system/sw/share/fonts/\
-ls /usr/share/fonts/
-: 1748111008:0;sudo ls /run/current-system/sw/share/fonts/\
-ls /usr/share/fonts/
-: 1748111010:0;sudo ls /run/current-system/sw/share/fonts/\
-sudo ls /usr/share/fonts/
-: 1748111077:0;sudo fd -e ttf . /
-: 1748111142:0;ls /run/current-system/sw/share/X11/fonts/ 
-: 1748111156:0;fd -e ttc . /run/current-system/sw/share/X11/xkb/
-: 1748111158:0;fd -e ttc . /run/current-system/sw/share/X11/
-: 1748111159:0;fd -e ttc . /run/current-system/sw/share/
-: 1748111160:0;fd -e ttc . /run/current-system/sw/
-: 1748111161:0;fd -e ttc . /run/current-system/
-: 1748111163:0;fd -e ttc . /run/
-: 1748111163:0;fd -e ttc . /
-: 1748111194:0;lf /run/current-system
-: 1748111270:0;ls /run/current-system/sw/share/X11/fonts/
-: 1748111282:0;fd -e conf . /run/current-system
-: 1748111291:0;fd -e conf . /run/current-system/
-: 1748111294:0;lf /run/current-system/
-: 1748119208:0;zsh
-: 1748111341:0;sudo fd --no-ignore-vcs --hidden -e ttf . /
-: 1748111348:0;sudo fd --no-ignore-vcs --hidden -e ttf . /run/current-system
-: 1748111352:0;sudo fd --no-ignore-vcs --hidden -e conf . /run/current-system
-: 1748111374:0;cd Scripts/ytm
-: 1748111381:0;python ytm_complete.py "tiemblo"
-: 1748111396:0;rm ~/Music/Viti\ Ruiz/
-: 1748111403:0;python ytm_complete.py "tiemblo alizzz"
-: 1748111605:0;fd --exclude /nix/store -e ttf /
-: 1748111607:0;fd --exclude /nix/store -e ttf . /
-: 1748111626:0;fd --exclude /nix/store --exclude /var/lib/flatpak -e ttf . /
-: 1748111646:0;fd --exclude /nix/store --exclude /var/lib/flatpak --hidden --no-ignore-vcs -e ttf . /
-: 1748111669:0;fd --exclude /nix/store  /var/lib/flatpak --hidden --no-ignore-vcs -e ttf . /
-: 1748111675:0;fd --exclude /nix/store;/var/lib/flatpak --hidden --no-ignore-vcs -e ttf . /
-: 1748111725:0;fd -E /nix/store -E /var/lib/flatpak -E /home --hidden --no-ignore-vcs -e ttf . /
-: 1748111730:0;fd -E /nix/store -E /var/lib/flatpak  --hidden --no-ignore-vcs -e ttf . /
-: 1748111841:0;fd -t d
-: 1748111846:0;fd -t d X11 /
-: 1748111863:0;fd -t d lib/X11 /
-: 1748111867:0;fd -t d lib.X11 /
-: 1748111873:0;fd -t d X11 /
-: 1748111887:0;fd -t d fonts /
-: 1748111902:0;fd -E /nix/store -t d fonts /
-: 1748111921:0;which $NIX_PROFILES
-: 1748111936:0;ls .nix-profile
-: 1748111942:0;v .nix-profile/bin/fastanime
-: 1748111958:0;fd -e ttc . /
-: 1748111966:0;fd -e ttf . /
-: 1748111991:0;mkdir .local/share/fonts
-: 1748111996:0;fd -e ttf . / -x cp {} ~/.local/share/fonts
-: 1748112008:0;cd ~/Documents/rust/jrossateher/src
-: 1748112011:0;nix-shell
-: 1748112013:0;ls
-: 1748112014:0;cd ..
-: 1748112016:0;nix-shell
-: 1748112025:0;cargo run
-: 1748112036:0;v src/main.rs
-: 1748112064:0;cargo run
-: 1748112081:0;ls .local/share/fonts/
-: 1748112091:0;v src/main.rs
-: 1748112096:0;cargo run
-: 1748112261:0;v Cargo.toml
-: 1748112275:0;v src/main.rs
-: 1748112280:0;cargo run
-: 1748112298:0;v src/main.rs
-: 1748112307:0;cargo run
-: 1748112341:0;v src/main.rs
-: 1748112376:0;cargo run
-: 1748112398:0;c
-: 1748112399:0;cargo run
-: 1748112426:0;v src/main.rs
-: 1748112436:0;cargo run
-: 1748112703:0;v Cargo.toml
-: 1748112721:0;v src/main.rs
-: 1748112729:0;cargo run
-: 1748119208:0;zsh
-: 1748117702:0;ssh yasmin@desk
-: 1748118709:0;v .ssh/known_hosts
-: 1748118797:0;ssh yasmin@windesk
-: 1748118847:0;ssh yasmin@windesk -c wsl
-: 1748118860:0;ssh-copy-id yasmin@windesk
-: 1748118866:0;ssh yasmin@windesk -c wsl
-: 1748118869:0;ssh yasmin@desk
-: 1748118874:0;ssh yasmin@windesk
-: 1748118889:0;ssh-copy-id yasmin@windesk
-: 1748118909:0;ssh 'yasmin@windesk'
-: 1748118918:0;man ssh
-: 1748118925:0;ssh 'yasmin@windesk' wsl
-: 1748118950:0;ls
-: 1748118956:0;man ssh
-: 1748119000:0;ssh 'yasmin@windesk' wsl
-: 1748119008:0;ssh 'yasmin@windesk' whoami
-: 1748119016:0;ssh 'yasmin@windesk' wsl
-: 1748119026:0;ssh 'yasmin@windesk'
-: 1748119053:0;ssh 'yasmin@windesk' powershell.exe
-: 1748119065:0;ssh 'yasmin@windesk' "powershell.exe -c wsl"
-: 1748119077:0;ssh 'yasmin@windesk' "wsl.exe"
-: 1748119084:0;ssh 'yasmin@windesk' "powershell.exe -c wsl"
-: 1748119087:0;ssh 'yasmin@windesk' "powershell.exe"
-: 1748119182:0;ssh 'yasmin@windesk' "powershell.exe "wsl.exe""
-: 1748119197:0;ssh 'yasmin@windesk' "powershell.exe"
-: 1748119228:0;ssh 'yasmin@windesk' "cmd.exe"
-: 1748119253:0;ssh 'yasmin@windesk' "powershell.exe"
-: 1748119456:0;ls
-: 1748119462:0;hist
-: 1748119487:0;which $HISTFILE
-: 1748119493:0;v .local/state/zsh/history 
-: 1748119504:0;home idk
-: 1748119756:0;sshfs
-: 1748119757:0;man sshfs
-: 1748119772:0;sshfs yasmin@windesk: Mounts/walkman
-: 1748119776:0;ls Mounts/walkman
-: 1748119800:0;rsync -avh --progress ~/tosort/* Mounts/walkman/Desktop/Videos\ to\ backup/linux\ videos\ to\ backup
-: 1748119814:0;cd Mounts/walkman
-: 1748119816:0;cd
-: 1748119828:0;umount ~/Mounts/walkman
-: 1748119834:0;sshfs yasmin@windesk: Mounts/drive
-: 1748119861:0;rsync -avh --progress ~/tosort/* ~/Mounts/drive/Desktop/Videos\ to\ backup/linux\ videos\ to\ backup
-: 1748120166:0;umount ~/Mounts/drive
-: 1748120168:0;sshfs yasmin@windesk: Mounts/drive
-: 1748120172:0;rsync -avh --progress ~/tosort/* ~/Mounts/drive/Desktop/Videos\ to\ backup/linux\ videos\ to\ backup
-: 1748120179:0;ls Mounts/drive
-: 1748120205:0;rsync -avh --progress ~/tosort/* ~/Mounts/drive/Users/Yasmin/Desktop/Videos\ to\ backup/linux\ videos\ to\ backup
-: 1748120291:0;ls
-: 1748120293:0;cd Examen\ Bucher
-: 1748120294:0;ls
-: 1748120335:0;rsync -avz -e ssh yasmin@windesk:
-: 1748120367:0;rsync -avz -e ssh ./EBOOK/FACHPFLEGE\ Intensivpflege.azw3 yasmin@windesk:/
-: 1748120410:0;n
-: 1748120501:0;ssh windesk@nixos
-: 1748120521:0;ssh windesk@windesk
-: 1748120712:0;ssh yasmin@windesk
-: 1748120746:0;ssh windesk@windesk
-: 1748120864:0;ssh yasmin@windesk
-: 1748120893:0;ssh windesk@nixos
-: 1748120903:0;ssh windesk@windesk
-: 1748120906:0;ssh sssswindesk@windesk
-: 1748120913:0;ssh sssswindeskasddasdjnfgsf@windesk
-: 1748120959:0;hostname
-: 1748120964:0;whoami
-: 1748121349:0;lsblk
-: 1748121362:0;mount /dev/sda1 ~/Mounts/drive
-: 1748121371:0;umount ~/Mounts/drive
-: 1748121393:0;ncdu
-: 1748121400:0;ncdu .
-: 1748121405:0;ncdu -x
-: 1748121479:0;ncdu Downloads
-: 1748121485:0;ls
-: 1748121487:0;ncdu
-: 1748121508:0;cd Users/Yasmin
-: 1748121509:0;ncdu
-: 1748121557:0;sudo rm -rf .rustup
-: 1748121565:0;ncdu
-: 1748121606:0;lf
-: 1748121631:0;lsblk
-: 1748121647:0;sudo lf /run/media/lap/EVO_MEDIA
-: 1748122023:0;fd -t d cool
-: 1748122071:0;fd -t d viber
-: 1748122093:0;fd -t d cute
-: 1748122124:0;cd Users/Yasmin/My\ Drive/\#general
-: 1748122125:0;ls
-: 1748122127:0;lf
-: 1748122172:0;umount ~/Mounts/drive
-: 1748122377:0;ls
-: 1748122382:0;lsblk
-: 1748122387:0;sudo cd /run/media/lap
-: 1748122395:0;cd /run/media/lap
-: 1748122396:0;ls
-: 1748122398:0;cd EVO_MEDIA
-: 1748122399:0;ls
-: 1748122401:0;sudo lf
-: 1748122405:0;ls
-: 1748122418:0;sudo fd -t d general EVO_MEDIA
-: 1748122426:0;sudo fd -t d general ./EVO_MEDIA
-: 1748122429:0;sudo fd -t d cute ./EVO_MEDIA
-: 1748122432:0;ls EVO_MEDIA
-: 1748122434:0;su
-: 1748122598:0;fd -t d nextcloud
-: 1748122738:0;fd -t d -0 | xargs -0 du -sh | sort -h
-: 1748122884:0;fd -t d -0 nextcloud | xargs -0 du -sh | sort -h
-: 1748122975:0;ls
-: 1748122979:0;ncdu
-: 1748123449:0;fd -t nextcloud
-: 1748123451:0;fd -t d nextcloud
-: 1748123455:0;ls Mounts/nextcloud-sh
-: 1748123469:0;sudo ncdu -x . /
-: 1748123478:0;sudo ncdu -x  /
-: 1748123517:0;lsblk
-: 1748123528:0;watch lsblk]
-: 1748123530:0;watch lsblk
-: 1748123541:0;lsblk
-: 1748123581:0;su
-: 1748123587:0;sudo su
-: 1748335722:0;sudo rm -rf 27.05.2025\ Sources\ DATENSCHUTZ.zip
-: 1748335731:0;cd Downloads
-: 1748335731:0;ls
-: 1748335740:0;sudo rm -rf 21.05.2025.zip
-: 1748336010:0;n
-: 1748336585:0;nmtui
-: 1748338659:0;libreoffice 
-: 1748341458:0;fcitx5
-: 1748343880:0;f fcitx5
-: 1748344872:0;lf
-: 1748345732:0;v Assessmentbogen blanko.md
-: 1748345770:0;typora
-: 1748345772:0;try typora
-: 1748345877:0;typora
-: 1748345889:0;f typora
-: 1748346080:0;v AI\ Promts.txt
-: 1748346120:0;v Assessmentbogen.md
-: 1748353216:0;xclip -o
-: 1748353233:0;n
-: 1748353234:0;z
-: 1748353296:0;c2f Assessmentbogen.md
-: 1748353306:0;z
-: 1748353324:0;c2f Assessmentbogen.md
-: 1748353329:0;clip2file Assessmentbogen.md
-: 1748353332:0;c2f Assessmentbogen.md
-: 1748353337:0;echo 3
-: 1748353343:0;clip2file Assessmentbogen.md
-: 1748353349:0;v as	
-: 1748353353:0;v Assessmentbogen.md
-: 1748353398:0;clip2file Assessmentbogen.md
-: 1748353452:0;z
-: 1748353565:0;zsh
-: 1748353569:0;clip2file Assessmentbogen.md
-: 1748353573:0;v Assessmentbogen.md
-: 1748353577:0;clip2file Assessmentbogen.md
-: 1748353587:0;v Assessmentbogen.md
-: 1748353599:0;z
-: 1748353618:0;clip2file Assessmentbogen.md
-: 1748353626:0;z
-: 1748353647:0;clip2file Assessmentbogen.md
-: 1748353657:0;echo |n
-: 1748353660:0;echo \n
-: 1748353663:0;echo \\n
-: 1748353668:0;echo "\n"
-: 1748353669:0;n
-: 1748353672:0;z
-: 1748353699:0;clip2file Assessmentbogen.md
-: 1748353706:0;z
-: 1748353714:0;clip2file Assessmentbogen.md
-: 1748353717:0;zsh
-: 1748353718:0;clip2file Assessmentbogen.md
-: 1748353729:0;home zshclip
+: 1748462699:0;try dotnet-sdk
+: 1748462735:0;mkdir hellp
+: 1748462735:0;lf
+: 1748462751:0;cd hello
+: 1748462752:0;ls
+: 1748462790:0;v main.cs
+: 1748462816:0;dotnet run
+: 1748462821:0;dotnet run main.cs
+: 1748462831:0;dotnet new
+: 1748462834:0;ls
+: 1748462838:0;dotnet new console
+: 1748462843:0;ls
+: 1748462851:0;rm main.cs
+: 1748462853:0;v hello.csproj
+: 1748462857:0;v Program.cs
+: 1748462863:0;dotnet new console
+: 1748462869:0;dotnet run main.cs
+: 1748462875:0;dotnet run
+: 1748462896:0;./bin/Debug/net8.0/hello 
+: 1748462901:0;ls
+: 1748462907:0;dotnet Program.cs
+: 1748462920:0;v hello.csproj
+: 1748462929:0;v Program.cs
+: 1748462951:0;dotnet Program.cs
+: 1748462955:0;dotnet run
+: 1748463001:0;v Program.cs
+: 1748463155:0;dotnet run
+: 1748463161:0;v Program.cs
+: 1748463189:0;dotnet run
+: 1748463200:0;v Program.cs
+: 1748463283:0;dotnet run
+: 1748463288:0;v Program.cs
+: 1748463305:0;dotnet run
+: 1748463329:0;v Program.cs
+: 1748463343:0;dotnet run
+: 1748463352:0;v Program.cs
+: 1748463378:0;dotnet run
+: 1748463384:0;v Program.cs
+: 1748463457:0;dotnet run
+: 1748463466:0;v Program.cs
+: 1748463501:0;dotnet run
+: 1748463506:0;v Program.cs
+: 1748463512:0;dotnet run
+: 1748463562:0;ls
+: 1748463565:0;ncdu ../..
+: 1748463590:0;./bin/Debug/net8.0/hello 
+: 1748463594:0;dotnet ./bin/Debug/net8.0/hello 
+: 1748463600:0;./bin/Debug/net8.0/hello 
+: 1748463605:0;cd ..
+: 1748463606:0;ls
+: 1748463608:0;cd hello
+: 1748463614:0;cd Documents/go/jglossator
+: 1748463615:0;v 
+: 1748463618:0;v main.go
+: 1748463660:0;cd ..
+: 1748463898:0;try dotnet-sdk Avalonia
+: 1748463903:0;try dotnet-sdk avalonia
+: 1748463923:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk avalonia
+: 1748464279:0;power-save
+: 1748464760:0;cd ~/Documents/cs/hello/
+: 1748464766:0;try dotnet-sdk
+: 1748464772:0;dotnet run
+: 1748464786:0;v Program.cs
+: 1748464800:0;dotnet run
+: 1748464831:0;dotnet new install Avalonia.Templates
+: 1748464888:0;v hello.csproj \ 
+: 1748464888:0;v hello.csproj 
+: 1748464918:0;cd ..
+: 1748464920:0;dotnet new install Avalonia.Templates
+: 1748464936:0;cd hello/
+: 1748464974:0;ls
+: 1748464993:0;v Program.cs
+: 1748465006:0;dotnet run
+: 1748465018:0;v Program.cs
+: 1748465334:0;cd ../../rust
+: 1748465335:0;ls
+: 1748465339:0;mkdir uitest
+: 1748465341:0;cd uitest
+: 1748465343:0;ls
+: 1748465346:0;cd ..
+: 1748465348:0;rm uitest
+: 1748465357:0;cargo new uitest
+: 1748465359:0;cd uitest
+: 1748465388:0;cargo run src/main.rs
+: 1748465439:0;v Cargo.toml
+: 1748465452:0;v src/main.rs
+: 1748465478:0;cargo run
+: 1748465637:0;v Cargo.toml
+: 1748465701:0;v src/main.rs
+: 1748465720:0;cargo run
+: 1748465737:0;v Cargo.toml
+: 1748465743:0;rm target
+: 1748465745:0;rm Cargo.lock
+: 1748465746:0;rm target
+: 1748465748:0;cargo run
+: 1748465758:0;v Cargo.toml
+: 1748465803:0;rm *
+: 1748465805:0;cd ..
+: 1748465806:0;rm uitest
+: 1748465809:0;cd ..
+: 1748465810:0;ls
+: 1748465812:0;cd cs
+: 1748465812:0;ls
+: 1748465817:0;mkdir uitest
+: 1748465820:0;v
+: 1748465822:0;lf
+: 1748465838:0;dotnet new 
+: 1748465851:0;dotnet new console
+: 1748465861:0;v Program.cs
+: 1748465869:0;dotnet run
+: 1748465900:0;cd ..
+: 1748465909:0;cd 2-uitest
+: 1748465916:0;sudo rm -rf ./*
+: 1748465917:0;ls
+: 1748465922:0;dotnet new install Avalonia.Templates
+: 1748465941:0;[200~dotnet new avalonia.app -o SimpleUI
+: 1748465947:0;dotnet new avalonia.app -o SimpleUI\
+cd SimpleUI
+: 1748465973:0;ls
+: 1748465976:0;dotnet restore
+: 1748465978:0;ls
+: 1748466002:0;v SimpleUI.csproj
+: 1748466012:0;dotnet new avalonia.app -o SimpleUI\
+cd SimpleUI
+: 1748466021:0;v SimpleUI.csproj
+: 1748466044:0;dotnet restore
+: 1748466068:0;v Program.cs
+: 1748466135:0;dotnet run
+: 1748466146:0;v Program.cs
+: 1748466166:0;v MainWindow.axaml
+: 1748466185:0;cd ..
+: 1748466190:0;cd ../
+: 1748466196:0;cd 2-uitest
+: 1748466196:0;lf
+: 1748466205:0;cd ..
+: 1748466208:0;rm 2-uitest
+: 1748466224:0;dotnet new avalonia.app -o 2-uitest\
+cd 2-uitest
+: 1748466228:0;ls
+: 1748466232:0;v 2-uitest.csproj
+: 1748466242:0;dotnet restore
+: 1748466246:0;ls
+: 1748466266:0;v MainWindow.axaml
+: 1748466276:0;dotnet run
+: 1748466322:0;ls
+: 1748466326:0;v 2-uitest.csproj
+: 1748466401:0;cd ~/Documents/cs/2-uitest
+: 1748466402:0;ls
+: 1748466408:0;dotnet run
+: 1748466419:0;cd ~/Documents/cs/2-uitest
+: 1748466425:0;try dotnet-sdk9 avalonia
+: 1748466433:0;dotnet
+: 1748466442:0;try dotnet-sdk_9 avalonia
+: 1748466458:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia
+: 1748466493:0;cd ..
+: 1748466493:0;rm 2-uitest
+: 1748466575:0;dotnet new install Avalonia.Templates
+: 1748466583:0;ls
+: 1748466584:0;s
+: 1748466607:0;dotnet new avalonia.app -o 2-uitest\
+cd 2-uitest
+: 1748466611:0;ls
+: 1748466622:0;dotnet run
+: 1748466644:0;dotnet run||echo i will explore all of humanity
+: 1748466872:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig
+: 1748466878:0;cd ..
+: 1748466885:0;cd
+: 1748466887:0;ls
+: 1748466893:0;cd Documents/cs/2-uitest
+: 1748466893:0;ls
+: 1748466895:0;cd ..
+: 1748466908:0;sudo rm -rf 2-uitest
+: 1748466913:0;dotnet new avalonia.app -o 2-uitest\
+cd 2-uitest
+: 1748466918:0;ls
+: 1748466951:0;dotnet run
+: 1748467055:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig libSkiaSharp
+: 1748467123:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig skia
+: 1748467131:0;dotnet run
+: 1748467257:0;v MainWindow.axaml
+: 1748467274:0;ls
+: 1748467277:0;rm MainWindow.axaml
+: 1748467279:0;cd
+: 1748467285:0;cd Documents/cs
+: 1748467285:0;ls
+: 1748467287:0;cd 2-uitest
+: 1748467288:0;ls
+: 1748467291:0;dotnet run
+: 1748467304:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk avalonia xorg.libX11 fontconfig skia
+: 1748467308:0;dotnet run
+: 1749195153:0;try vscode
+: 1749195161:0;code
+: 1749195369:0;try vscode
+: 1749195373:0;code
+: 1749196074:0;fd github -H
+: 1749196806:0;try vscode
+: 1749196819:0;fd -H -t d github
+: 1749196834:0;fd -H -t d github --ignore-file=.cargo
+: 1749196841:0;fd -H -t d github --ignore-file=.local/share/cargo
+: 1749196856:0;try vscode
+: 1749196861:0;code
+: 1749197120:0;n
+: 1749197138:0;nu
+: 1749370840:0;python app_dictionary.py 
+: 1749370840:0;pip install PyQt6
+: 1749370840:0;try pip
+: 1749370840:0; /usr/bin/env /home/lap/Documents/Learning_Code/.venv/bin/python /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57875 -- /home/lap/Documents/Learning_Code/Python/2-vibeqt/app_dictionary.py 
+: 1749370840:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+: 1749200297:0;try pip
+: 1749200300:0;try vscode
+: 1749200306:0;code
+: 1749200579:0;n
+: 1749200612:0;nu
+: 1749200630:0;n
+: 1749200676:0;nu
+: 1749200698:0;n
+: 1749200707:0;nu
+: 1749370840:0;cd Python/2
+: 1749370840:0;cd Python/2-vibeqt/
+: 1749370840:0;ls
+: 1749370840:0;python app_dictionary.py 
+: 1749370840:0;pip
+: 1749370840:0;pip install PyQt5
+: 1749370840:0;pip install PyQt6
+: 1749370840:0;python app_dictionary.py 
+: 1749370840:0;sudo apt-get install libgl1
+: 1749370840:0;nix-shell -p libgl
+: 1749370840:0;
+: 1749370840:0;python app_dictionary.py 
+: 1749370840:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+: 1749200763:0;try vscode
+: 1749200775:0;code
+: 1749370840:0;python app_dictionary.py 
+: 1749212511:0;power-save
+: 1749212514:0;try vscode
+: 1749212524:0;code
+: 1749231222:0;n
+: 1749231226:0;nu
+: 1749370840:0;ls
+: 1749370840:0;ls
+: 1749370840:0;source .venv/bin/activate
+: 1749370840:0;vim
+: 1749370840:0;vim .venv/bin/activate
+: 1749370840:0;ls
+: 1749370840:0;pip install mesa PyQt6
+: 1749370840:0;python Python/1-learning/main.py 
+: 1749370840:0;python Python/2-vibeqt/app_dictionary.py 
+: 1749370840:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+: 1749231392:0;ls
+: 1749231406:0;try vscode
+: 1749231411:0;code
+: 1749231464:0;ls
+: 1749231470:0;fd dictio
+: 1749231474:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749231475:0;l
+: 1749231477:0;ls
+: 1749231480:0;python app_dictionary.py
+: 1749317201:0;power
+: 1749317203:0;power-save
+: 1749318789:0;cd Documents/
+: 1749318789:0;sl
+: 1749318790:0;ls
+: 1749318792:0;cd Learning_Code
+: 1749318793:0;ls
+: 1749318796:0;cd Python/2-vibeqt
+: 1749318800:0;python app_dictionary.py
+: 1749318812:0;n
+: 1749318880:0;nu
+: 1749319091:0;nmtui
+: 1749319097:0;nu
+: 1749319126:0;upower
+: 1749319176:0;python app_dictionary.py
+: 1749319181:0;nu
+: 1749321404:0;nmtui
+: 1749363140:0;cd Documents/Learning_Code/Python/1-learning
+: 1749363142:0;python main.py
+: 1749363144:0;v main.py
+: 1749363217:0;python main.py
+: 1749363220:0;v main.py
+: 1749363224:0;python main.py
+: 1749363225:0;v main.py
+: 1749363233:0;python main.py
+: 1749363237:0;v main.py
+: 1749363273:0;python main.py
+: 1749363275:0;v main.py
+: 1749363279:0;python main.py
+: 1749363282:0;v main.py
+: 1749363292:0;python main.py
+: 1749363294:0;v main.py
+: 1749363334:0;python main.py
+: 1749363337:0;v main.py
+: 1749363346:0;python main.py
+: 1749363348:0;v main.py
+: 1749363383:0;python main.py
+: 1749363384:0;v main.py
+: 1749363390:0;python main.py
+: 1749363395:0;v main.py
+: 1749363414:0;python main.py
+: 1749363423:0;v main.py
+: 1749363551:0;python main.py
+: 1749363560:0;v main.py
+: 1749363571:0;python main.py
+: 1749363580:0;v main.py
+: 1749363818:0;python main.py
+: 1749363823:0;v main.py
+: 1749363873:0;python main.py
+: 1749363876:0;v main.py
+: 1749363879:0;python main.py
+: 1749363886:0;v main.py
+: 1749363909:0;python main.py
+: 1749363960:0;v main.py
+: 1749365171:0;python main.py
+: 1749365186:0;v main.py
+: 1749365207:0;python main.py
+: 1749365219:0;v main.py
+: 1749367986:0;power-save
+: 1749370452:0;v main.py
+: 1749370475:0;power-save
+: 1749370481:0;python main.py
+: 1749370509:0;power-save
+: 1749370511:0;v main.py
+: 1749370637:0;power-save
+: 1749370638:0;v main.py
+: 1749370640:0;power-save
+: 1749370642:0;python main.py
+: 1749370661:0;v main.py
+: 1749370712:0;python main.py
+: 1749370782:0;v main.py
+: 1749370816:0;try vscode
+: 1749370840:0;code
+: 1749370840:0;e
+: 1749494769:0;cd Documents/Learning_Code
+: 1749494771:0;git pull
+: 1749494786:0;git stash
+: 1749494789:0;git pull
+: 1749494795:0;ls
+: 1749494801:0;cd Python/4-jgloss
+: 1749494806:0;v importer.py
+: 1749494813:0;v main.py
+: 1749494818:0;v importer.py 
+: 1749495064:0;cd Python/4-jgloss
+: 1749495079:0;cd ~/Documents/
+: 1749495081:0;lf
+: 1749495153:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1749495154:0;ls
+: 1749495157:0;v importer.py
+: 1749495167:0;python importer.py
+: 1749495175:0;v main.py
+: 1749495222:0;python main.py
+: 1749495598:0;try vscode
+: 1749495603:0;code
+: 1749536236:0;cd Python/1-learning/
+: 1749536236:0;ls
+: 1749536236:0;python ./main.py 
+: 1749536236:0;python ./main.py 
+: 1749536236:0;python ./main.py 
+: 1749536236:0;ls
+: 1749536236:0;mv jmdict-eng-common-3.6.1.json jmdict.json
+: 1749536236:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+: 1749495728:0;try github-desktop
+: 1749495767:0;github-desktop
+: 1749495771:0;f github-desktop
+: 1749495998:0;power-save
+: 1749536236:0; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 54475 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+: 1749536236:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+: 1749536236:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+: 1749536236:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40375 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+: 1749536236:0;python ./importer.py 
+: 1749499460:0;n
+: 1749536236:0;ls
+: 1749536236:0;python app_dictionary.py 
+: 1749536236:0;pip install PyQt6
+: 1749536236:0;python
+: 1749536236:0;source ../../.venv/bin/activate
+: 1749536236:0;pip
+: 1749536236:0;pip install PyQt6
+: 1749536236:0;python app_dictionary.py 
+: 1749536236:0;pip install PyQt6
+: 1749536236:0;python app_dictionary.py 
+: 1749536236:0;nix-env -iA nixpkgs.mesa
+: 1749499479:0;neofetch
+: 1749530055:0;nmtui
+: 1749530057:0;n
+: 1749530224:0;nu
+: 1749530231:0;n
+: 1749530246:0;nu
+: 1749530320:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1749530325:0;cd ../2-vibeqt
+: 1749530327:0;python app_dictionary.py
+: 1749530342:0;source ../../.venv/bin/activate
+: 1749530344:0;python app_dictionary.py
+: 1749530378:0;cd ../2-vibeqt
+: 1749530379:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1749530381:0;cd ../2-vibeqt
+: 1749530383:0;source ../../.venv/bin/activate
+: 1749530386:0;python app_dictionary.py
+: 1749530399:0;n
+: 1749530411:0;neofetch
+: 1749530504:0;nix shell nixpkgs#clinfo -c clinfo
+: 1749530565:0;nix shell nixpkgs#glxinfo -c glxinfo
+: 1749530597:0;n
+: 1749530671:0;nu
+: 1749530756:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1749530758:0;source ../../.venv/bin/activate
+: 1749530760:0;cd ../2-vibeqt
+: 1749530761:0;python app_dictionary.py
+: 1749530767:0;n
+: 1749530795:0;nu && sudo reboot
+: 1749530803:0;n
+: 1749530809:0;z
+: 1749530823:0;nr
+: 1749530841:0;n
+: 1749530883:0;nr
+: 1749530942:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1749530946:0;cd ../2-vibeqt
+: 1749530948:0;source ../../.venv/bin/activate
+: 1749530950:0;python app_dictionary.py
+: 1749530957:0;n
+: 1749531022:0;nr
+: 1749531094:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1749531095:0;cd ../2-vibeqt
+: 1749531097:0;python app_dictionary.py
+: 1749531100:0;source ../../.venv/bin/activate
+: 1749531101:0;python app_dictionary.py
+: 1749531104:0;n
+: 1749535978:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749535979:0;pc
+: 1749535980:0;pcmanfm
+: 1749536032:0;v shell.nix
+: 1749536051:0;nix-shell
+: 1749536236:0;python app_dictionary.py 
+: 1749536236:0;nvim app_dictionary.py 
+: 1749536236:0;python app_dictionary.py 
+: 1749536236:0;python app_dictionary.py 
+: 1749536236:0;ls
+: 1749536190:0;v shell.nix
+: 1749536193:0;n
+: 1749536238:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749536243:0;shell-nix
+: 1749536247:0;nix-shell
+python app_dictionary.py 
+nvim app_dictionary.py 
+python app_dictionary.py 
+nvim app_dictionary.py 
+nvim ../4-jgloss/importer.py 
+nvim ../4-jgloss/importer.py 
+: 1749536499:0;neofetch
+: 1749536523:0;ls
+: 1749539463:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749539465:0;python app_dictionary.py
+: 1749539468:0;n
+: 1749539471:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749539473:0;v shell.nix
+: 1749539497:0;nu
+: 1749539504:0;nix-shell
+: 1749539522:0;n
+: 1749539527:0;nu
+python app_dictionary.py 
+python app_dictionary.py 
+: 1749539664:0;power-save
+: 1749539767:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749539770:0;python app_dictionary.py
+: 1749539774:0;nix-shell
+python app_dictionary.py 
+python app_dictionary.py 
+: 1749551663:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749551664:0;cd ../2-vibeqt
+: 1749551670:0;nix-shell
+python app_dictionary.py 
+v app_dictionary.py 
+nvim app_dictionary.py 
+python app_dictionary.py 
+nvim ../4-jgloss/importer.py 
+python app_dictionary.py 
+: 1749551883:0;ls
+: 1749551890:0;v result
+: 1749551930:0;v init
+: 1749551954:0;rm result
+: 1749552369:0;n
+: 1749552383:0;nu
+: 1749552391:0;n
+: 1749552395:0;z
+: 1749552555:0;n
+: 1749552559:0;nu
+: 1749552566:0;n
+: 1749552573:0;z
+: 1749552597:0;nu
+: 1749552736:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749552740:0;python app_dictionary.py
+: 1749552743:0;nix-shell
+: 1749552771:0;try qt
+: 1749556461:0;power-save
+: 1749557087:0;cd ~/Documents/Learning_Code/Python/3-viberandclip
+: 1749557090:0;python rand_clip_sent.py
+: 1749557097:0;cp ../2-vibeqt/shell.nix .
+: 1749557100:0;v shell.nix
+: 1749557126:0;nix-shell
+python rand_clip_sent.py 
+nvim rand_clip_sent.py 
+python rand_clip_sent.py 
+: 1749557683:0;fd gruvbox-dark-hard.rasi
+: 1749557691:0;fd -H gruvbox-dark-hard.rasi /
+: 1749557697:0;sudo fd -xH gruvbox-dark-hard.rasi /
+: 1749557708:0;sudo fd -x -H gruvbox-dark-hard.rasi /
+: 1749557712:0;sudo fd -H gruvbox-dark-hard.rasi /
+: 1749557741:0;cp /nix/store/07m13rk7r7jfdhlhnhrwvkgdvs5psrwa-rofi-1.7.8/share/rofi/themes/gruvbox-dark-hard.rasi ~/.config/rofi
+: 1749557748:0;cd .config/rofi
+: 1749557749:0;v config.rasi
+: 1749557783:0;path .config/rofi/gruvbox-dark-hard.rasi
+: 1749557790:0;z
+: 1749557896:0;path .config/rofi/gruvbox-dark-hard.rasi
+: 1749557898:0;z
+: 1749557920:0;path .config/rofi/gruvbox-dark-hard.rasi
+: 1749557937:0;z
+: 1749557956:0;path .config/rofi/gruvbox-dark-hard.rasi
+: 1749558010:0;v ~/.config/rofi/config.rasi
+: 1749558073:0;home idfk

@@ -1,2 +1,1 @@
-@theme "/nix/store/rgz0b5r9562kr3bs5kfihprkycgpb0ci-rofi-wayland-unwrapped-1.7.8+wayland1/share/rofi/themes/gruvbox-dark-hard.rasi"
-
+@theme ".config/rofi/gruvbox-dark-hard.rasi"

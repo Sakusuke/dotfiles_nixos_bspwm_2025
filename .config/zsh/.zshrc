@@ -105,8 +105,13 @@ pbl() {
     echo "$@"|xclip -r -selection clipboard
 }
 
+#path() {
+#    printf '"%s"' "$(readlink -f "$*" | tr -d '\n')" | wl-copy;
+#}
+
+# not working right now
 path() {
-    printf '"%s"' "$(readlink -f "$*" | tr -d '\n')" | wl-copy;
+    printf '"%s"' "$(readlink -f "$*" | tr -d '\n')" | xclip -r -selection clipboard;
 }
 
 home() {
@@ -156,8 +161,8 @@ sudo nixos-rebuild build && cp /etc/nixos/configuration.nix $HOME/.config && sud
 
 #nix-update
 nu() {
-echo --\> 'sudo nixos-rebuild switch && cp /etc/nixos/configuration.nix $HOME/.config && sudo nix-collect-garbage --delete-old'
-sudo nixos-rebuild switch && cp /etc/nixos/configuration.nix $HOME/.config && sudo nix-collect-garbage --delete-old
+echo --\> 'sudo nixos-rebuild switch && cp /etc/nixos/configuration.nix $HOME/.config' # && sudo nix-collect-garbage --delete-old'
+sudo nixos-rebuild switch && cp /etc/nixos/configuration.nix $HOME/.config #&& sudo nix-collect-garbage --delete-old
 }
 
 #eval "$(atuin init zsh --disable-up-arrow)"

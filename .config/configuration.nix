@@ -62,6 +62,18 @@
   ## Compositor
   services.picom.enable = true;
   services.picom.vSync = true;
+  ## Graphics
+  #hardware.graphics.enable = true;
+  hardware.graphics = {
+    enable = true;
+    # Include necessary Intel graphics packages
+    extraPackages = with pkgs; [
+      #intel-media-sdk
+      vpl-gpu-rt
+      mesa # The open-source OpenGL implementation, includes Intel drivers
+    ];
+  };
+  boot.initrd.kernelModules = [ "i915" ];
   
   # Audio
   security.rtkit.enable = true;
@@ -113,6 +125,10 @@
     xclip clipit
     xorg.xkill
     xdo
+    # Graphics
+    #libGl
+    libglvnd
+    mesa
 
     # other
     vim 
@@ -157,12 +173,16 @@
     lm_sensors
     brightnessctl
     libsmbios
-    # Python packages
+    # Coding
+    vscode
+    ## Python packages
     yt-dlp jq
     ffmpeg
     (python3.withPackages (ps: with ps; [
       ytmusicapi
     ]))
+    python313
+    python313Packages.pyqt6
     # Rust
     cargo
     rustup
