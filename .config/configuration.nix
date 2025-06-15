@@ -168,13 +168,15 @@
     # Office
     libreoffice-qt
     hunspell
-    hunspellDicts.uk_UA
+    hunspellDicts.de_DE
+    hunspellDicts.en_US
     # Laptop
     lm_sensors
     brightnessctl
     libsmbios
     # Coding
     vscode
+    github-desktop
     ## Python packages
     yt-dlp jq
     ffmpeg
@@ -206,11 +208,26 @@
    };
 
   # List services that you want to enable:
+  services.gnome.gnome-keyring.enable = true; # needed for github desktop authentication 
   services.openssh.enable = true;
   security.polkit.enable = true;
   services.udisks2.enable = true;
   services.gvfs.enable = true;
   programs.udevil.enable = true;
+
+  # For binaries like appimage
+  programs.nix-ld = {
+    enable = true;
+    libraries = with pkgs; [
+      stdenv.cc.cc.lib
+      zlib
+      freetype
+      harfbuzz
+      sqlite
+      SDL2
+      zstd
+    ];
+  };
 
   # Editor
   programs.neovim = {

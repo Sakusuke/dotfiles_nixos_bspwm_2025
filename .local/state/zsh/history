@@ -1,135 +1,3 @@
-: 1748462699:0;try dotnet-sdk
-: 1748462735:0;mkdir hellp
-: 1748462735:0;lf
-: 1748462751:0;cd hello
-: 1748462752:0;ls
-: 1748462790:0;v main.cs
-: 1748462816:0;dotnet run
-: 1748462821:0;dotnet run main.cs
-: 1748462831:0;dotnet new
-: 1748462834:0;ls
-: 1748462838:0;dotnet new console
-: 1748462843:0;ls
-: 1748462851:0;rm main.cs
-: 1748462853:0;v hello.csproj
-: 1748462857:0;v Program.cs
-: 1748462863:0;dotnet new console
-: 1748462869:0;dotnet run main.cs
-: 1748462875:0;dotnet run
-: 1748462896:0;./bin/Debug/net8.0/hello 
-: 1748462901:0;ls
-: 1748462907:0;dotnet Program.cs
-: 1748462920:0;v hello.csproj
-: 1748462929:0;v Program.cs
-: 1748462951:0;dotnet Program.cs
-: 1748462955:0;dotnet run
-: 1748463001:0;v Program.cs
-: 1748463155:0;dotnet run
-: 1748463161:0;v Program.cs
-: 1748463189:0;dotnet run
-: 1748463200:0;v Program.cs
-: 1748463283:0;dotnet run
-: 1748463288:0;v Program.cs
-: 1748463305:0;dotnet run
-: 1748463329:0;v Program.cs
-: 1748463343:0;dotnet run
-: 1748463352:0;v Program.cs
-: 1748463378:0;dotnet run
-: 1748463384:0;v Program.cs
-: 1748463457:0;dotnet run
-: 1748463466:0;v Program.cs
-: 1748463501:0;dotnet run
-: 1748463506:0;v Program.cs
-: 1748463512:0;dotnet run
-: 1748463562:0;ls
-: 1748463565:0;ncdu ../..
-: 1748463590:0;./bin/Debug/net8.0/hello 
-: 1748463594:0;dotnet ./bin/Debug/net8.0/hello 
-: 1748463600:0;./bin/Debug/net8.0/hello 
-: 1748463605:0;cd ..
-: 1748463606:0;ls
-: 1748463608:0;cd hello
-: 1748463614:0;cd Documents/go/jglossator
-: 1748463615:0;v 
-: 1748463618:0;v main.go
-: 1748463660:0;cd ..
-: 1748463898:0;try dotnet-sdk Avalonia
-: 1748463903:0;try dotnet-sdk avalonia
-: 1748463923:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk avalonia
-: 1748464279:0;power-save
-: 1748464760:0;cd ~/Documents/cs/hello/
-: 1748464766:0;try dotnet-sdk
-: 1748464772:0;dotnet run
-: 1748464786:0;v Program.cs
-: 1748464800:0;dotnet run
-: 1748464831:0;dotnet new install Avalonia.Templates
-: 1748464888:0;v hello.csproj \ 
-: 1748464888:0;v hello.csproj 
-: 1748464918:0;cd ..
-: 1748464920:0;dotnet new install Avalonia.Templates
-: 1748464936:0;cd hello/
-: 1748464974:0;ls
-: 1748464993:0;v Program.cs
-: 1748465006:0;dotnet run
-: 1748465018:0;v Program.cs
-: 1748465334:0;cd ../../rust
-: 1748465335:0;ls
-: 1748465339:0;mkdir uitest
-: 1748465341:0;cd uitest
-: 1748465343:0;ls
-: 1748465346:0;cd ..
-: 1748465348:0;rm uitest
-: 1748465357:0;cargo new uitest
-: 1748465359:0;cd uitest
-: 1748465388:0;cargo run src/main.rs
-: 1748465439:0;v Cargo.toml
-: 1748465452:0;v src/main.rs
-: 1748465478:0;cargo run
-: 1748465637:0;v Cargo.toml
-: 1748465701:0;v src/main.rs
-: 1748465720:0;cargo run
-: 1748465737:0;v Cargo.toml
-: 1748465743:0;rm target
-: 1748465745:0;rm Cargo.lock
-: 1748465746:0;rm target
-: 1748465748:0;cargo run
-: 1748465758:0;v Cargo.toml
-: 1748465803:0;rm *
-: 1748465805:0;cd ..
-: 1748465806:0;rm uitest
-: 1748465809:0;cd ..
-: 1748465810:0;ls
-: 1748465812:0;cd cs
-: 1748465812:0;ls
-: 1748465817:0;mkdir uitest
-: 1748465820:0;v
-: 1748465822:0;lf
-: 1748465838:0;dotnet new 
-: 1748465851:0;dotnet new console
-: 1748465861:0;v Program.cs
-: 1748465869:0;dotnet run
-: 1748465900:0;cd ..
-: 1748465909:0;cd 2-uitest
-: 1748465916:0;sudo rm -rf ./*
-: 1748465917:0;ls
-: 1748465922:0;dotnet new install Avalonia.Templates
-: 1748465941:0;[200~dotnet new avalonia.app -o SimpleUI
-: 1748465947:0;dotnet new avalonia.app -o SimpleUI\
-cd SimpleUI
-: 1748465973:0;ls
-: 1748465976:0;dotnet restore
-: 1748465978:0;ls
-: 1748466002:0;v SimpleUI.csproj
-: 1748466012:0;dotnet new avalonia.app -o SimpleUI\
-cd SimpleUI
-: 1748466021:0;v SimpleUI.csproj
-: 1748466044:0;dotnet restore
-: 1748466068:0;v Program.cs
-: 1748466135:0;dotnet run
-: 1748466146:0;v Program.cs
-: 1748466166:0;v MainWindow.axaml
-: 1748466185:0;cd ..
-: 1748466190:0;cd ../
 : 1748466196:0;cd 2-uitest
 : 1748466196:0;lf
 : 1748466205:0;cd ..
@@ -438,12 +306,12 @@ cd 2-uitest
 : 1749536238:0;cd Documents/Learning_Code/Python/2-vibeqt
 : 1749536243:0;shell-nix
 : 1749536247:0;nix-shell
-python app_dictionary.py 
-nvim app_dictionary.py 
-python app_dictionary.py 
-nvim app_dictionary.py 
-nvim ../4-jgloss/importer.py 
-nvim ../4-jgloss/importer.py 
+: 1749558183:0;python app_dictionary.py 
+: 1749558183:0;nvim app_dictionary.py 
+: 1749558183:0;python app_dictionary.py 
+: 1749558183:0;nvim app_dictionary.py 
+: 1749558183:0;nvim ../4-jgloss/importer.py 
+: 1749558183:0;nvim ../4-jgloss/importer.py 
 : 1749536499:0;neofetch
 : 1749536523:0;ls
 : 1749539463:0;cd Documents/Learning_Code/Python/2-vibeqt
@@ -455,23 +323,23 @@ nvim ../4-jgloss/importer.py
 : 1749539504:0;nix-shell
 : 1749539522:0;n
 : 1749539527:0;nu
-python app_dictionary.py 
-python app_dictionary.py 
+: 1749558183:0;python app_dictionary.py 
+: 1749558183:0;python app_dictionary.py 
 : 1749539664:0;power-save
 : 1749539767:0;cd Documents/Learning_Code/Python/2-vibeqt
 : 1749539770:0;python app_dictionary.py
 : 1749539774:0;nix-shell
-python app_dictionary.py 
-python app_dictionary.py 
+: 1749558183:0;python app_dictionary.py 
+: 1749558183:0;python app_dictionary.py 
 : 1749551663:0;cd Documents/Learning_Code/Python/2-vibeqt
 : 1749551664:0;cd ../2-vibeqt
 : 1749551670:0;nix-shell
-python app_dictionary.py 
-v app_dictionary.py 
-nvim app_dictionary.py 
-python app_dictionary.py 
-nvim ../4-jgloss/importer.py 
-python app_dictionary.py 
+: 1749558183:0;python app_dictionary.py 
+: 1749558183:0;v app_dictionary.py 
+: 1749558183:0;nvim app_dictionary.py 
+: 1749558183:0;python app_dictionary.py 
+: 1749558183:0;nvim ../4-jgloss/importer.py 
+: 1749558183:0;python app_dictionary.py 
 : 1749551883:0;ls
 : 1749551890:0;v result
 : 1749551930:0;v init
@@ -495,9 +363,9 @@ python app_dictionary.py
 : 1749557097:0;cp ../2-vibeqt/shell.nix .
 : 1749557100:0;v shell.nix
 : 1749557126:0;nix-shell
-python rand_clip_sent.py 
-nvim rand_clip_sent.py 
-python rand_clip_sent.py 
+: 1749558183:0;python rand_clip_sent.py 
+: 1749558183:0;nvim rand_clip_sent.py 
+: 1749558183:0;python rand_clip_sent.py 
 : 1749557683:0;fd gruvbox-dark-hard.rasi
 : 1749557691:0;fd -H gruvbox-dark-hard.rasi /
 : 1749557697:0;sudo fd -xH gruvbox-dark-hard.rasi /
@@ -515,3 +383,128 @@ python rand_clip_sent.py
 : 1749557956:0;path .config/rofi/gruvbox-dark-hard.rasi
 : 1749558010:0;v ~/.config/rofi/config.rasi
 : 1749558073:0;home idfk
+: 1749558075:0;which home
+: 1749558095:0;n
+: 1749558107:0;z
+: 1749558124:0;e nu 
+: 1749558183:0; 
+: 1749552743:0;nix-shell
+: 1749558183:0;python app_dictionary.py
+: 1749558183:0;nvim app_dictionary.py 
+: 1749558183:0;python app_dictionary.py
+: 1749558183:0;nvim ../4-jgloss/importer.py 
+: 1749563474:0;n
+: 1749563502:0;e nu 
+: 1749617532:0;power-save
+: 1749623184:0;n
+: 1749638108:0;nu
+: 1749638113:0;enu
+: 1749638114:0;e nu
+: 1749639830:0;power-save
+: 1749655427:0;upower
+: 1749656939:0;power-save
+: 1749817937:0;cd Downloads/Vault/
+: 1749817938:0;ls
+: 1749817940:0;cd Examen
+: 1749817940:0;ls
+: 1749817953:0;try glow
+: 1749817960:0;glow
+: 1749817978:0;cd Downloads/Vault/Examen
+: 1749817979:0;glow
+: 1749818148:0;v .config/nvim/init.lua
+: 1749818237:0;yadm status
+: 1749818340:0;nvim
+: 1749818347:0;v .config/nvim/init.lua
+: 1749818387:0;nvim
+: 1749818411:0;v .config/nvim/init.lua
+: 1749818415:0;nvim
+: 1749818420:0;glow
+: 1749818628:0;try koreader
+: 1749818656:0;koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1749818663:0;koreader
+: 1749818975:0;koreader 
+: 1749818985:0;koreader Examen\ Bucher/I\ care\ Anatomie\ Physiologie.pdf
+: 1749826292:0;try appimagerun
+: 1749826297:0;try appimage-run
+: 1749826327:0;n
+: 1749826420:0;ni
+: 1749826421:0;nu
+: 1749826560:0;ls
+: 1749826561:0;cd Downloads
+: 1749826567:0;try appimage-run koreader
+: 1749826600:0;koreader
+: 1749826618:0;cd Downloads
+: 1749826630:0;./koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
+: 1749826638:0;try appimage-run koreader
+: 1749826714:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
+: 1749826751:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1749828881:0;koreader
+: 1749829140:0;n
+: 1749829222:0;nu
+: 1749829245:0;try steam-run
+: 1749829283:0;koreader
+: 1749829295:0;try appimage-run koreader steam-run
+: 1749829325:0;koreader
+: 1749829330:0;try appimage-run koreader steam-run
+: 1749829335:0;steam-run koreader
+: 1749829379:0;cd .config/
+: 1749829382:0;rm -rf koreader
+: 1749829388:0;steam-run koreader
+: 1749829402:0;nano $(find /nix/store -path "*koreader*" -name "zstd.lua" | head -n 1)
+: 1749830855:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1749830858:0;try appimage-run koreader steam-run
+: 1749830869:0;stream-run koreader
+: 1749830885:0;steam-run koreaderOA
+: 1749830888:0;steam-run koreader
+: 1749830901:0;steam-run koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1749830920:0;appimage-run ~/Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1749834675:0;ebook-convert --help
+: 1749834681:0;ebook-convert --list-recipes
+: 1749834744:0;cd Examen\ Bucher/EBOOK/
+: 1749834745:0;ls
+: 1749834747:0;rm I\ care\ -\ PflegeExamen\ KOMPAKT.sdr
+: 1749834769:0;ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub booknoimages.epub --no-images
+: 1749834791:0;v util.py
+: 1749834818:0;python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
+: 1749834838:0;cp I\ care\ -\ PflegeExamen\ KOMPAKT.epub input.epub
+: 1749834840:0;python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
+: 1749834842:0;ls
+: 1749835308:0;cd ~/Examen\ Bucher/EBOOK
+: 1749835308:0;ls
+: 1749835323:0;ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub epub.pdf
+: 1749876046:0;cd Examen\ Bucher/EBOOK
+: 1749876046:0;ls
+: 1749876057:0;rm epub.pdf
+: 1749876059:0;ls
+: 1749876181:0;pb
+: 1749876202:0;pb -> epubPdfNoImage.sh
+: 1749876204:0;v epubPdfNoImage.sh
+: 1749876240:0;chmod +x epubPdfNoImage.sh
+: 1749876249:0;./epubPdfNoImage.sh *.azw3
+: 1749876260:0;ls
+: 1749876349:0;lf
+: 1749876477:0;pb -> epubPdfNoImage.sh
+: 1749876479:0;chmod +x epubPdfNoImage.sh
+: 1749876481:0;v epubPdfNoImage.sh
+: 1749876495:0;mv epubPdfNoImage.sh epubPdfNoImage.py
+: 1749876501:0;ppython epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
+: 1749876504:0;python epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
+: 1749876626:0;python epubPdfNoImage.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1749876633:0;power-save
+: 1749884797:0;python importer.py
+: 1749885152:0;sudo python importer.py
+: 1749885155:0;python importer.py
+: 1749891385:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1749891388:0;python app_dictionary.py
+: 1749891390:0;nix-shell
+python app_dictionary.py 
+: 1749891983:0;python importer.py
+: 1749897572:0;ls
+: 1749898790:0;python importer.py
+: 1749899509:0;python  main.py
+: 1749899672:0;python search.py
+: 1749927049:0;power-save
+: 1749927356:0;python search.py
+: 1749927358:0;power-save
+: 1749966822:0;v .config/bspwm/bspwmrc
+: 1749966838:0;home idk

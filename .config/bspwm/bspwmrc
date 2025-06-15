@@ -44,3 +44,4 @@ dunst -conf ~/.config/dunst/dunstrc &
 $HOME/.config/polybar/launch.sh --hack &
 clipit --daemon --no-icon &
 sxhkd &
+fcitx5 &

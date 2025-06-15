@@ -27,7 +27,42 @@ require("lazy").setup({
   { "nvim-telescope/telescope.nvim" },
 
   -- Auto pairs
-  { "windwp/nvim-autopairs", config = true }
+  { "windwp/nvim-autopairs", config = true },
+
+  -- Markdown support
+  {
+    "preservim/vim-markdown",
+    ft = "markdown",
+    dependencies = {
+      "godlygeek/tabular", -- Needed for formatting tables
+    },
+    config = function()
+      vim.g.vim_markdown_folding_disabled = 1 -- Disable folding
+      vim.g.vim_markdown_conceal = 0 -- Disable conceal (for better visibility)
+    end,
+  },
+
+  --## Markdown Preview (requires `markdown-preview.nvim`)
+  {
+    "iamcco/markdown-preview.nvim",
+    ft = "markdown",
+    build = function()
+      vim.fn["mkdp#util#install"]() -- Auto-install on first run
+    end,
+    config = function()
+      vim.g.mkdp_auto_start = 0 -- Disable auto-start
+      vim.g.mkdp_browser = "firefox" -- Set your preferred browser
+    end,
+  },
+
+  --## Markdown Table Mode (for easy table formatting)
+  {
+    "dhruvasagar/vim-table-mode",
+    ft = "markdown",
+    config = function()
+      vim.g.table_mode_corner = "|" -- Customize table formatting
+    end,
+  }
 })
 
 -- Basic settings
