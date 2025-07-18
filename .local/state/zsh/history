@@ -508,3 +508,12 @@ python app_dictionary.py
 : 1749927358:0;power-save
 : 1749966822:0;v .config/bspwm/bspwmrc
 : 1749966838:0;home idk
+: 1752855545:0;ls
+: 1752855547:0;n
+: 1752855552:0;cd .config/zsh/
+: 1752855552:0;ls
+: 1752855554:0;ls -a
+: 1752855559:0;rm zshrc
+: 1752855562:0;nvim readme
+: 1752855579:0;yadm add readme .zshrc
+: 1752855582:0;home allgood

@@ -215,6 +215,12 @@
   services.gvfs.enable = true;
   programs.udevil.enable = true;
 
+  # Virtualization and containers
+  virtualisation.podman = {
+    enable = true;
+    dockerCompat = true;
+  };
+
   # For binaries like appimage
   programs.nix-ld = {
     enable = true;
