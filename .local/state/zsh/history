@@ -1,519 +1,573 @@
-: 1748466196:0;cd 2-uitest
-: 1748466196:0;lf
-: 1748466205:0;cd ..
-: 1748466208:0;rm 2-uitest
-: 1748466224:0;dotnet new avalonia.app -o 2-uitest\
 cd 2-uitest
-: 1748466228:0;ls
-: 1748466232:0;v 2-uitest.csproj
-: 1748466242:0;dotnet restore
-: 1748466246:0;ls
-: 1748466266:0;v MainWindow.axaml
-: 1748466276:0;dotnet run
-: 1748466322:0;ls
-: 1748466326:0;v 2-uitest.csproj
-: 1748466401:0;cd ~/Documents/cs/2-uitest
-: 1748466402:0;ls
-: 1748466408:0;dotnet run
-: 1748466419:0;cd ~/Documents/cs/2-uitest
-: 1748466425:0;try dotnet-sdk9 avalonia
-: 1748466433:0;dotnet
-: 1748466442:0;try dotnet-sdk_9 avalonia
-: 1748466458:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia
-: 1748466493:0;cd ..
-: 1748466493:0;rm 2-uitest
-: 1748466575:0;dotnet new install Avalonia.Templates
-: 1748466583:0;ls
-: 1748466584:0;s
-: 1748466607:0;dotnet new avalonia.app -o 2-uitest\
+lf
+cd ..
+rm 2-uitest
+dotnet new avalonia.app -o 2-uitest\
 cd 2-uitest
-: 1748466611:0;ls
-: 1748466622:0;dotnet run
-: 1748466644:0;dotnet run||echo i will explore all of humanity
-: 1748466872:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig
-: 1748466878:0;cd ..
-: 1748466885:0;cd
-: 1748466887:0;ls
-: 1748466893:0;cd Documents/cs/2-uitest
-: 1748466893:0;ls
-: 1748466895:0;cd ..
-: 1748466908:0;sudo rm -rf 2-uitest
-: 1748466913:0;dotnet new avalonia.app -o 2-uitest\
+ls
+v 2-uitest.csproj
+dotnet restore
+ls
+v MainWindow.axaml
+dotnet run
+ls
+v 2-uitest.csproj
+cd ~/Documents/cs/2-uitest
+ls
+dotnet run
+cd ~/Documents/cs/2-uitest
+try dotnet-sdk9 avalonia
+dotnet
+try dotnet-sdk_9 avalonia
+NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia
+cd ..
+rm 2-uitest
+dotnet new install Avalonia.Templates
+ls
+s
+dotnet new avalonia.app -o 2-uitest\
 cd 2-uitest
-: 1748466918:0;ls
-: 1748466951:0;dotnet run
-: 1748467055:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig libSkiaSharp
-: 1748467123:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig skia
-: 1748467131:0;dotnet run
-: 1748467257:0;v MainWindow.axaml
-: 1748467274:0;ls
-: 1748467277:0;rm MainWindow.axaml
-: 1748467279:0;cd
-: 1748467285:0;cd Documents/cs
-: 1748467285:0;ls
-: 1748467287:0;cd 2-uitest
-: 1748467288:0;ls
-: 1748467291:0;dotnet run
-: 1748467304:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk avalonia xorg.libX11 fontconfig skia
-: 1748467308:0;dotnet run
-: 1749195153:0;try vscode
-: 1749195161:0;code
-: 1749195369:0;try vscode
-: 1749195373:0;code
-: 1749196074:0;fd github -H
-: 1749196806:0;try vscode
-: 1749196819:0;fd -H -t d github
-: 1749196834:0;fd -H -t d github --ignore-file=.cargo
-: 1749196841:0;fd -H -t d github --ignore-file=.local/share/cargo
-: 1749196856:0;try vscode
-: 1749196861:0;code
-: 1749197120:0;n
-: 1749197138:0;nu
-: 1749370840:0;python app_dictionary.py 
-: 1749370840:0;pip install PyQt6
-: 1749370840:0;try pip
-: 1749370840:0; /usr/bin/env /home/lap/Documents/Learning_Code/.venv/bin/python /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57875 -- /home/lap/Documents/Learning_Code/Python/2-vibeqt/app_dictionary.py 
-: 1749370840:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
-: 1749200297:0;try pip
-: 1749200300:0;try vscode
-: 1749200306:0;code
-: 1749200579:0;n
-: 1749200612:0;nu
-: 1749200630:0;n
-: 1749200676:0;nu
-: 1749200698:0;n
-: 1749200707:0;nu
-: 1749370840:0;cd Python/2
-: 1749370840:0;cd Python/2-vibeqt/
-: 1749370840:0;ls
-: 1749370840:0;python app_dictionary.py 
-: 1749370840:0;pip
-: 1749370840:0;pip install PyQt5
-: 1749370840:0;pip install PyQt6
-: 1749370840:0;python app_dictionary.py 
-: 1749370840:0;sudo apt-get install libgl1
-: 1749370840:0;nix-shell -p libgl
-: 1749370840:0;
-: 1749370840:0;python app_dictionary.py 
-: 1749370840:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
-: 1749200763:0;try vscode
-: 1749200775:0;code
-: 1749370840:0;python app_dictionary.py 
-: 1749212511:0;power-save
-: 1749212514:0;try vscode
-: 1749212524:0;code
-: 1749231222:0;n
-: 1749231226:0;nu
-: 1749370840:0;ls
-: 1749370840:0;ls
-: 1749370840:0;source .venv/bin/activate
-: 1749370840:0;vim
-: 1749370840:0;vim .venv/bin/activate
-: 1749370840:0;ls
-: 1749370840:0;pip install mesa PyQt6
-: 1749370840:0;python Python/1-learning/main.py 
-: 1749370840:0;python Python/2-vibeqt/app_dictionary.py 
-: 1749370840:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
-: 1749231392:0;ls
-: 1749231406:0;try vscode
-: 1749231411:0;code
-: 1749231464:0;ls
-: 1749231470:0;fd dictio
-: 1749231474:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749231475:0;l
-: 1749231477:0;ls
-: 1749231480:0;python app_dictionary.py
-: 1749317201:0;power
-: 1749317203:0;power-save
-: 1749318789:0;cd Documents/
-: 1749318789:0;sl
-: 1749318790:0;ls
-: 1749318792:0;cd Learning_Code
-: 1749318793:0;ls
-: 1749318796:0;cd Python/2-vibeqt
-: 1749318800:0;python app_dictionary.py
-: 1749318812:0;n
-: 1749318880:0;nu
-: 1749319091:0;nmtui
-: 1749319097:0;nu
-: 1749319126:0;upower
-: 1749319176:0;python app_dictionary.py
-: 1749319181:0;nu
-: 1749321404:0;nmtui
-: 1749363140:0;cd Documents/Learning_Code/Python/1-learning
-: 1749363142:0;python main.py
-: 1749363144:0;v main.py
-: 1749363217:0;python main.py
-: 1749363220:0;v main.py
-: 1749363224:0;python main.py
-: 1749363225:0;v main.py
-: 1749363233:0;python main.py
-: 1749363237:0;v main.py
-: 1749363273:0;python main.py
-: 1749363275:0;v main.py
-: 1749363279:0;python main.py
-: 1749363282:0;v main.py
-: 1749363292:0;python main.py
-: 1749363294:0;v main.py
-: 1749363334:0;python main.py
-: 1749363337:0;v main.py
-: 1749363346:0;python main.py
-: 1749363348:0;v main.py
-: 1749363383:0;python main.py
-: 1749363384:0;v main.py
-: 1749363390:0;python main.py
-: 1749363395:0;v main.py
-: 1749363414:0;python main.py
-: 1749363423:0;v main.py
-: 1749363551:0;python main.py
-: 1749363560:0;v main.py
-: 1749363571:0;python main.py
-: 1749363580:0;v main.py
-: 1749363818:0;python main.py
-: 1749363823:0;v main.py
-: 1749363873:0;python main.py
-: 1749363876:0;v main.py
-: 1749363879:0;python main.py
-: 1749363886:0;v main.py
-: 1749363909:0;python main.py
-: 1749363960:0;v main.py
-: 1749365171:0;python main.py
-: 1749365186:0;v main.py
-: 1749365207:0;python main.py
-: 1749365219:0;v main.py
-: 1749367986:0;power-save
-: 1749370452:0;v main.py
-: 1749370475:0;power-save
-: 1749370481:0;python main.py
-: 1749370509:0;power-save
-: 1749370511:0;v main.py
-: 1749370637:0;power-save
-: 1749370638:0;v main.py
-: 1749370640:0;power-save
-: 1749370642:0;python main.py
-: 1749370661:0;v main.py
-: 1749370712:0;python main.py
-: 1749370782:0;v main.py
-: 1749370816:0;try vscode
-: 1749370840:0;code
-: 1749370840:0;e
-: 1749494769:0;cd Documents/Learning_Code
-: 1749494771:0;git pull
-: 1749494786:0;git stash
-: 1749494789:0;git pull
-: 1749494795:0;ls
-: 1749494801:0;cd Python/4-jgloss
-: 1749494806:0;v importer.py
-: 1749494813:0;v main.py
-: 1749494818:0;v importer.py 
-: 1749495064:0;cd Python/4-jgloss
-: 1749495079:0;cd ~/Documents/
-: 1749495081:0;lf
-: 1749495153:0;cd ~/Documents/Learning_Code/Python/4-jgloss
-: 1749495154:0;ls
-: 1749495157:0;v importer.py
-: 1749495167:0;python importer.py
-: 1749495175:0;v main.py
-: 1749495222:0;python main.py
-: 1749495598:0;try vscode
-: 1749495603:0;code
-: 1749536236:0;cd Python/1-learning/
-: 1749536236:0;ls
-: 1749536236:0;python ./main.py 
-: 1749536236:0;python ./main.py 
-: 1749536236:0;python ./main.py 
-: 1749536236:0;ls
-: 1749536236:0;mv jmdict-eng-common-3.6.1.json jmdict.json
-: 1749536236:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
-: 1749495728:0;try github-desktop
-: 1749495767:0;github-desktop
-: 1749495771:0;f github-desktop
-: 1749495998:0;power-save
-: 1749536236:0; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 54475 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
-: 1749536236:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
-: 1749536236:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
-: 1749536236:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40375 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
-: 1749536236:0;python ./importer.py 
-: 1749499460:0;n
-: 1749536236:0;ls
-: 1749536236:0;python app_dictionary.py 
-: 1749536236:0;pip install PyQt6
-: 1749536236:0;python
-: 1749536236:0;source ../../.venv/bin/activate
-: 1749536236:0;pip
-: 1749536236:0;pip install PyQt6
-: 1749536236:0;python app_dictionary.py 
-: 1749536236:0;pip install PyQt6
-: 1749536236:0;python app_dictionary.py 
-: 1749536236:0;nix-env -iA nixpkgs.mesa
-: 1749499479:0;neofetch
-: 1749530055:0;nmtui
-: 1749530057:0;n
-: 1749530224:0;nu
-: 1749530231:0;n
-: 1749530246:0;nu
-: 1749530320:0;cd ~/Documents/Learning_Code/Python/4-jgloss
-: 1749530325:0;cd ../2-vibeqt
-: 1749530327:0;python app_dictionary.py
-: 1749530342:0;source ../../.venv/bin/activate
-: 1749530344:0;python app_dictionary.py
-: 1749530378:0;cd ../2-vibeqt
-: 1749530379:0;cd ~/Documents/Learning_Code/Python/4-jgloss
-: 1749530381:0;cd ../2-vibeqt
-: 1749530383:0;source ../../.venv/bin/activate
-: 1749530386:0;python app_dictionary.py
-: 1749530399:0;n
-: 1749530411:0;neofetch
-: 1749530504:0;nix shell nixpkgs#clinfo -c clinfo
-: 1749530565:0;nix shell nixpkgs#glxinfo -c glxinfo
-: 1749530597:0;n
-: 1749530671:0;nu
-: 1749530756:0;cd ~/Documents/Learning_Code/Python/4-jgloss
-: 1749530758:0;source ../../.venv/bin/activate
-: 1749530760:0;cd ../2-vibeqt
-: 1749530761:0;python app_dictionary.py
-: 1749530767:0;n
-: 1749530795:0;nu && sudo reboot
-: 1749530803:0;n
-: 1749530809:0;z
-: 1749530823:0;nr
-: 1749530841:0;n
-: 1749530883:0;nr
-: 1749530942:0;cd ~/Documents/Learning_Code/Python/4-jgloss
-: 1749530946:0;cd ../2-vibeqt
-: 1749530948:0;source ../../.venv/bin/activate
-: 1749530950:0;python app_dictionary.py
-: 1749530957:0;n
-: 1749531022:0;nr
-: 1749531094:0;cd ~/Documents/Learning_Code/Python/4-jgloss
-: 1749531095:0;cd ../2-vibeqt
-: 1749531097:0;python app_dictionary.py
-: 1749531100:0;source ../../.venv/bin/activate
-: 1749531101:0;python app_dictionary.py
-: 1749531104:0;n
-: 1749535978:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749535979:0;pc
-: 1749535980:0;pcmanfm
-: 1749536032:0;v shell.nix
-: 1749536051:0;nix-shell
-: 1749536236:0;python app_dictionary.py 
-: 1749536236:0;nvim app_dictionary.py 
-: 1749536236:0;python app_dictionary.py 
-: 1749536236:0;python app_dictionary.py 
-: 1749536236:0;ls
-: 1749536190:0;v shell.nix
-: 1749536193:0;n
-: 1749536238:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749536243:0;shell-nix
-: 1749536247:0;nix-shell
-: 1749558183:0;python app_dictionary.py 
-: 1749558183:0;nvim app_dictionary.py 
-: 1749558183:0;python app_dictionary.py 
-: 1749558183:0;nvim app_dictionary.py 
-: 1749558183:0;nvim ../4-jgloss/importer.py 
-: 1749558183:0;nvim ../4-jgloss/importer.py 
-: 1749536499:0;neofetch
-: 1749536523:0;ls
-: 1749539463:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749539465:0;python app_dictionary.py
-: 1749539468:0;n
-: 1749539471:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749539473:0;v shell.nix
-: 1749539497:0;nu
-: 1749539504:0;nix-shell
-: 1749539522:0;n
-: 1749539527:0;nu
-: 1749558183:0;python app_dictionary.py 
-: 1749558183:0;python app_dictionary.py 
-: 1749539664:0;power-save
-: 1749539767:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749539770:0;python app_dictionary.py
-: 1749539774:0;nix-shell
-: 1749558183:0;python app_dictionary.py 
-: 1749558183:0;python app_dictionary.py 
-: 1749551663:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749551664:0;cd ../2-vibeqt
-: 1749551670:0;nix-shell
-: 1749558183:0;python app_dictionary.py 
-: 1749558183:0;v app_dictionary.py 
-: 1749558183:0;nvim app_dictionary.py 
-: 1749558183:0;python app_dictionary.py 
-: 1749558183:0;nvim ../4-jgloss/importer.py 
-: 1749558183:0;python app_dictionary.py 
-: 1749551883:0;ls
-: 1749551890:0;v result
-: 1749551930:0;v init
-: 1749551954:0;rm result
-: 1749552369:0;n
-: 1749552383:0;nu
-: 1749552391:0;n
-: 1749552395:0;z
-: 1749552555:0;n
-: 1749552559:0;nu
-: 1749552566:0;n
-: 1749552573:0;z
-: 1749552597:0;nu
-: 1749552736:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749552740:0;python app_dictionary.py
-: 1749552743:0;nix-shell
-: 1749552771:0;try qt
-: 1749556461:0;power-save
-: 1749557087:0;cd ~/Documents/Learning_Code/Python/3-viberandclip
-: 1749557090:0;python rand_clip_sent.py
-: 1749557097:0;cp ../2-vibeqt/shell.nix .
-: 1749557100:0;v shell.nix
-: 1749557126:0;nix-shell
-: 1749558183:0;python rand_clip_sent.py 
-: 1749558183:0;nvim rand_clip_sent.py 
-: 1749558183:0;python rand_clip_sent.py 
-: 1749557683:0;fd gruvbox-dark-hard.rasi
-: 1749557691:0;fd -H gruvbox-dark-hard.rasi /
-: 1749557697:0;sudo fd -xH gruvbox-dark-hard.rasi /
-: 1749557708:0;sudo fd -x -H gruvbox-dark-hard.rasi /
-: 1749557712:0;sudo fd -H gruvbox-dark-hard.rasi /
-: 1749557741:0;cp /nix/store/07m13rk7r7jfdhlhnhrwvkgdvs5psrwa-rofi-1.7.8/share/rofi/themes/gruvbox-dark-hard.rasi ~/.config/rofi
-: 1749557748:0;cd .config/rofi
-: 1749557749:0;v config.rasi
-: 1749557783:0;path .config/rofi/gruvbox-dark-hard.rasi
-: 1749557790:0;z
-: 1749557896:0;path .config/rofi/gruvbox-dark-hard.rasi
-: 1749557898:0;z
-: 1749557920:0;path .config/rofi/gruvbox-dark-hard.rasi
-: 1749557937:0;z
-: 1749557956:0;path .config/rofi/gruvbox-dark-hard.rasi
-: 1749558010:0;v ~/.config/rofi/config.rasi
-: 1749558073:0;home idfk
-: 1749558075:0;which home
-: 1749558095:0;n
-: 1749558107:0;z
-: 1749558124:0;e nu 
-: 1749558183:0; 
-: 1749552743:0;nix-shell
-: 1749558183:0;python app_dictionary.py
-: 1749558183:0;nvim app_dictionary.py 
-: 1749558183:0;python app_dictionary.py
-: 1749558183:0;nvim ../4-jgloss/importer.py 
-: 1749563474:0;n
-: 1749563502:0;e nu 
-: 1749617532:0;power-save
-: 1749623184:0;n
-: 1749638108:0;nu
-: 1749638113:0;enu
-: 1749638114:0;e nu
-: 1749639830:0;power-save
-: 1749655427:0;upower
-: 1749656939:0;power-save
-: 1749817937:0;cd Downloads/Vault/
-: 1749817938:0;ls
-: 1749817940:0;cd Examen
-: 1749817940:0;ls
-: 1749817953:0;try glow
-: 1749817960:0;glow
-: 1749817978:0;cd Downloads/Vault/Examen
-: 1749817979:0;glow
-: 1749818148:0;v .config/nvim/init.lua
-: 1749818237:0;yadm status
-: 1749818340:0;nvim
-: 1749818347:0;v .config/nvim/init.lua
-: 1749818387:0;nvim
-: 1749818411:0;v .config/nvim/init.lua
-: 1749818415:0;nvim
-: 1749818420:0;glow
-: 1749818628:0;try koreader
-: 1749818656:0;koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-: 1749818663:0;koreader
-: 1749818975:0;koreader 
-: 1749818985:0;koreader Examen\ Bucher/I\ care\ Anatomie\ Physiologie.pdf
-: 1749826292:0;try appimagerun
-: 1749826297:0;try appimage-run
-: 1749826327:0;n
-: 1749826420:0;ni
-: 1749826421:0;nu
-: 1749826560:0;ls
-: 1749826561:0;cd Downloads
-: 1749826567:0;try appimage-run koreader
-: 1749826600:0;koreader
-: 1749826618:0;cd Downloads
-: 1749826630:0;./koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
-: 1749826638:0;try appimage-run koreader
-: 1749826714:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
-: 1749826751:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-: 1749828881:0;koreader
-: 1749829140:0;n
-: 1749829222:0;nu
-: 1749829245:0;try steam-run
-: 1749829283:0;koreader
-: 1749829295:0;try appimage-run koreader steam-run
-: 1749829325:0;koreader
-: 1749829330:0;try appimage-run koreader steam-run
-: 1749829335:0;steam-run koreader
-: 1749829379:0;cd .config/
-: 1749829382:0;rm -rf koreader
-: 1749829388:0;steam-run koreader
-: 1749829402:0;nano $(find /nix/store -path "*koreader*" -name "zstd.lua" | head -n 1)
-: 1749830855:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-: 1749830858:0;try appimage-run koreader steam-run
-: 1749830869:0;stream-run koreader
-: 1749830885:0;steam-run koreaderOA
-: 1749830888:0;steam-run koreader
-: 1749830901:0;steam-run koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-: 1749830920:0;appimage-run ~/Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-: 1749834675:0;ebook-convert --help
-: 1749834681:0;ebook-convert --list-recipes
-: 1749834744:0;cd Examen\ Bucher/EBOOK/
-: 1749834745:0;ls
-: 1749834747:0;rm I\ care\ -\ PflegeExamen\ KOMPAKT.sdr
-: 1749834769:0;ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub booknoimages.epub --no-images
-: 1749834791:0;v util.py
-: 1749834818:0;python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
-: 1749834838:0;cp I\ care\ -\ PflegeExamen\ KOMPAKT.epub input.epub
-: 1749834840:0;python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
-: 1749834842:0;ls
-: 1749835308:0;cd ~/Examen\ Bucher/EBOOK
-: 1749835308:0;ls
-: 1749835323:0;ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub epub.pdf
-: 1749876046:0;cd Examen\ Bucher/EBOOK
-: 1749876046:0;ls
-: 1749876057:0;rm epub.pdf
-: 1749876059:0;ls
-: 1749876181:0;pb
-: 1749876202:0;pb -> epubPdfNoImage.sh
-: 1749876204:0;v epubPdfNoImage.sh
-: 1749876240:0;chmod +x epubPdfNoImage.sh
-: 1749876249:0;./epubPdfNoImage.sh *.azw3
-: 1749876260:0;ls
-: 1749876349:0;lf
-: 1749876477:0;pb -> epubPdfNoImage.sh
-: 1749876479:0;chmod +x epubPdfNoImage.sh
-: 1749876481:0;v epubPdfNoImage.sh
-: 1749876495:0;mv epubPdfNoImage.sh epubPdfNoImage.py
-: 1749876501:0;ppython epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
-: 1749876504:0;python epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
-: 1749876626:0;python epubPdfNoImage.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-: 1749876633:0;power-save
-: 1749884797:0;python importer.py
-: 1749885152:0;sudo python importer.py
-: 1749885155:0;python importer.py
-: 1749891385:0;cd Documents/Learning_Code/Python/2-vibeqt
-: 1749891388:0;python app_dictionary.py
-: 1749891390:0;nix-shell
+ls
+dotnet run
+dotnet run||echo i will explore all of humanity
+NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig
+cd ..
+cd
+ls
+cd Documents/cs/2-uitest
+ls
+cd ..
+sudo rm -rf 2-uitest
+dotnet new avalonia.app -o 2-uitest\
+cd 2-uitest
+ls
+dotnet run
+NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig libSkiaSharp
+NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig skia
+dotnet run
+v MainWindow.axaml
+ls
+rm MainWindow.axaml
+cd
+cd Documents/cs
+ls
+cd 2-uitest
+ls
+dotnet run
+NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk avalonia xorg.libX11 fontconfig skia
+dotnet run
+try vscode
+code
+try vscode
+code
+fd github -H
+try vscode
+fd -H -t d github
+fd -H -t d github --ignore-file=.cargo
+fd -H -t d github --ignore-file=.local/share/cargo
+try vscode
+code
+n
+nu
 python app_dictionary.py 
-: 1749891983:0;python importer.py
-: 1749897572:0;ls
-: 1749898790:0;python importer.py
-: 1749899509:0;python  main.py
-: 1749899672:0;python search.py
-: 1749927049:0;power-save
-: 1749927356:0;python search.py
-: 1749927358:0;power-save
-: 1749966822:0;v .config/bspwm/bspwmrc
-: 1749966838:0;home idk
-: 1752855545:0;ls
-: 1752855547:0;n
-: 1752855552:0;cd .config/zsh/
-: 1752855552:0;ls
-: 1752855554:0;ls -a
-: 1752855559:0;rm zshrc
-: 1752855562:0;nvim readme
-: 1752855579:0;yadm add readme .zshrc
-: 1752855582:0;home allgood
+pip install PyQt6
+try pip
+ /usr/bin/env /home/lap/Documents/Learning_Code/.venv/bin/python /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57875 -- /home/lap/Documents/Learning_Code/Python/2-vibeqt/app_dictionary.py 
+/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+try pip
+try vscode
+code
+n
+nu
+n
+nu
+n
+nu
+cd Python/2
+cd Python/2-vibeqt/
+ls
+python app_dictionary.py 
+pip
+pip install PyQt5
+pip install PyQt6
+python app_dictionary.py 
+sudo apt-get install libgl1
+nix-shell -p libgl
+
+python app_dictionary.py 
+/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+try vscode
+code
+python app_dictionary.py 
+power-save
+try vscode
+code
+n
+nu
+ls
+ls
+source .venv/bin/activate
+vim
+vim .venv/bin/activate
+ls
+pip install mesa PyQt6
+python Python/1-learning/main.py 
+python Python/2-vibeqt/app_dictionary.py 
+/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+ls
+try vscode
+code
+ls
+fd dictio
+cd Documents/Learning_Code/Python/2-vibeqt
+l
+ls
+python app_dictionary.py
+power
+power-save
+cd Documents/
+sl
+ls
+cd Learning_Code
+ls
+cd Python/2-vibeqt
+python app_dictionary.py
+n
+nu
+nmtui
+nu
+upower
+python app_dictionary.py
+nu
+nmtui
+cd Documents/Learning_Code/Python/1-learning
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+python main.py
+v main.py
+power-save
+v main.py
+power-save
+python main.py
+power-save
+v main.py
+power-save
+v main.py
+power-save
+python main.py
+v main.py
+python main.py
+v main.py
+try vscode
+code
+e
+cd Documents/Learning_Code
+git pull
+git stash
+git pull
+ls
+cd Python/4-jgloss
+v importer.py
+v main.py
+v importer.py 
+cd Python/4-jgloss
+cd ~/Documents/
+lf
+cd ~/Documents/Learning_Code/Python/4-jgloss
+ls
+v importer.py
+python importer.py
+v main.py
+python main.py
+try vscode
+code
+cd Python/1-learning/
+ls
+python ./main.py 
+python ./main.py 
+python ./main.py 
+ls
+mv jmdict-eng-common-3.6.1.json jmdict.json
+/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+try github-desktop
+github-desktop
+f github-desktop
+power-save
+ /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 54475 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+ cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+ cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+ cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40375 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+python ./importer.py 
+n
+ls
+python app_dictionary.py 
+pip install PyQt6
+python
+source ../../.venv/bin/activate
+pip
+pip install PyQt6
+python app_dictionary.py 
+pip install PyQt6
+python app_dictionary.py 
+nix-env -iA nixpkgs.mesa
+neofetch
+nmtui
+n
+nu
+n
+nu
+cd ~/Documents/Learning_Code/Python/4-jgloss
+cd ../2-vibeqt
+python app_dictionary.py
+source ../../.venv/bin/activate
+python app_dictionary.py
+cd ../2-vibeqt
+cd ~/Documents/Learning_Code/Python/4-jgloss
+cd ../2-vibeqt
+source ../../.venv/bin/activate
+python app_dictionary.py
+n
+neofetch
+nix shell nixpkgs#clinfo -c clinfo
+nix shell nixpkgs#glxinfo -c glxinfo
+n
+nu
+cd ~/Documents/Learning_Code/Python/4-jgloss
+source ../../.venv/bin/activate
+cd ../2-vibeqt
+python app_dictionary.py
+n
+nu && sudo reboot
+n
+z
+nr
+n
+nr
+cd ~/Documents/Learning_Code/Python/4-jgloss
+cd ../2-vibeqt
+source ../../.venv/bin/activate
+python app_dictionary.py
+n
+nr
+cd ~/Documents/Learning_Code/Python/4-jgloss
+cd ../2-vibeqt
+python app_dictionary.py
+source ../../.venv/bin/activate
+python app_dictionary.py
+n
+cd Documents/Learning_Code/Python/2-vibeqt
+pc
+pcmanfm
+v shell.nix
+nix-shell
+python app_dictionary.py 
+nvim app_dictionary.py 
+python app_dictionary.py 
+python app_dictionary.py 
+ls
+v shell.nix
+n
+cd Documents/Learning_Code/Python/2-vibeqt
+shell-nix
+nix-shell
+python app_dictionary.py 
+nvim app_dictionary.py 
+python app_dictionary.py 
+nvim app_dictionary.py 
+nvim ../4-jgloss/importer.py 
+nvim ../4-jgloss/importer.py 
+neofetch
+ls
+cd Documents/Learning_Code/Python/2-vibeqt
+python app_dictionary.py
+n
+cd Documents/Learning_Code/Python/2-vibeqt
+v shell.nix
+nu
+nix-shell
+n
+nu
+python app_dictionary.py 
+python app_dictionary.py 
+power-save
+cd Documents/Learning_Code/Python/2-vibeqt
+python app_dictionary.py
+nix-shell
+python app_dictionary.py 
+python app_dictionary.py 
+cd Documents/Learning_Code/Python/2-vibeqt
+cd ../2-vibeqt
+nix-shell
+python app_dictionary.py 
+v app_dictionary.py 
+nvim app_dictionary.py 
+python app_dictionary.py 
+nvim ../4-jgloss/importer.py 
+python app_dictionary.py 
+ls
+v result
+v init
+rm result
+n
+nu
+n
+z
+n
+nu
+n
+z
+nu
+cd Documents/Learning_Code/Python/2-vibeqt
+python app_dictionary.py
+nix-shell
+try qt
+power-save
+cd ~/Documents/Learning_Code/Python/3-viberandclip
+python rand_clip_sent.py
+cp ../2-vibeqt/shell.nix .
+v shell.nix
+nix-shell
+python rand_clip_sent.py 
+nvim rand_clip_sent.py 
+python rand_clip_sent.py 
+fd gruvbox-dark-hard.rasi
+fd -H gruvbox-dark-hard.rasi /
+sudo fd -xH gruvbox-dark-hard.rasi /
+sudo fd -x -H gruvbox-dark-hard.rasi /
+sudo fd -H gruvbox-dark-hard.rasi /
+cp /nix/store/07m13rk7r7jfdhlhnhrwvkgdvs5psrwa-rofi-1.7.8/share/rofi/themes/gruvbox-dark-hard.rasi ~/.config/rofi
+cd .config/rofi
+v config.rasi
+path .config/rofi/gruvbox-dark-hard.rasi
+z
+path .config/rofi/gruvbox-dark-hard.rasi
+z
+path .config/rofi/gruvbox-dark-hard.rasi
+z
+path .config/rofi/gruvbox-dark-hard.rasi
+v ~/.config/rofi/config.rasi
+home idfk
+which home
+n
+z
+e nu 
+ 
+nix-shell
+python app_dictionary.py
+nvim app_dictionary.py 
+python app_dictionary.py
+nvim ../4-jgloss/importer.py 
+n
+e nu 
+power-save
+n
+nu
+enu
+e nu
+power-save
+upower
+power-save
+cd Downloads/Vault/
+ls
+cd Examen
+ls
+try glow
+glow
+cd Downloads/Vault/Examen
+glow
+v .config/nvim/init.lua
+yadm status
+nvim
+v .config/nvim/init.lua
+nvim
+v .config/nvim/init.lua
+nvim
+glow
+try koreader
+koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+koreader
+koreader 
+koreader Examen\ Bucher/I\ care\ Anatomie\ Physiologie.pdf
+try appimagerun
+try appimage-run
+n
+ni
+nu
+ls
+cd Downloads
+try appimage-run koreader
+koreader
+cd Downloads
+./koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
+try appimage-run koreader
+appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
+appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+koreader
+n
+nu
+try steam-run
+koreader
+try appimage-run koreader steam-run
+koreader
+try appimage-run koreader steam-run
+steam-run koreader
+cd .config/
+rm -rf koreader
+steam-run koreader
+nano $(find /nix/store -path "*koreader*" -name "zstd.lua" | head -n 1)
+appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+try appimage-run koreader steam-run
+stream-run koreader
+steam-run koreaderOA
+steam-run koreader
+steam-run koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+appimage-run ~/Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+ebook-convert --help
+ebook-convert --list-recipes
+cd Examen\ Bucher/EBOOK/
+ls
+rm I\ care\ -\ PflegeExamen\ KOMPAKT.sdr
+ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub booknoimages.epub --no-images
+v util.py
+python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
+cp I\ care\ -\ PflegeExamen\ KOMPAKT.epub input.epub
+python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
+ls
+cd ~/Examen\ Bucher/EBOOK
+ls
+ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub epub.pdf
+cd Examen\ Bucher/EBOOK
+ls
+rm epub.pdf
+ls
+pb
+pb -> epubPdfNoImage.sh
+v epubPdfNoImage.sh
+chmod +x epubPdfNoImage.sh
+./epubPdfNoImage.sh *.azw3
+ls
+lf
+pb -> epubPdfNoImage.sh
+chmod +x epubPdfNoImage.sh
+v epubPdfNoImage.sh
+mv epubPdfNoImage.sh epubPdfNoImage.py
+ppython epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
+python epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
+python epubPdfNoImage.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+power-save
+python importer.py
+sudo python importer.py
+python importer.py
+cd Documents/Learning_Code/Python/2-vibeqt
+python app_dictionary.py
+nix-shell
+python app_dictionary.py 
+python importer.py
+ls
+python importer.py
+python  main.py
+python search.py
+power-save
+python search.py
+power-save
+v .config/bspwm/bspwmrc
+home idk
+ls
+n
+cd .config/zsh/
+ls
+ls -a
+rm zshrc
+nvim readme
+yadm add readme .zshrc
+home allgood
+nmtui
+sudo rfkill
+sudo rfkill wifi block
+hist
+n
+z
+echo $XDG_STATE_HOME
+v .local/state/zsh/history
+try trailscale
+try traysclae
+try trayscale
+traysclae
+trayscale
+n
+try tailscale
+tailscale
+tailscale up
+sys enable --now tailscaled
+sudo systemctl start tailscale
+sudo systemctl start tailscaled
+try moonlight-qt
+moonlight
+parsecd
+try moonlight-qt
+moonlight
+parsecd
+nmtui
+paru -S steamlink
+try steam
+n
+nu
+n
+nu
+flatpak install flathub com.valvesoftware.Steam
+flatpak run com.valvesoftware.Steam
+flatpak install flathub com.valvesoftware.SteamLink
+flatpak run flathub com.valvesoftware.SteamLink
+flatpak run com.valvesoftware.SteamLink
+n
+nu
+n
+nu
+ssh deck@steamdeck
+ssh-copy-id deck@steamdeck
+ssh deck@steamdeck
+mkdir Mounts/deck
+ls Mounts
+sshfs deck@steamdeck:/ Mounts/deck
+: 1752927488:0;nmtui
+: 1753561922:0;try tailscaled]
+: 1753561923:0;try tailscaled
+: 1753562011:0;n
+: 1753562035:0;nu
+: 1753562039:0;home tailscale

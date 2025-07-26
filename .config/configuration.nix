@@ -153,7 +153,7 @@
     parsec-bin
     anki
     obsidian
-    sioyek
+    #sioyek
     pamixer pavucontrol
     # WM (Hypr)
     #rofi-wayland
@@ -162,6 +162,7 @@
     pcmanfm
     mate.engrampa
     p7zip
+    moonlight-qt
     vimv
     rclone
     wl-clipboard clipman # clipboard util and manager, also WM autostart needed, like tis "wl-paste -t text --watch clipman store" for persistent clipboard
@@ -214,6 +215,14 @@
   services.udisks2.enable = true;
   services.gvfs.enable = true;
   programs.udevil.enable = true;
+
+  # flatpaks
+  services.flatpak.enable = true;
+  ## stupid shit thats needed
+  xdg.portal = { 
+    enable = true;
+    config.common.default = "*";
+  };
 
   # Virtualization and containers
   virtualisation.podman = {
