@@ -1,573 +1,859 @@
+: 1753562390:0;cd 2-uitest
+: 1753562390:0;lf
+: 1753562390:0;cd ..
+: 1753562390:0;rm 2-uitest
+: 1753562390:0;dotnet new avalonia.app -o 2-uitest\
 cd 2-uitest
-lf
-cd ..
-rm 2-uitest
-dotnet new avalonia.app -o 2-uitest\
+: 1753562390:0;ls
+: 1753562390:0;v 2-uitest.csproj
+: 1753562390:0;dotnet restore
+: 1753562390:0;ls
+: 1753562390:0;v MainWindow.axaml
+: 1753562390:0;dotnet run
+: 1753562390:0;ls
+: 1753562390:0;v 2-uitest.csproj
+: 1753562390:0;cd ~/Documents/cs/2-uitest
+: 1753562390:0;ls
+: 1753562390:0;dotnet run
+: 1753562390:0;cd ~/Documents/cs/2-uitest
+: 1753562390:0;try dotnet-sdk9 avalonia
+: 1753562390:0;dotnet
+: 1753562390:0;try dotnet-sdk_9 avalonia
+: 1753562390:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia
+: 1753562390:0;cd ..
+: 1753562390:0;rm 2-uitest
+: 1753562390:0;dotnet new install Avalonia.Templates
+: 1753562390:0;ls
+: 1753562390:0;s
+: 1753562390:0;dotnet new avalonia.app -o 2-uitest\
 cd 2-uitest
-ls
-v 2-uitest.csproj
-dotnet restore
-ls
-v MainWindow.axaml
-dotnet run
-ls
-v 2-uitest.csproj
-cd ~/Documents/cs/2-uitest
-ls
-dotnet run
-cd ~/Documents/cs/2-uitest
-try dotnet-sdk9 avalonia
-dotnet
-try dotnet-sdk_9 avalonia
-NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia
-cd ..
-rm 2-uitest
-dotnet new install Avalonia.Templates
-ls
-s
-dotnet new avalonia.app -o 2-uitest\
+: 1753562390:0;ls
+: 1753562390:0;dotnet run
+: 1753562390:0;dotnet run||echo i will explore all of humanity
+: 1753562390:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig
+: 1753562390:0;cd ..
+: 1753562390:0;cd
+: 1753562390:0;ls
+: 1753562390:0;cd Documents/cs/2-uitest
+: 1753562390:0;ls
+: 1753562390:0;cd ..
+: 1753562390:0;sudo rm -rf 2-uitest
+: 1753562390:0;dotnet new avalonia.app -o 2-uitest\
 cd 2-uitest
-ls
-dotnet run
-dotnet run||echo i will explore all of humanity
-NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig
-cd ..
-cd
-ls
-cd Documents/cs/2-uitest
-ls
-cd ..
-sudo rm -rf 2-uitest
-dotnet new avalonia.app -o 2-uitest\
-cd 2-uitest
-ls
-dotnet run
-NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig libSkiaSharp
-NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig skia
-dotnet run
-v MainWindow.axaml
-ls
-rm MainWindow.axaml
-cd
-cd Documents/cs
-ls
-cd 2-uitest
-ls
-dotnet run
-NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk avalonia xorg.libX11 fontconfig skia
-dotnet run
-try vscode
-code
-try vscode
-code
-fd github -H
-try vscode
-fd -H -t d github
-fd -H -t d github --ignore-file=.cargo
-fd -H -t d github --ignore-file=.local/share/cargo
-try vscode
-code
-n
-nu
-python app_dictionary.py 
-pip install PyQt6
-try pip
- /usr/bin/env /home/lap/Documents/Learning_Code/.venv/bin/python /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57875 -- /home/lap/Documents/Learning_Code/Python/2-vibeqt/app_dictionary.py 
-/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
-try pip
-try vscode
-code
-n
-nu
-n
-nu
-n
-nu
-cd Python/2
-cd Python/2-vibeqt/
-ls
-python app_dictionary.py 
-pip
-pip install PyQt5
-pip install PyQt6
-python app_dictionary.py 
-sudo apt-get install libgl1
-nix-shell -p libgl
-
-python app_dictionary.py 
-/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
-try vscode
-code
-python app_dictionary.py 
-power-save
-try vscode
-code
-n
-nu
-ls
-ls
-source .venv/bin/activate
-vim
-vim .venv/bin/activate
-ls
-pip install mesa PyQt6
-python Python/1-learning/main.py 
-python Python/2-vibeqt/app_dictionary.py 
-/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
-ls
-try vscode
-code
-ls
-fd dictio
-cd Documents/Learning_Code/Python/2-vibeqt
-l
-ls
-python app_dictionary.py
-power
-power-save
-cd Documents/
-sl
-ls
-cd Learning_Code
-ls
-cd Python/2-vibeqt
-python app_dictionary.py
-n
-nu
-nmtui
-nu
-upower
-python app_dictionary.py
-nu
-nmtui
-cd Documents/Learning_Code/Python/1-learning
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-python main.py
-v main.py
-power-save
-v main.py
-power-save
-python main.py
-power-save
-v main.py
-power-save
-v main.py
-power-save
-python main.py
-v main.py
-python main.py
-v main.py
-try vscode
-code
-e
-cd Documents/Learning_Code
-git pull
-git stash
-git pull
-ls
-cd Python/4-jgloss
-v importer.py
-v main.py
-v importer.py 
-cd Python/4-jgloss
-cd ~/Documents/
-lf
-cd ~/Documents/Learning_Code/Python/4-jgloss
-ls
-v importer.py
-python importer.py
-v main.py
-python main.py
-try vscode
-code
-cd Python/1-learning/
-ls
-python ./main.py 
-python ./main.py 
-python ./main.py 
-ls
-mv jmdict-eng-common-3.6.1.json jmdict.json
-/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
-try github-desktop
-github-desktop
-f github-desktop
-power-save
- /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 54475 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
- cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
- cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
- cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40375 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
-python ./importer.py 
-n
-ls
-python app_dictionary.py 
-pip install PyQt6
-python
-source ../../.venv/bin/activate
-pip
-pip install PyQt6
-python app_dictionary.py 
-pip install PyQt6
-python app_dictionary.py 
-nix-env -iA nixpkgs.mesa
-neofetch
-nmtui
-n
-nu
-n
-nu
-cd ~/Documents/Learning_Code/Python/4-jgloss
-cd ../2-vibeqt
-python app_dictionary.py
-source ../../.venv/bin/activate
-python app_dictionary.py
-cd ../2-vibeqt
-cd ~/Documents/Learning_Code/Python/4-jgloss
-cd ../2-vibeqt
-source ../../.venv/bin/activate
-python app_dictionary.py
-n
-neofetch
-nix shell nixpkgs#clinfo -c clinfo
-nix shell nixpkgs#glxinfo -c glxinfo
-n
-nu
-cd ~/Documents/Learning_Code/Python/4-jgloss
-source ../../.venv/bin/activate
-cd ../2-vibeqt
-python app_dictionary.py
-n
-nu && sudo reboot
-n
-z
-nr
-n
-nr
-cd ~/Documents/Learning_Code/Python/4-jgloss
-cd ../2-vibeqt
-source ../../.venv/bin/activate
-python app_dictionary.py
-n
-nr
-cd ~/Documents/Learning_Code/Python/4-jgloss
-cd ../2-vibeqt
-python app_dictionary.py
-source ../../.venv/bin/activate
-python app_dictionary.py
-n
-cd Documents/Learning_Code/Python/2-vibeqt
-pc
-pcmanfm
-v shell.nix
-nix-shell
-python app_dictionary.py 
-nvim app_dictionary.py 
-python app_dictionary.py 
-python app_dictionary.py 
-ls
-v shell.nix
-n
-cd Documents/Learning_Code/Python/2-vibeqt
-shell-nix
-nix-shell
-python app_dictionary.py 
-nvim app_dictionary.py 
-python app_dictionary.py 
-nvim app_dictionary.py 
-nvim ../4-jgloss/importer.py 
-nvim ../4-jgloss/importer.py 
-neofetch
-ls
-cd Documents/Learning_Code/Python/2-vibeqt
-python app_dictionary.py
-n
-cd Documents/Learning_Code/Python/2-vibeqt
-v shell.nix
-nu
-nix-shell
-n
-nu
-python app_dictionary.py 
-python app_dictionary.py 
-power-save
-cd Documents/Learning_Code/Python/2-vibeqt
-python app_dictionary.py
-nix-shell
-python app_dictionary.py 
-python app_dictionary.py 
-cd Documents/Learning_Code/Python/2-vibeqt
-cd ../2-vibeqt
-nix-shell
-python app_dictionary.py 
-v app_dictionary.py 
-nvim app_dictionary.py 
-python app_dictionary.py 
-nvim ../4-jgloss/importer.py 
-python app_dictionary.py 
-ls
-v result
-v init
-rm result
-n
-nu
-n
-z
-n
-nu
-n
-z
-nu
-cd Documents/Learning_Code/Python/2-vibeqt
-python app_dictionary.py
-nix-shell
-try qt
-power-save
-cd ~/Documents/Learning_Code/Python/3-viberandclip
-python rand_clip_sent.py
-cp ../2-vibeqt/shell.nix .
-v shell.nix
-nix-shell
-python rand_clip_sent.py 
-nvim rand_clip_sent.py 
-python rand_clip_sent.py 
-fd gruvbox-dark-hard.rasi
-fd -H gruvbox-dark-hard.rasi /
-sudo fd -xH gruvbox-dark-hard.rasi /
-sudo fd -x -H gruvbox-dark-hard.rasi /
-sudo fd -H gruvbox-dark-hard.rasi /
-cp /nix/store/07m13rk7r7jfdhlhnhrwvkgdvs5psrwa-rofi-1.7.8/share/rofi/themes/gruvbox-dark-hard.rasi ~/.config/rofi
-cd .config/rofi
-v config.rasi
-path .config/rofi/gruvbox-dark-hard.rasi
-z
-path .config/rofi/gruvbox-dark-hard.rasi
-z
-path .config/rofi/gruvbox-dark-hard.rasi
-z
-path .config/rofi/gruvbox-dark-hard.rasi
-v ~/.config/rofi/config.rasi
-home idfk
-which home
-n
-z
-e nu 
- 
-nix-shell
-python app_dictionary.py
-nvim app_dictionary.py 
-python app_dictionary.py
-nvim ../4-jgloss/importer.py 
-n
-e nu 
-power-save
-n
-nu
-enu
-e nu
-power-save
-upower
-power-save
-cd Downloads/Vault/
-ls
-cd Examen
-ls
-try glow
-glow
-cd Downloads/Vault/Examen
-glow
-v .config/nvim/init.lua
-yadm status
-nvim
-v .config/nvim/init.lua
-nvim
-v .config/nvim/init.lua
-nvim
-glow
-try koreader
-koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-koreader
-koreader 
-koreader Examen\ Bucher/I\ care\ Anatomie\ Physiologie.pdf
-try appimagerun
-try appimage-run
-n
-ni
-nu
-ls
-cd Downloads
-try appimage-run koreader
-koreader
-cd Downloads
-./koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
-try appimage-run koreader
-appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
-appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-koreader
-n
-nu
-try steam-run
-koreader
-try appimage-run koreader steam-run
-koreader
-try appimage-run koreader steam-run
-steam-run koreader
-cd .config/
-rm -rf koreader
-steam-run koreader
-nano $(find /nix/store -path "*koreader*" -name "zstd.lua" | head -n 1)
-appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-try appimage-run koreader steam-run
-stream-run koreader
-steam-run koreaderOA
-steam-run koreader
-steam-run koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-appimage-run ~/Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-ebook-convert --help
-ebook-convert --list-recipes
-cd Examen\ Bucher/EBOOK/
-ls
-rm I\ care\ -\ PflegeExamen\ KOMPAKT.sdr
-ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub booknoimages.epub --no-images
-v util.py
-python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
-cp I\ care\ -\ PflegeExamen\ KOMPAKT.epub input.epub
-python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
-ls
-cd ~/Examen\ Bucher/EBOOK
-ls
-ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub epub.pdf
-cd Examen\ Bucher/EBOOK
-ls
-rm epub.pdf
-ls
-pb
-pb -> epubPdfNoImage.sh
-v epubPdfNoImage.sh
-chmod +x epubPdfNoImage.sh
-./epubPdfNoImage.sh *.azw3
-ls
-lf
-pb -> epubPdfNoImage.sh
-chmod +x epubPdfNoImage.sh
-v epubPdfNoImage.sh
-mv epubPdfNoImage.sh epubPdfNoImage.py
-ppython epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
-python epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
-python epubPdfNoImage.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub
-power-save
-python importer.py
-sudo python importer.py
-python importer.py
-cd Documents/Learning_Code/Python/2-vibeqt
-python app_dictionary.py
-nix-shell
-python app_dictionary.py 
-python importer.py
-ls
-python importer.py
-python  main.py
-python search.py
-power-save
-python search.py
-power-save
-v .config/bspwm/bspwmrc
-home idk
-ls
-n
-cd .config/zsh/
-ls
-ls -a
-rm zshrc
-nvim readme
-yadm add readme .zshrc
-home allgood
-nmtui
-sudo rfkill
-sudo rfkill wifi block
-hist
-n
-z
-echo $XDG_STATE_HOME
-v .local/state/zsh/history
-try trailscale
-try traysclae
-try trayscale
-traysclae
-trayscale
-n
-try tailscale
-tailscale
-tailscale up
-sys enable --now tailscaled
-sudo systemctl start tailscale
-sudo systemctl start tailscaled
-try moonlight-qt
-moonlight
-parsecd
-try moonlight-qt
-moonlight
-parsecd
-nmtui
-paru -S steamlink
-try steam
-n
-nu
-n
-nu
-flatpak install flathub com.valvesoftware.Steam
-flatpak run com.valvesoftware.Steam
-flatpak install flathub com.valvesoftware.SteamLink
-flatpak run flathub com.valvesoftware.SteamLink
-flatpak run com.valvesoftware.SteamLink
-n
-nu
-n
-nu
-ssh deck@steamdeck
-ssh-copy-id deck@steamdeck
-ssh deck@steamdeck
-mkdir Mounts/deck
-ls Mounts
-sshfs deck@steamdeck:/ Mounts/deck
+: 1753562390:0;ls
+: 1753562390:0;dotnet run
+: 1753562390:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig libSkiaSharp
+: 1753562390:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk_9 avalonia xorg.libX11 fontconfig skia
+: 1753562390:0;dotnet run
+: 1753562390:0;v MainWindow.axaml
+: 1753562390:0;ls
+: 1753562390:0;rm MainWindow.axaml
+: 1753562390:0;cd
+: 1753562390:0;cd Documents/cs
+: 1753562390:0;ls
+: 1753562390:0;cd 2-uitest
+: 1753562390:0;ls
+: 1753562390:0;dotnet run
+: 1753562390:0;NIXPKGS_ALLOW_INSECURE=1 try dotnet-sdk avalonia xorg.libX11 fontconfig skia
+: 1753562390:0;dotnet run
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;fd github -H
+: 1753562390:0;try vscode
+: 1753562390:0;fd -H -t d github
+: 1753562390:0;fd -H -t d github --ignore-file=.cargo
+: 1753562390:0;fd -H -t d github --ignore-file=.local/share/cargo
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;pip install PyQt6
+: 1753562390:0;try pip
+: 1753562390:0; /usr/bin/env /home/lap/Documents/Learning_Code/.venv/bin/python /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57875 -- /home/lap/Documents/Learning_Code/Python/2-vibeqt/app_dictionary.py 
+: 1753562390:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+: 1753562390:0;try pip
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;cd Python/2
+: 1753562390:0;cd Python/2-vibeqt/
+: 1753562390:0;ls
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;pip
+: 1753562390:0;pip install PyQt5
+: 1753562390:0;pip install PyQt6
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;sudo apt-get install libgl1
+: 1753562390:0;nix-shell -p libgl
+: 1753562390:0;
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;power-save
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;ls
+: 1753562390:0;ls
+: 1753562390:0;source .venv/bin/activate
+: 1753562390:0;vim
+: 1753562390:0;vim .venv/bin/activate
+: 1753562390:0;ls
+: 1753562390:0;pip install mesa PyQt6
+: 1753562390:0;python Python/1-learning/main.py 
+: 1753562390:0;python Python/2-vibeqt/app_dictionary.py 
+: 1753562390:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+: 1753562390:0;ls
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;ls
+: 1753562390:0;fd dictio
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;l
+: 1753562390:0;ls
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;power
+: 1753562390:0;power-save
+: 1753562390:0;cd Documents/
+: 1753562390:0;sl
+: 1753562390:0;ls
+: 1753562390:0;cd Learning_Code
+: 1753562390:0;ls
+: 1753562390:0;cd Python/2-vibeqt
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;nmtui
+: 1753562390:0;nu
+: 1753562390:0;upower
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;nu
+: 1753562390:0;nmtui
+: 1753562390:0;cd Documents/Learning_Code/Python/1-learning
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;power-save
+: 1753562390:0;v main.py
+: 1753562390:0;power-save
+: 1753562390:0;python main.py
+: 1753562390:0;power-save
+: 1753562390:0;v main.py
+: 1753562390:0;power-save
+: 1753562390:0;v main.py
+: 1753562390:0;power-save
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;v main.py
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;e
+: 1753562390:0;cd Documents/Learning_Code
+: 1753562390:0;git pull
+: 1753562390:0;git stash
+: 1753562390:0;git pull
+: 1753562390:0;ls
+: 1753562390:0;cd Python/4-jgloss
+: 1753562390:0;v importer.py
+: 1753562390:0;v main.py
+: 1753562390:0;v importer.py 
+: 1753562390:0;cd Python/4-jgloss
+: 1753562390:0;cd ~/Documents/
+: 1753562390:0;lf
+: 1753562390:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1753562390:0;ls
+: 1753562390:0;v importer.py
+: 1753562390:0;python importer.py
+: 1753562390:0;v main.py
+: 1753562390:0;python main.py
+: 1753562390:0;try vscode
+: 1753562390:0;code
+: 1753562390:0;cd Python/1-learning/
+: 1753562390:0;ls
+: 1753562390:0;python ./main.py 
+: 1753562390:0;python ./main.py 
+: 1753562390:0;python ./main.py 
+: 1753562390:0;ls
+: 1753562390:0;mv jmdict-eng-common-3.6.1.json jmdict.json
+: 1753562390:0;/run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/lap/.vscode/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+: 1753562390:0;try github-desktop
+: 1753562390:0;github-desktop
+: 1753562390:0;f github-desktop
+: 1753562390:0;power-save
+: 1753562390:0; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 54475 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+: 1753562390:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+: 1753562390:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34437 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+: 1753562390:0; cd /home/lap/Documents/Learning_Code/Python/4-jgloss ; /usr/bin/env /run/current-system/sw/bin/python3.12 /home/lap/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40375 -- /home/lap/Documents/Learning_Code/Python/4-jgloss/importer.py 
+: 1753562390:0;python ./importer.py 
+: 1753562390:0;n
+: 1753562390:0;ls
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;pip install PyQt6
+: 1753562390:0;python
+: 1753562390:0;source ../../.venv/bin/activate
+: 1753562390:0;pip
+: 1753562390:0;pip install PyQt6
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;pip install PyQt6
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;nix-env -iA nixpkgs.mesa
+: 1753562390:0;neofetch
+: 1753562390:0;nmtui
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1753562390:0;cd ../2-vibeqt
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;source ../../.venv/bin/activate
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;cd ../2-vibeqt
+: 1753562390:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1753562390:0;cd ../2-vibeqt
+: 1753562390:0;source ../../.venv/bin/activate
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;n
+: 1753562390:0;neofetch
+: 1753562390:0;nix shell nixpkgs#clinfo -c clinfo
+: 1753562390:0;nix shell nixpkgs#glxinfo -c glxinfo
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1753562390:0;source ../../.venv/bin/activate
+: 1753562390:0;cd ../2-vibeqt
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;n
+: 1753562390:0;nu && sudo reboot
+: 1753562390:0;n
+: 1753562390:0;z
+: 1753562390:0;nr
+: 1753562390:0;n
+: 1753562390:0;nr
+: 1753562390:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1753562390:0;cd ../2-vibeqt
+: 1753562390:0;source ../../.venv/bin/activate
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;n
+: 1753562390:0;nr
+: 1753562390:0;cd ~/Documents/Learning_Code/Python/4-jgloss
+: 1753562390:0;cd ../2-vibeqt
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;source ../../.venv/bin/activate
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;n
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;pc
+: 1753562390:0;pcmanfm
+: 1753562390:0;v shell.nix
+: 1753562390:0;nix-shell
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;nvim app_dictionary.py 
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;ls
+: 1753562390:0;v shell.nix
+: 1753562390:0;n
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;shell-nix
+: 1753562390:0;nix-shell
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;nvim app_dictionary.py 
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;nvim app_dictionary.py 
+: 1753562390:0;nvim ../4-jgloss/importer.py 
+: 1753562390:0;nvim ../4-jgloss/importer.py 
+: 1753562390:0;neofetch
+: 1753562390:0;ls
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;n
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;v shell.nix
+: 1753562390:0;nu
+: 1753562390:0;nix-shell
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;power-save
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;nix-shell
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;cd ../2-vibeqt
+: 1753562390:0;nix-shell
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;v app_dictionary.py 
+: 1753562390:0;nvim app_dictionary.py 
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;nvim ../4-jgloss/importer.py 
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;ls
+: 1753562390:0;v result
+: 1753562390:0;v init
+: 1753562390:0;rm result
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;n
+: 1753562390:0;z
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;n
+: 1753562390:0;z
+: 1753562390:0;nu
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;nix-shell
+: 1753562390:0;try qt
+: 1753562390:0;power-save
+: 1753562390:0;cd ~/Documents/Learning_Code/Python/3-viberandclip
+: 1753562390:0;python rand_clip_sent.py
+: 1753562390:0;cp ../2-vibeqt/shell.nix .
+: 1753562390:0;v shell.nix
+: 1753562390:0;nix-shell
+: 1753562390:0;python rand_clip_sent.py 
+: 1753562390:0;nvim rand_clip_sent.py 
+: 1753562390:0;python rand_clip_sent.py 
+: 1753562390:0;fd gruvbox-dark-hard.rasi
+: 1753562390:0;fd -H gruvbox-dark-hard.rasi /
+: 1753562390:0;sudo fd -xH gruvbox-dark-hard.rasi /
+: 1753562390:0;sudo fd -x -H gruvbox-dark-hard.rasi /
+: 1753562390:0;sudo fd -H gruvbox-dark-hard.rasi /
+: 1753562390:0;cp /nix/store/07m13rk7r7jfdhlhnhrwvkgdvs5psrwa-rofi-1.7.8/share/rofi/themes/gruvbox-dark-hard.rasi ~/.config/rofi
+: 1753562390:0;cd .config/rofi
+: 1753562390:0;v config.rasi
+: 1753562390:0;path .config/rofi/gruvbox-dark-hard.rasi
+: 1753562390:0;z
+: 1753562390:0;path .config/rofi/gruvbox-dark-hard.rasi
+: 1753562390:0;z
+: 1753562390:0;path .config/rofi/gruvbox-dark-hard.rasi
+: 1753562390:0;z
+: 1753562390:0;path .config/rofi/gruvbox-dark-hard.rasi
+: 1753562390:0;v ~/.config/rofi/config.rasi
+: 1753562390:0;home idfk
+: 1753562390:0;which home
+: 1753562390:0;n
+: 1753562390:0;z
+: 1753562390:0;e nu 
+: 1753562390:0; 
+: 1753562390:0;nix-shell
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;nvim app_dictionary.py 
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;nvim ../4-jgloss/importer.py 
+: 1753562390:0;n
+: 1753562390:0;e nu 
+: 1753562390:0;power-save
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;enu
+: 1753562390:0;e nu
+: 1753562390:0;power-save
+: 1753562390:0;upower
+: 1753562390:0;power-save
+: 1753562390:0;cd Downloads/Vault/
+: 1753562390:0;ls
+: 1753562390:0;cd Examen
+: 1753562390:0;ls
+: 1753562390:0;try glow
+: 1753562390:0;glow
+: 1753562390:0;cd Downloads/Vault/Examen
+: 1753562390:0;glow
+: 1753562390:0;v .config/nvim/init.lua
+: 1753562390:0;yadm status
+: 1753562390:0;nvim
+: 1753562390:0;v .config/nvim/init.lua
+: 1753562390:0;nvim
+: 1753562390:0;v .config/nvim/init.lua
+: 1753562390:0;nvim
+: 1753562390:0;glow
+: 1753562390:0;try koreader
+: 1753562390:0;koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1753562390:0;koreader
+: 1753562390:0;koreader 
+: 1753562390:0;koreader Examen\ Bucher/I\ care\ Anatomie\ Physiologie.pdf
+: 1753562390:0;try appimagerun
+: 1753562390:0;try appimage-run
+: 1753562390:0;n
+: 1753562390:0;ni
+: 1753562390:0;nu
+: 1753562390:0;ls
+: 1753562390:0;cd Downloads
+: 1753562390:0;try appimage-run koreader
+: 1753562390:0;koreader
+: 1753562390:0;cd Downloads
+: 1753562390:0;./koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
+: 1753562390:0;try appimage-run koreader
+: 1753562390:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage
+: 1753562390:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1753562390:0;koreader
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;try steam-run
+: 1753562390:0;koreader
+: 1753562390:0;try appimage-run koreader steam-run
+: 1753562390:0;koreader
+: 1753562390:0;try appimage-run koreader steam-run
+: 1753562390:0;steam-run koreader
+: 1753562390:0;cd .config/
+: 1753562390:0;rm -rf koreader
+: 1753562390:0;steam-run koreader
+: 1753562390:0;nano $(find /nix/store -path "*koreader*" -name "zstd.lua" | head -n 1)
+: 1753562390:0;appimage-run Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1753562390:0;try appimage-run koreader steam-run
+: 1753562390:0;stream-run koreader
+: 1753562390:0;steam-run koreaderOA
+: 1753562390:0;steam-run koreader
+: 1753562390:0;steam-run koreader Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1753562390:0;appimage-run ~/Downloads/koreader-appimage-x86_64-linux-gnu-v2025.04.AppImage Examen\ Bucher/EBOOK/I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1753562390:0;ebook-convert --help
+: 1753562390:0;ebook-convert --list-recipes
+: 1753562390:0;cd Examen\ Bucher/EBOOK/
+: 1753562390:0;ls
+: 1753562390:0;rm I\ care\ -\ PflegeExamen\ KOMPAKT.sdr
+: 1753562390:0;ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub booknoimages.epub --no-images
+: 1753562390:0;v util.py
+: 1753562390:0;python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
+: 1753562390:0;cp I\ care\ -\ PflegeExamen\ KOMPAKT.epub input.epub
+: 1753562390:0;python util.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub outout.epub
+: 1753562390:0;ls
+: 1753562390:0;cd ~/Examen\ Bucher/EBOOK
+: 1753562390:0;ls
+: 1753562390:0;ebook-convert I\ care\ -\ PflegeExamen\ KOMPAKT.epub epub.pdf
+: 1753562390:0;cd Examen\ Bucher/EBOOK
+: 1753562390:0;ls
+: 1753562390:0;rm epub.pdf
+: 1753562390:0;ls
+: 1753562390:0;pb
+: 1753562390:0;pb -> epubPdfNoImage.sh
+: 1753562390:0;v epubPdfNoImage.sh
+: 1753562390:0;chmod +x epubPdfNoImage.sh
+: 1753562390:0;./epubPdfNoImage.sh *.azw3
+: 1753562390:0;ls
+: 1753562390:0;lf
+: 1753562390:0;pb -> epubPdfNoImage.sh
+: 1753562390:0;chmod +x epubPdfNoImage.sh
+: 1753562390:0;v epubPdfNoImage.sh
+: 1753562390:0;mv epubPdfNoImage.sh epubPdfNoImage.py
+: 1753562390:0;ppython epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
+: 1753562390:0;python epubPdfNoImage.py FACHPFLEGE\ Intensivpflege.azw3
+: 1753562390:0;python epubPdfNoImage.py I\ care\ -\ PflegeExamen\ KOMPAKT.epub
+: 1753562390:0;power-save
+: 1753562390:0;python importer.py
+: 1753562390:0;sudo python importer.py
+: 1753562390:0;python importer.py
+: 1753562390:0;cd Documents/Learning_Code/Python/2-vibeqt
+: 1753562390:0;python app_dictionary.py
+: 1753562390:0;nix-shell
+: 1753562390:0;python app_dictionary.py 
+: 1753562390:0;python importer.py
+: 1753562390:0;ls
+: 1753562390:0;python importer.py
+: 1753562390:0;python  main.py
+: 1753562390:0;python search.py
+: 1753562390:0;power-save
+: 1753562390:0;python search.py
+: 1753562390:0;power-save
+: 1753562390:0;v .config/bspwm/bspwmrc
+: 1753562390:0;home idk
+: 1753562390:0;ls
+: 1753562390:0;n
+: 1753562390:0;cd .config/zsh/
+: 1753562390:0;ls
+: 1753562390:0;ls -a
+: 1753562390:0;rm zshrc
+: 1753562390:0;nvim readme
+: 1753562390:0;yadm add readme .zshrc
+: 1753562390:0;home allgood
+: 1753562390:0;nmtui
+: 1753562390:0;sudo rfkill
+: 1753562390:0;sudo rfkill wifi block
+: 1753562390:0;hist
+: 1753562390:0;n
+: 1753562390:0;z
+: 1753562390:0;echo $XDG_STATE_HOME
+: 1753562390:0;v .local/state/zsh/history
+: 1753562390:0;try trailscale
+: 1753562390:0;try traysclae
+: 1753562390:0;try trayscale
+: 1753562390:0;traysclae
+: 1753562390:0;trayscale
+: 1753562390:0;n
+: 1753562390:0;try tailscale
+: 1753562390:0;tailscale
+: 1753562390:0;tailscale up
+: 1753562390:0;sys enable --now tailscaled
+: 1753562390:0;sudo systemctl start tailscale
+: 1753562390:0;sudo systemctl start tailscaled
+: 1753562390:0;try moonlight-qt
+: 1753562390:0;moonlight
+: 1753562390:0;parsecd
+: 1753562390:0;try moonlight-qt
+: 1753562390:0;moonlight
+: 1753562390:0;parsecd
+: 1753562390:0;nmtui
+: 1753562390:0;paru -S steamlink
+: 1753562390:0;try steam
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;flatpak install flathub com.valvesoftware.Steam
+: 1753562390:0;flatpak run com.valvesoftware.Steam
+: 1753562390:0;flatpak install flathub com.valvesoftware.SteamLink
+: 1753562390:0;flatpak run flathub com.valvesoftware.SteamLink
+: 1753562390:0;flatpak run com.valvesoftware.SteamLink
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;n
+: 1753562390:0;nu
+: 1753562390:0;ssh deck@steamdeck
+: 1753562390:0;ssh-copy-id deck@steamdeck
+: 1753562390:0;ssh deck@steamdeck
+: 1753562390:0;mkdir Mounts/deck
+: 1753562390:0;ls Mounts
+: 1753562390:0;sshfs deck@steamdeck:/ Mounts/deck
 : 1752927488:0;nmtui
 : 1753561922:0;try tailscaled]
 : 1753561923:0;try tailscaled
 : 1753562011:0;n
 : 1753562035:0;nu
 : 1753562039:0;home tailscale
+: 1753562129:0;tailscale up
+: 1753562132:0;sudo tailscale up
+: 1753562229:0;n
+: 1753562232:0;ping
+: 1753562236:0;ping www.google.com
+: 1753562239:0;ping desk
+: 1753562299:0;try tailscale
+: 1753562300:0;try tailscaled
+: 1753562340:0;try trayscale
+: 1753562355:0;trayscale
+: 1753562373:0;sys status tailscaled.service 
+: 1753562396:0;try trayscale
+: 1753562424:0;sudo trayscale
+: 1753562451:0;sudo tailscale set --operator=$USER
+: 1753562455:0;sudo echo $USER
+: 1753562460:0;sudo trayscale
+: 1753562483:0;try trayscale
+: 1753562500:0;sudo trayscale
+: 1753948378:0;n
+: 1753948387:0;try trayscale
+: 1753948405:0;trayscale
+: 1753948426:0;nmtui
+: 1753948521:0;n
+: 1753948525:0;nu
+: 1753948596:0;power-save
+: 1753948605:0;sudo power-saveOA
+: 1753948606:0;power-save
+: 1753948910:0;ls
+: 1753948912:0;fd karis
+: 1753948915:0;fd Karis
+: 1753948918:0;fd Karis /
+: 1753948923:0;fd Karis -H /
+: 1753948992:0;ls
+: 1753948993:0;lf
+: 1754340029:0;sudo nix-collect-garbage --help
+: 1754340037:0;sudo nix-collect-garbage -d
+: 1755338953:0;nmtui
+: 1755339009:0;moonlight
+: 1755339081:0;bluetooth
+: 1755339085:0;bluetoothctl
+: 1755339088:0;try bluez
+: 1755339101:0;bluetoothctl
+: 1755339111:0;sys start bluetoothhd
+: 1755339113:0;sys start bluetoothd
+: 1755339117:0;sys start bluetooth
+: 1755339121:0;nmtui
+: 1755339205:0;n
+: 1755339230:0;nu
+: 1755339381:0;bluetoothctl
+: 1755339481:0;sys restart bluetooth.service
+: 1755339490:0;bluetoothctl
+: 1755339508:0;sys restart bluetooth.service
+: 1755339581:0;bluetoothctl
+: 1755339616:0;sys restart bluetooth.service
+: 1755339653:0;sudo bluetoothctl power on
+: 1755339657:0;sys restart bluetooth.service
+: 1755339838:0;sudo rfkill ist
+: 1755339840:0;sudo rfkill list
+: 1755339849:0;sudo rfkill bluetooth 
+: 1755339884:0;sudo rfkill unblock bluetooth
+: 1755339987:0;n
+: 1755340045:0;nu
+: 1755340144:0;sys restart bluetooth.service
+: 1755340147:0;bluetoothctl
+: 1755344100:0;htop
+: 1755348627:0;ssh desk@steamdeck
+: 1755349113:0;ssh-copy-id deck@steamdeck
+: 1755349119:0;ssh desk@steamdeck
+: 1755349151:0;sudo ssh desk@100.79.187.58
+: 1755349176:0;ssh deck@steamdeck
+: 1755707100:0;nmtui
+: 1755707191:0;brightnessctl --help
+: 1755707229:0;brightnessctl m
+: 1755707233:0;brightnessctl set 200
+: 1755707235:0;brightnessctl m
+: 1755707348:0;power-save
+: 1756146664:0;nmtui
+: 1756147071:0;ssh deck@steamdeck
+: 1756206390:0;try xsetbrightness
+: 1756206399:0;xsetbrightness
+: 1756206420:0;v .config/sxhkd/sxhkdrc
+: 1756206424:0;light
+: 1756206428:0;try light
+: 1756206429:0;n
+: 1756206445:0;nu
+: 1756206459:0;v .config/sxhkd/sxhkdrc
+: 1756206468:0;sudo light -A 25
+: 1756206471:0;try light
+: 1756206474:0;sudo light -A 25
+: 1756229882:0;ssh jasmin@Desk
+: 1756229895:0;ssh desk\jasmin@Desk
+: 1756229920:0;ssh desk\jasmin@100.67.24.98
+: 1756230002:0;ssh jasmin@100.67.24.98
+: 1756230129:0;100.67.24.98
+: 1756230134:0;ssh jasmin@desk
+: 1756230154:0;ssh jasmin@100.64.166.28
+: 1756230177:0;ssh jasmin@Desk
+: 1756230183:0;ssh jasmin@100.64.166.28
+: 1756230365:0;whoami
+: 1756230369:0;hostname
+: 1756230384:0;ssh-keygen -t rsa
+: 1756230414:0;ssh-copy-id jasmin@100.67.24.98
+: 1756230500:0;cd .ssh
+: 1756230500:0;ls
+: 1756230505:0;v id_rsa
+: 1756230508:0;v id_rsa.pub
+: 1756234070:0;ssh jasmin@100.64.166.28
+: 1756234219:0;ssh Jasmin@100.64.166.28
+: 1756236871:0;n
+: 1756236909:0;nu && sudo reboot
+: 1756236914:0;n
+: 1756236927:0;nu && sudo reboot
+: 1756238706:0;try falkon
+: 1756238709:0;falkon
+: 1756238724:0;try kdePackages.falkon
+: 1756238752:0;falkon
+: 1756238763:0;f falkon
+: 1756323313:0;ssh deck@steamdeck
+: 1756757620:0;try evolution
+: 1756757651:0;evolution
+: 1756757821:0;try evolution
+: 1756757869:0;n
+: 1756757896:0;nu
+: 1756758319:0;e mpv https://www.youtube.com/watch\?v\=I1JBiZrZ_XM
+: 1756758328:0;f mpv https://www.youtube.com/watch\?v\=I1JBiZrZ_XM
+: 1757352202:0;yadm status
+: 1757352209:0;v .config/mpv/script-opts/subs2srs.conf
+: 1757454264:0;nmtui
+: 1758028990:0;v .config/jellyfin-mpv-shim/script-opts/subs2srs.conf
+: 1758039782:0;ssh sakusier@cream.seedhost.eu
+: 1758039809:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier Mounts/cream
+: 1758039813:0;ls Mounts/cream
+: 1758039866:0;v .config/bspwm/bspwmrc
+: 1758041331:0;try google-chrome
+: 1758041368:0;try memento
+: 1758041384:0;google-chrome-stable
+: 1758041781:0;try memento
+: 1758041797:0;htop
+: 1758041800:0;memento
+: 1758041839:0;htop
+: 1758041904:0;try google-chrome memento
+: 1758041913:0;f google-chrome
+: 1758041913:0;f memento
+: 1758041919:0;f google-chrome-stable
+: 1758041972:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier Mounts/cream
+: 1758044057:0;try kate
+: 1758044058:0;kate
+: 1758044066:0;try kdePackages.kate
+: 1758044164:0;nvim
+: 1758044165:0;nvi m
+: 1758044166:0;nvim
+: 1758044767:0;fd -H 20230226T120830_1601341906971356253
+: 1758053052:0;try memento
+: 1758053060:0;f memento
+: 1758053060:0;exit
+: 1758053077:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier Mounts/cream
+: 1758053190:0;rclone config
+: 1758053207:0;rclone mount koofr:/ Mounts/koofr/
+: 1758053214:0;rclone mount koofr: Mounts/koofr/
+: 1758053279:0;rclone mount koofr: ~/Mounts/koofr --daemon --vfs-cache-mode writes
+: 1758053283:0;rclone config
+: 1758053434:0;rclone mount koofr: ~/Mounts/koofr --daemon --vfs-cache-mode writes
+: 1758053554:0;try memento
+: 1758053561:0;f memento
+: 1758053625:0;rclone config
+: 1758053727:0;umount Mounts/cream
+: 1758053757:0;rclone mount cream_sftp:data ~/Mounts/cream  --daemon --vfs-cache-mode writes
+: 1758054589:0;try memento
+: 1758054595:0;f memento
+: 1758054662:0;cd ~/.config/memento/
+: 1758054664:0;v mpv.conf
+: 1758054782:0;man mpv 
+: 1758056747:0;try memento
+: 1758056749:0;n
+: 1758056754:0;nu
+: 1758057317:0;cd ~/.config/memento/
+: 1758057327:0;cp ../mpv/scripts/file-browser.lua scripts
+: 1758057336:0;cp ../mpv/scripts/autoload.lua scripts
+: 1758057346:0;cp ../mpv/script-opts/autoload.conf script-opts
+: 1758057359:0;cp ../mpv/script-opts/SmartSkip.conf script-opts
+: 1758060361:0;v .config/memento/input.conf
+: 1758060378:0;v .config/memento/scripts/file-browser.lua
+: 1758060424:0;v .config/mpv/input.conf
+: 1758060482:0;v .config/memento/input.conf
+: 1758060790:0;v Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E03\ -\ Corpse\ Fungus\ \[WEBRip-1080p\]\[EAC3\ 2.0\]\[x265\]-MALD.ja.srt
+: 1758116229:0;sshfs sakusier@cream.seedhost.eu:/home4/sakusier Mounts/cream
+: 1758116232:0;rclone mount cream_sftp:data ~/Mounts/cream  --daemon --vfs-cache-mode writes
+: 1758116235:0;n
+: 1758116237:0;b
+: 1758116267:0;memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv
+: 1758128555:0;rclone mount cream_sftp:data ~/Mounts/cream  --daemon --vfs-cache-mode writes
+: 1758128597:0;f memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv
+: 1758133857:0;f memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv && exit
+: 1758133864:0;z
+: 1758133879:0;e memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv
+: 1758133884:0;ee memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv
+: 1758133886:0;z
+: 1758133923:0;e memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv
+: 1758133954:0;rclone mount cream_sftp:data ~/Mounts/cream  --daemon --vfs-cache-mode writes
+: 1758133960:0;e memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv
+: 1758133970:0;f memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv && exit
+: 1758133976:0;e memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv
+: 1758135350:0;v .config/memento/input.conf
+: 1758135358:0;v .config/memento/mpv.conf
+: 1758135408:0;f memento ~/Mounts/cream/anime/The\ Apothecary\ Diaries/Season\ 02/The\ Apothecary\ Diaries\ \(2023\)\ -\ S02E08\ -\ The\ Empress\ Dowager\ \[WEBDL-1080p\]\[AAC\ 2.0\]\[x264\]-VARYG.mkv
+: 1758135507:0;f memento "./Mounts/cream/anime/The Apothecary Diaries/Season 02/The Apothecary Diaries (2023) - S02E09 - The Late Emperor [WEBDL-1080p][AAC 2.0][x264]-ToonsHub.mkv"
+: 1758139037:0;rclone mount cream_sftp:data ~/Mounts/cream  --daemon --vfs-cache-mode writes
+: 1758139049:0;v .config/bspwm/bspwmrc
+: 1758139060:0;z
+: 1758139103:0;kill bspwm
+: 1758139118:0;f memento "./Mounts/cream/anime/The Apothecary Diaries/Season 02/The Apothecary Diaries (2023) - S02E09 - The Late Emperor [WEBDL-1080p][AAC 2.0][x264]-ToonsHub.mkv"
+: 1758140936:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E18 - 018 - Face to Face [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758214238:0;v .config/memento/memento.conf
+: 1758214282:0;v .config/memento/anki_connect.json
+: 1758214716:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E19 - 019 - Made in Black [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.
+: 1758214717:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E19 - 019 - Made in Black [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758229196:0;v .config/mpv/script-opts/subs2srs.conf
+: 1758229226:0;v .config/jellyfin-mpv-shim/script-opts/subs2srs.conf
+: 1758229247:0;cp .config/jellyfin-mpv-shim/script-opts/subs2srs.conf .config/mpv/script-opts/subs2srs.conf
+: 1758229401:0;v .config/jellyfin-mpv-shim/script-opts/subs2srs.conf
+: 1758229672:0;v .config/jellyfin-mpv-shim/scripts/subminusregex.lua
+: 1758229789:0;cp ~~
+: 1758229806:0;cp .config/jellyfin-mpv-shim/scripts/subminusregex.lua .config/mpv/scripts/
+: 1758229937:0;f mpv "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E21 - 021 - Shinpei Ajiros Longest Day [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758229956:0;f mpv "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758230052:0;cd ~/.config/mpv/scripts
+: 1758230056:0;v subminusregex.lua
+: 1758230076:0;f mpv "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758230081:0;f mpv "~/Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758230092:0;f mpv "$HOME/Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758230200:0;f mpv --no-ass "$HOME/Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758230285:0;v .config/jellyfin-mpv-shim/scripts/subminusregex.lua
+: 1758230397:0;f mpv "$HOME/Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758230489:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758231373:0;fd -e mkv
+: 1758231382:0;fd -e mp4 -x
+: 1758231384:0;fd -e mp4
+: 1758231410:0;fd -e mp4 --ignore-file=Mounts
+: 1758231449:0;fd -e mp4
+: 1758231497:0;man fd
+: 1758231547:0;fd --ignore-file=Documents
+: 1758231552:0;fd --ignore-file=Mounts
+: 1758231556:0;fd --ignore-file=Mounts -e mp4
+: 1758231575:0;fd --ignore-file=Mounts -e mp4 -H
+: 1758231590:0;mpv .local/share/Trash/files/Habits.md
+: 1758231596:0;mpv .local/share/Trash/files/hamiboom.world__2025-03-11T022216.000Z.mp4
+: 1758231747:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758231758:0;f memento .local/share/Trash/files/hamiboom.world__2025-03-11T022216.000Z.mp4
+: 1758231807:0;cd .config
+: 1758231812:0;fd regex
+: 1758231817:0;fd subminus
+: 1758231821:0;fd subminus -x rm {}
+: 1758231826:0;f memento .local/share/Trash/files/hamiboom.world__2025-03-11T022216.000Z.mp4
+: 1758231833:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E22 - 022 - Return [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758233320:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E23 - 023 - Everlasting Night [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.
+: 1758233321:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E23 - 023 - Everlasting Night [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758280131:0;f memento "./Mounts/cream/anime/Summer Time Rendering (2022)/Season 01/Summer Time Rendering (2022) - S01E25 - 025 - Im Home [Bluray-1080p][10bit][AV1][Opus 2.0][JA]-Trix.mkv"
+: 1758662620:0;v .config/jellyfin-mpv-shim/input.conf
+: 1758790723:0;rclone mount cream_sftp:data ~/Mounts/cream  --daemon --vfs-cache-mode writes
+: 1758790753:0;lf
+: 1758790760:0;nmtui
+: 1758790880:0;lf
+: 1758791481:0;cd /etc/nixos
+: 1758791481:0;ls
+: 1758791518:0;mkdir flakes
+: 1758791520:0;sudo mkdir flakes
+: 1758791522:0;cd flakes
+: 1758791522:0;ls
+: 1758791538:0;sudo mkdir -p /etc/nixos/flakes\
+sudo chown -R $USER:$USER /etc/nixos/flakes
+: 1758791545:0;sudo chown -R $USER:$USER /etc/nixos/flakes
+: 1758791556:0;sudo chown -R lap:wheel /etc/nixos/flakes
+: 1758791581:0;v flake.nix
+: 1758791596:0;touch default.nix
+: 1758791606:0;mkdir trakt-scrobbler-nix
+: 1758791609:0;mv default.nix flake.nix trakt-scrobbler-nix
+: 1758791609:0;ls
+: 1758791611:0;cd trakt-scrobbler-nix
+: 1758791611:0;ls
+: 1758791626:0;nix build .#packages.default
+: 1758791886:0;v flake.nix
+: 1758792026:0;nix build .#packages.x86_64-linux.default
+: 1758802775:0;v .config/jellyfin-mpv-shim/input.conf
+: 1758803057:0;v .config/jellyfin-mpv-shim/script-opts/subs2srs.conf
+: 1758803114:0;yadm status
+: 1758803119:0;home idk

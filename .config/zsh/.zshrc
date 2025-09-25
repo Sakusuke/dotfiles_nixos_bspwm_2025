@@ -82,14 +82,8 @@ alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 
 # Functions
 ## Change working dir in shell to last dir in lf on exit (adapted from ranger).
-ee() {
-    setsid &>/dev/null "$@" && exit
-}
-
 e() {
-    if "$@"; then
-        exit 0
-    fi
+    setsid &>/dev/null "$@" && exit
 }
 
 lfcd () {

@@ -32,6 +32,7 @@ killall -9 qbittorrent polybar sxhkd xsettingsd dunst nitrogen fcitx5 xcape reds
 ## not working for some reason on dell xps
 #sudo smbios-thermal-ctl --set-thermal-mode quiet &  #not working rn on dellxps 13
 rclone mount koofr:"/My desktop sync" ~/Mounts/koofr/ --vfs-cache-mode full &
+rclone mount cream_sftp:data ~/Mounts/cream  --daemon --vfs-cache-mode full &
 sshfs sakusier@cream.seedhost.eu:/home4/sakusier ~/Mounts/cream &
 xset r rate 300 50 &
 setxkbmap -option caps:super -variant altgr-intl &

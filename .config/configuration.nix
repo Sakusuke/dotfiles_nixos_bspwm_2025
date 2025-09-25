@@ -18,6 +18,12 @@
   networking.hostName = "lap"; # Define your hostname.
   networking.nameservers = [ "192.168.2.50" ];
 
+  ## test for controllers
+  services.blueman.enable = true;
+  hardware.bluetooth.enable = true;
+  hardware.xpadneo.enable = true;
+  
+
   # Hosts
   #networking.extraHosts = ''
   #  192.168.2.50 jellyfin.optiplex.box
@@ -129,6 +135,7 @@
     #libGl
     libglvnd
     mesa
+    light
 
     # other
     vim 
@@ -152,6 +159,7 @@
     htop
     parsec-bin
     anki
+    memento
     obsidian
     #sioyek
     pamixer pavucontrol
@@ -165,6 +173,7 @@
     moonlight-qt
     vimv
     rclone
+    trayscale
     wl-clipboard clipman # clipboard util and manager, also WM autostart needed, like tis "wl-paste -t text --watch clipman store" for persistent clipboard
     # Office
     libreoffice-qt
@@ -197,9 +206,13 @@
    services.auto-cpufreq = {
      enable = true;
      settings = {
+       #battery = {
+       #  governor = "powersave";
+       #  turbo = "never";
+       #};
        battery = {
-         governor = "powersave";
-         turbo = "never";
+         governor = "performance";
+         turbo = "auto";
        };
        charger = {
          governor = "performance";
@@ -214,7 +227,9 @@
   security.polkit.enable = true;
   services.udisks2.enable = true;
   services.gvfs.enable = true;
+  services.tailscale.enable = true;
   programs.udevil.enable = true;
+  programs.evolution.enable = true;
 
   # flatpaks
   services.flatpak.enable = true;
