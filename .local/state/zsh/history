@@ -857,3 +857,34 @@ sudo chown -R $USER:$USER /etc/nixos/flakes
 : 1758803057:0;v .config/jellyfin-mpv-shim/script-opts/subs2srs.conf
 : 1758803114:0;yadm status
 : 1758803119:0;home idk
+: 1758804284:0;nmtui
+: 1758845705:0;which memento
+: 1758845724:0;v .config/jellyfin-mpv-shim/conf.json
+: 1758845924:0;n
+: 1758846072:0;kill shim
+: 1758847109:0;f jellyfin-mpv-shim
+: 1758847551:0;kill shim
+: 1758847551:0;f jellyfin-mpv-shim
+: 1758848873:0;kill shim
+: 1758848873:0;f jellyfin-mpv-shim
+: 1758851764:0;kill shim
+: 1758851765:0;f jellyfin-mpv-shim
+: 1758851831:0;cd .config/jellyfin-mpv-shim
+: 1758851833:0;v conf.json
+: 1758851867:0;v mpv.conf
+: 1758851876:0;kill shim
+: 1758851882:0;v mpv.conf
+: 1758851897:0;kill shim
+: 1758851901:0;f jellyfin-mpv-shim
+: 1758851941:0;cd .config/jellyfin-mpv-shim
+: 1758851942:0;v mpv.conf
+: 1758851958:0;cd .config/memento
+: 1758851973:0;cp ../jellyfin-mpv-shim/mpv.conf .
+: 1758851987:0;kill shim
+: 1758851991:0;f jellyfin-mpv-shim
+: 1758852041:0;yadm add .config/memento/input.conf
+: 1758852046:0;yadm add .config/memento/memento.conf
+: 1758852051:0;yadm add .config/memento/script-opts
+: 1758852056:0;yadm add .config/memento/mpv.conf
+: 1758852062:0;yadm add .config/memento/scripts
+: 1758852072:0;home mementoconfig
